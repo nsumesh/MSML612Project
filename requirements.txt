@@ -1,0 +1,8 @@
+fastf1 
+pandas 
+numpy 
+torch 
+scikit-learn 
+pyyaml 
+tqdm 
+matplotlib
