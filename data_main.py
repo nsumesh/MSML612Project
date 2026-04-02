@@ -24,7 +24,9 @@ if __name__ == "__main__":
     print("Data being preprocessed")
     run_preprocessing()
 
-    print("Data being split")
-    split()
+    # split() is no longer needed — run_preprocessing now splits
+    # temporally per driver/race before creating windows (data leakage fix)
+    # print("Data being split")
+    # split()
 
     print("Complete.")

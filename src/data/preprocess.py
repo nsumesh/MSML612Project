@@ -29,47 +29,104 @@ def clean_laps(laps : pd.DataFrame):
     return laps.reset_index(drop=True)
 
 
-def build_transformer_sequences(laps, lookback = 30, horizon = 10):
+def _windows_from_laps(group, features, target, lookback, horizon):
+    """Create sliding windows from a contiguous block of laps."""
+    windows_data, windows_labels = [], []
+    for i in range(len(group) - lookback - horizon + 1):
+        windows_data.append(group[features].iloc[i:i + lookback].values)
+        windows_labels.append(group[target].iloc[i + lookback:i + lookback + horizon].values)
+    return windows_data, windows_labels
+
+
+def build_transformer_sequences(laps, lookback=15, horizon=5,
+                                train_frac=0.7, val_frac=0.15):
+    """
+    Split each driver/race stint temporally FIRST, then create sliding windows.
+    This prevents data leakage from overlapping windows across splits.
+    """
     features = [
-    "LapTime",
-    "Sector1Time",
-    "Sector2Time",
-    "Sector3Time",
-    "SpeedST",           
-    "TyreLife",          
-    "CompoundEncoded",   
+        "LapTime",
+        "Sector1Time",
+        "Sector2Time",
+        "Sector3Time",
+        "SpeedST",
+        "TyreLife",
+        "CompoundEncoded",
     ]
     target = "LapTime"
-        
-    data, target_labels, metadata = [],[],[]
-    for (race, year, driver),group in laps.groupby(["Race", "Year", "Driver"]):
+
+    splits = {k: ([], []) for k in ("train", "val", "test")}
+
+    for (race, year, driver), group in laps.groupby(["Race", "Year", "Driver"]):
         group = group.sort_values("LapNumber").reset_index(drop=True)
-        if len(group)<lookback+horizon:
+        n = len(group)
+        if n < lookback + horizon:
             continue
 
-        for i in range(len(group) - lookback - horizon+1):
-            data_window = group[features].iloc[i:i+lookback].values
-            label_window = group[target].iloc[i+lookback:i+lookback+horizon].values
-            data.append(data_window)
-            target_labels.append(label_window)
-            metadata.append({"race":race, "year":year, "driver": driver, "start_lap" : i})
-    
-    return np.array(data, dtype = np.float32), np.array(target_labels, dtype=np.float32), metadata
+        # Split this driver/race's laps temporally BEFORE creating windows
+        train_end = int(train_frac * n)
+        val_end = int((train_frac + val_frac) * n)
 
-def run_preprocessing(csv_path="data/raw/all_laps.csv"):
+        split_groups = {
+            "train": group.iloc[:train_end].reset_index(drop=True),
+            "val":   group.iloc[train_end:val_end].reset_index(drop=True),
+            "test":  group.iloc[val_end:].reset_index(drop=True),
+        }
+
+        for split_name, split_group in split_groups.items():
+            if len(split_group) < lookback + horizon:
+                continue
+            w_data, w_labels = _windows_from_laps(
+                split_group, features, target, lookback, horizon
+            )
+            splits[split_name][0].extend(w_data)
+            splits[split_name][1].extend(w_labels)
+
+    result = {}
+    for split_name in ("train", "val", "test"):
+        if splits[split_name][0]:
+            result[split_name] = (
+                np.array(splits[split_name][0], dtype=np.float32),
+                np.array(splits[split_name][1], dtype=np.float32),
+            )
+        else:
+            result[split_name] = (
+                np.empty((0, lookback, len(features)), dtype=np.float32),
+                np.empty((0, horizon), dtype=np.float32),
+            )
+    return result
+
+
+def run_preprocessing(csv_path="data/raw/all_laps.csv", save_dir="data/splits/"):
     laps = pd.read_csv(csv_path)
     laps = clean_laps(laps)
-    data, labels, metadata = build_transformer_sequences(laps)
-    return normalize_and_save(data, labels)
+    splits = build_transformer_sequences(laps)
+    return normalize_and_save(splits, save_dir)
 
-def normalize_and_save(data, labels, save_dir = "data/processed/"):
+
+def normalize_and_save(splits, save_dir="data/splits/"):
+    """Fit scaler on train data only, then transform all splits."""
     Path(save_dir).mkdir(parents=True, exist_ok=True)
-    n, seq, feat = data.shape
+
+    train_data, train_labels = splits["train"]
+    n, seq, feat = train_data.shape
+
+    # Fit scaler on training data only to avoid leaking test statistics
     scaler = StandardScaler()
-    data_flattened = data.reshape(-1, feat)
-    data_scaled = scaler.fit_transform(data_flattened).reshape(n, seq, feat)
-    np.save(f"{save_dir}/data.npy", data_scaled)
-    np.save(f"{save_dir}/labels.npy", labels)
+    scaler.fit(train_data.reshape(-1, feat))
+
+    for split_name in ("train", "val", "test"):
+        data, labels = splits[split_name]
+        if len(data) > 0:
+            n_s, seq_s, feat_s = data.shape
+            data_scaled = scaler.transform(data.reshape(-1, feat_s)).reshape(n_s, seq_s, feat_s)
+        else:
+            data_scaled = data
+        np.save(f"{save_dir}/data_{split_name}.npy", data_scaled)
+        np.save(f"{save_dir}/labels_{split_name}.npy", labels)
+        print(f"  {split_name}: {len(data)} samples")
+
     with open(f"{save_dir}/scaler.pkl", "wb") as f:
-        pickle.dump(scaler,f)
-    return data_scaled, labels, scaler
+        pickle.dump(scaler, f)
+
+    return scaler
