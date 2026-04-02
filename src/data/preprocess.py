@@ -41,8 +41,8 @@ def _windows_from_laps(group, features, target, lookback, horizon):
 def build_transformer_sequences(laps, lookback=15, horizon=5,
                                 train_frac=0.7, val_frac=0.15):
     """
-    Split each driver/race stint temporally FIRST, then create sliding windows.
-    This prevents data leakage from overlapping windows across splits.
+    Assign entire driver/race groups to train/val/test, then create windows.
+    This prevents leakage from overlapping windows across splits.
     """
     features = [
         "LapTime",
@@ -55,30 +55,28 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
     ]
     target = "LapTime"
 
-    splits = {k: ([], []) for k in ("train", "val", "test")}
-
+    # Collect all valid groups
+    groups = []
     for (race, year, driver), group in laps.groupby(["Race", "Year", "Driver"]):
         group = group.sort_values("LapNumber").reset_index(drop=True)
-        n = len(group)
-        if n < lookback + horizon:
-            continue
+        if len(group) >= lookback + horizon:
+            groups.append(group)
 
-        # Split this driver/race's laps temporally BEFORE creating windows
-        train_end = int(train_frac * n)
-        val_end = int((train_frac + val_frac) * n)
+    # Assign groups to splits
+    n_groups = len(groups)
+    train_end = int(train_frac * n_groups)
+    val_end = int((train_frac + val_frac) * n_groups)
 
-        split_groups = {
-            "train": group.iloc[:train_end].reset_index(drop=True),
-            "val":   group.iloc[train_end:val_end].reset_index(drop=True),
-            "test":  group.iloc[val_end:].reset_index(drop=True),
-        }
+    group_splits = {
+        "train": groups[:train_end],
+        "val":   groups[train_end:val_end],
+        "test":  groups[val_end:],
+    }
 
-        for split_name, split_group in split_groups.items():
-            if len(split_group) < lookback + horizon:
-                continue
-            w_data, w_labels = _windows_from_laps(
-                split_group, features, target, lookback, horizon
-            )
+    splits = {k: ([], []) for k in ("train", "val", "test")}
+    for split_name, split_groups in group_splits.items():
+        for group in split_groups:
+            w_data, w_labels = _windows_from_laps(group, features, target, lookback, horizon)
             splits[split_name][0].extend(w_data)
             splits[split_name][1].extend(w_labels)
 
