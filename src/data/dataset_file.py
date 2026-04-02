@@ -10,10 +10,10 @@ class F1LapDataset(Dataset):
         self.data = torch.tensor(np.load(data_dir / f"data_{split}.npy"), dtype=torch.float32)
         self.labels = torch.tensor(np.load(data_dir / f"labels_{split}.npy"), dtype=torch.float32)
 
-    def length(self):
+    def __len__(self):
         return len(self.data)
 
-    def get_item(self, index):
+    def __getitem__(self, index):
         return self.data[index], self.labels[index]
 
 def get_dataloaders(data_dir: str = "data/splits/", batch_size: int = 64):
