@@ -56,11 +56,13 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
     target = "LapTime"
 
     # Collect all valid groups
+    rng = np.random.default_rng(42)
     groups = []
     for (race, year, driver), group in laps.groupby(["Race", "Year", "Driver"]):
         group = group.sort_values("LapNumber").reset_index(drop=True)
         if len(group) >= lookback + horizon:
             groups.append(group)
+    rng.shuffle(groups)
 
     # Assign groups to splits
     n_groups = len(groups)
@@ -73,12 +75,16 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
         "test":  groups[val_end:],
     }
 
-    splits = {k: ([], []) for k in ("train", "val", "test")}
+    splits = {k: ([], [], []) for k in ("train", "val", "test")}
     for split_name, split_groups in group_splits.items():
         for group in split_groups:
+            race   = group["Race"].iloc[0]
+            year   = group["Year"].iloc[0]
+            driver = group["Driver"].iloc[0]
             w_data, w_labels = _windows_from_laps(group, features, target, lookback, horizon)
             splits[split_name][0].extend(w_data)
             splits[split_name][1].extend(w_labels)
+            splits[split_name][2].extend([{"race": race, "year": year, "driver": driver}] * len(w_data))
 
     result = {}
     for split_name in ("train", "val", "test"):
@@ -86,11 +92,13 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
             result[split_name] = (
                 np.array(splits[split_name][0], dtype=np.float32),
                 np.array(splits[split_name][1], dtype=np.float32),
+                splits[split_name][2],
             )
         else:
             result[split_name] = (
                 np.empty((0, lookback, len(features)), dtype=np.float32),
                 np.empty((0, horizon), dtype=np.float32),
+                [],
             )
     return result
 
@@ -106,7 +114,7 @@ def normalize_and_save(splits, save_dir="data/splits/"):
     """Fit scaler on train data only, then transform all splits."""
     Path(save_dir).mkdir(parents=True, exist_ok=True)
 
-    train_data, train_labels = splits["train"]
+    train_data, train_labels, _ = splits["train"]
     n, seq, feat = train_data.shape
 
     # Fit scaler on training data only to avoid leaking test statistics
@@ -114,7 +122,7 @@ def normalize_and_save(splits, save_dir="data/splits/"):
     scaler.fit(train_data.reshape(-1, feat))
 
     for split_name in ("train", "val", "test"):
-        data, labels = splits[split_name]
+        data, labels, metadata = splits[split_name]
         if len(data) > 0:
             n_s, seq_s, feat_s = data.shape
             data_scaled = scaler.transform(data.reshape(-1, feat_s)).reshape(n_s, seq_s, feat_s)
@@ -122,6 +130,7 @@ def normalize_and_save(splits, save_dir="data/splits/"):
             data_scaled = data
         np.save(f"{save_dir}/data_{split_name}.npy", data_scaled)
         np.save(f"{save_dir}/labels_{split_name}.npy", labels)
+        pd.DataFrame(metadata).to_csv(f"{save_dir}/meta_{split_name}.csv", index=False)
         print(f"  {split_name}: {len(data)} samples")
 
     with open(f"{save_dir}/scaler.pkl", "wb") as f:

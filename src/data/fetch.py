@@ -5,7 +5,7 @@ import datetime
 Path("data/raw").mkdir(parents=True, exist_ok=True)
 fastf1.Cache.enable_cache("data/raw")
 
-FEATURE_COLS = ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time","SpeedST","TyreLife","Compound","Driver","LapNumber","PitInTime","PitOutTime",]
+FEATURE_COLS = ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time","SpeedST","TyreLife","Compound","Driver","LapNumber","PitInTime","PitOutTime","TrackStatus",]
 
 RACES = [
     # 2024 Season
@@ -67,6 +67,7 @@ def fetch_race(year: int, race_name : str):
     laps = session.laps[FEATURE_COLS].copy()
     for col in ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time"]:
         laps[col] = laps[col].dt.total_seconds()
+    laps = laps[laps["TrackStatus"] == "1"]
     laps["Year"] = year
     laps["Race"] = race_name
     return laps
