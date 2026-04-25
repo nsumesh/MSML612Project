@@ -1,0 +1,4218 @@
+race,year,driver,start_lap
+Las Vegas,2025,RUS,23
+Las Vegas,2025,RUS,24
+Las Vegas,2025,RUS,25
+Las Vegas,2025,RUS,26
+Las Vegas,2025,RUS,27
+Las Vegas,2025,RUS,28
+Las Vegas,2025,RUS,29
+Las Vegas,2025,RUS,30
+Las Vegas,2025,RUS,31
+Las Vegas,2025,RUS,32
+Las Vegas,2025,RUS,33
+Las Vegas,2025,RUS,34
+Las Vegas,2025,RUS,35
+Las Vegas,2025,RUS,36
+Las Vegas,2025,RUS,37
+Las Vegas,2025,RUS,38
+Las Vegas,2025,RUS,39
+Las Vegas,2025,RUS,40
+Las Vegas,2025,RUS,41
+Las Vegas,2025,RUS,42
+Las Vegas,2025,RUS,43
+Las Vegas,2025,RUS,44
+Las Vegas,2025,RUS,45
+Las Vegas,2025,RUS,46
+Belgium,2024,BOT,20
+Belgium,2024,BOT,21
+Belgium,2024,BOT,22
+Belgium,2024,BOT,23
+Belgium,2024,BOT,24
+Belgium,2024,BOT,25
+Belgium,2024,BOT,26
+Belgium,2024,BOT,27
+Belgium,2024,BOT,28
+Belgium,2024,BOT,29
+Belgium,2024,BOT,30
+Belgium,2024,BOT,31
+Belgium,2024,BOT,32
+Belgium,2024,BOT,33
+Belgium,2024,BOT,34
+Belgium,2024,BOT,37
+Belgium,2024,BOT,38
+Belgium,2024,BOT,39
+Belgium,2024,BOT,40
+Austria,2024,SAI,17
+Austria,2024,SAI,18
+Austria,2024,SAI,19
+Austria,2024,SAI,20
+Austria,2024,SAI,21
+Austria,2024,SAI,24
+Austria,2024,SAI,25
+Austria,2024,SAI,26
+Austria,2024,SAI,27
+Austria,2024,SAI,28
+Austria,2024,SAI,29
+Austria,2024,SAI,30
+Austria,2024,SAI,31
+Austria,2024,SAI,32
+Austria,2024,SAI,33
+Austria,2024,SAI,34
+Austria,2024,SAI,35
+Austria,2024,SAI,36
+Austria,2024,SAI,37
+Austria,2024,SAI,38
+Austria,2024,SAI,39
+Austria,2024,SAI,40
+Austria,2024,SAI,41
+Austria,2024,SAI,42
+Austria,2024,SAI,43
+Austria,2024,SAI,44
+Austria,2024,SAI,45
+Austria,2024,SAI,46
+Austria,2024,SAI,49
+Austria,2024,SAI,50
+Austria,2024,SAI,51
+Austria,2024,SAI,52
+Austria,2024,SAI,53
+Austria,2024,SAI,54
+Austria,2024,SAI,55
+Austria,2024,SAI,56
+Austria,2024,SAI,57
+Austria,2024,SAI,58
+Austria,2024,SAI,59
+Austria,2024,SAI,60
+Austria,2024,SAI,61
+Austria,2024,SAI,62
+Austria,2024,SAI,63
+Austria,2024,SAI,65
+Austria,2024,SAI,67
+Saudi Arabia,2025,ANT,21
+Saudi Arabia,2025,ANT,22
+Saudi Arabia,2025,ANT,23
+Saudi Arabia,2025,ANT,24
+Saudi Arabia,2025,ANT,25
+Saudi Arabia,2025,ANT,26
+Saudi Arabia,2025,ANT,27
+Saudi Arabia,2025,ANT,28
+Saudi Arabia,2025,ANT,29
+Saudi Arabia,2025,ANT,30
+Saudi Arabia,2025,ANT,31
+Saudi Arabia,2025,ANT,32
+Saudi Arabia,2025,ANT,33
+Saudi Arabia,2025,ANT,34
+Saudi Arabia,2025,ANT,35
+Saudi Arabia,2025,ANT,36
+Saudi Arabia,2025,ANT,37
+Saudi Arabia,2025,ANT,38
+Saudi Arabia,2025,ANT,39
+Saudi Arabia,2025,ANT,40
+Saudi Arabia,2025,ANT,41
+Saudi Arabia,2025,ANT,42
+Saudi Arabia,2025,ANT,43
+Saudi Arabia,2025,ANT,44
+Saudi Arabia,2025,ANT,45
+Saudi Arabia,2025,ANT,46
+Japan,2025,LEC,17
+Japan,2025,LEC,18
+Japan,2025,LEC,19
+Japan,2025,LEC,20
+Japan,2025,LEC,23
+Japan,2025,LEC,24
+Japan,2025,LEC,25
+Japan,2025,LEC,26
+Japan,2025,LEC,27
+Japan,2025,LEC,28
+Japan,2025,LEC,29
+Japan,2025,LEC,30
+Japan,2025,LEC,31
+Japan,2025,LEC,32
+Japan,2025,LEC,33
+Japan,2025,LEC,34
+Japan,2025,LEC,35
+Japan,2025,LEC,36
+Japan,2025,LEC,37
+Japan,2025,LEC,38
+Japan,2025,LEC,39
+Japan,2025,LEC,40
+Japan,2025,LEC,41
+Japan,2025,LEC,42
+Japan,2025,LEC,43
+Japan,2025,LEC,44
+Japan,2025,LEC,45
+Japan,2025,LEC,46
+Japan,2025,LEC,47
+Japan,2025,LEC,48
+Japan,2025,LEC,49
+Abu Dhabi,2024,GAS,21
+Abu Dhabi,2024,GAS,22
+Abu Dhabi,2024,GAS,23
+Abu Dhabi,2024,GAS,24
+Abu Dhabi,2024,GAS,25
+Abu Dhabi,2024,GAS,26
+Abu Dhabi,2024,GAS,27
+Abu Dhabi,2024,GAS,28
+Abu Dhabi,2024,GAS,29
+Abu Dhabi,2024,GAS,32
+Abu Dhabi,2024,GAS,33
+Abu Dhabi,2024,GAS,34
+Abu Dhabi,2024,GAS,35
+Abu Dhabi,2024,GAS,36
+Abu Dhabi,2024,GAS,37
+Abu Dhabi,2024,GAS,38
+Abu Dhabi,2024,GAS,39
+Abu Dhabi,2024,GAS,40
+Abu Dhabi,2024,GAS,41
+Abu Dhabi,2024,GAS,42
+Abu Dhabi,2024,GAS,43
+Abu Dhabi,2024,GAS,44
+Abu Dhabi,2024,GAS,45
+Abu Dhabi,2024,GAS,46
+Abu Dhabi,2024,GAS,47
+Abu Dhabi,2024,GAS,48
+Abu Dhabi,2024,GAS,49
+Abu Dhabi,2024,GAS,50
+Abu Dhabi,2024,GAS,51
+Abu Dhabi,2024,GAS,52
+Abu Dhabi,2024,GAS,53
+Miami,2025,SAI,45
+Miami,2025,SAI,46
+Miami,2025,SAI,47
+Miami,2025,SAI,48
+Miami,2025,SAI,49
+Miami,2025,SAI,50
+Miami,2025,SAI,51
+Miami,2025,SAI,52
+Miami,2025,SAI,53
+Qatar,2025,GAS,21
+Qatar,2025,GAS,22
+Qatar,2025,GAS,23
+Qatar,2025,GAS,24
+Qatar,2025,GAS,25
+Qatar,2025,GAS,26
+Qatar,2025,GAS,27
+Qatar,2025,GAS,28
+Qatar,2025,GAS,29
+Qatar,2025,GAS,30
+Qatar,2025,GAS,31
+Qatar,2025,GAS,34
+Qatar,2025,GAS,35
+Qatar,2025,GAS,36
+Qatar,2025,GAS,37
+Qatar,2025,GAS,38
+Qatar,2025,GAS,39
+Qatar,2025,GAS,40
+Qatar,2025,GAS,41
+Qatar,2025,GAS,42
+Qatar,2025,GAS,43
+Qatar,2025,GAS,44
+Qatar,2025,GAS,45
+Qatar,2025,GAS,46
+Qatar,2025,GAS,47
+Qatar,2025,GAS,48
+Qatar,2025,GAS,49
+Qatar,2025,GAS,50
+Qatar,2025,GAS,51
+Qatar,2025,GAS,52
+São Paulo,2025,SAI,26
+São Paulo,2025,SAI,27
+São Paulo,2025,SAI,28
+São Paulo,2025,SAI,29
+São Paulo,2025,SAI,30
+São Paulo,2025,SAI,31
+São Paulo,2025,SAI,32
+São Paulo,2025,SAI,33
+São Paulo,2025,SAI,34
+São Paulo,2025,SAI,35
+São Paulo,2025,SAI,36
+São Paulo,2025,SAI,37
+São Paulo,2025,SAI,40
+São Paulo,2025,SAI,41
+São Paulo,2025,SAI,42
+São Paulo,2025,SAI,43
+São Paulo,2025,SAI,44
+São Paulo,2025,SAI,45
+São Paulo,2025,SAI,46
+São Paulo,2025,SAI,47
+São Paulo,2025,SAI,48
+São Paulo,2025,SAI,49
+São Paulo,2025,SAI,50
+São Paulo,2025,SAI,51
+São Paulo,2025,SAI,52
+São Paulo,2025,SAI,53
+São Paulo,2025,SAI,54
+São Paulo,2025,SAI,55
+São Paulo,2025,SAI,56
+São Paulo,2025,SAI,57
+São Paulo,2025,SAI,58
+São Paulo,2025,SAI,59
+São Paulo,2025,SAI,60
+São Paulo,2025,SAI,61
+São Paulo,2025,SAI,62
+São Paulo,2025,SAI,63
+São Paulo,2025,SAI,64
+São Paulo,2025,SAI,65
+São Paulo,2025,SAI,66
+São Paulo,2025,SAI,67
+Italy,2025,GAS,17
+Italy,2025,GAS,18
+Italy,2025,GAS,19
+Italy,2025,GAS,20
+Italy,2025,GAS,21
+Italy,2025,GAS,22
+Italy,2025,GAS,23
+Italy,2025,GAS,24
+Italy,2025,GAS,25
+Italy,2025,GAS,26
+Italy,2025,GAS,27
+Italy,2025,GAS,28
+Italy,2025,GAS,29
+Italy,2025,GAS,30
+Italy,2025,GAS,31
+Italy,2025,GAS,32
+Italy,2025,GAS,33
+Italy,2025,GAS,34
+Italy,2025,GAS,35
+Italy,2025,GAS,36
+Italy,2025,GAS,37
+Italy,2025,GAS,38
+Italy,2025,GAS,39
+Italy,2025,GAS,41
+Italy,2025,GAS,42
+Italy,2025,GAS,43
+Italy,2025,GAS,44
+Italy,2025,GAS,45
+Italy,2025,GAS,46
+Spain,2024,RUS,19
+Spain,2024,RUS,20
+Spain,2024,RUS,21
+Spain,2024,RUS,22
+Spain,2024,RUS,23
+Spain,2024,RUS,24
+Spain,2024,RUS,25
+Spain,2024,RUS,26
+Spain,2024,RUS,27
+Spain,2024,RUS,28
+Spain,2024,RUS,29
+Spain,2024,RUS,30
+Spain,2024,RUS,31
+Spain,2024,RUS,32
+Spain,2024,RUS,33
+Spain,2024,RUS,34
+Spain,2024,RUS,35
+Spain,2024,RUS,38
+Spain,2024,RUS,39
+Spain,2024,RUS,40
+Spain,2024,RUS,41
+Spain,2024,RUS,42
+Spain,2024,RUS,43
+Spain,2024,RUS,44
+Spain,2024,RUS,45
+Spain,2024,RUS,46
+Spain,2024,RUS,47
+Spain,2024,RUS,48
+Spain,2024,RUS,49
+Spain,2024,RUS,50
+Spain,2024,RUS,51
+Spain,2024,RUS,52
+Spain,2024,RUS,53
+Spain,2024,RUS,54
+Spain,2024,RUS,55
+Spain,2024,RUS,56
+Spain,2024,RUS,57
+Spain,2024,RUS,58
+Spain,2024,RUS,59
+Spain,2024,RUS,60
+Spain,2024,RUS,61
+Spain,2024,RUS,62
+Hungary,2024,NOR,19
+Hungary,2024,NOR,20
+Hungary,2024,NOR,21
+Hungary,2024,NOR,22
+Hungary,2024,NOR,23
+Hungary,2024,NOR,24
+Hungary,2024,NOR,25
+Hungary,2024,NOR,26
+Hungary,2024,NOR,27
+Hungary,2024,NOR,28
+Hungary,2024,NOR,29
+Hungary,2024,NOR,30
+Hungary,2024,NOR,31
+Hungary,2024,NOR,32
+Hungary,2024,NOR,33
+Hungary,2024,NOR,34
+Hungary,2024,NOR,35
+Hungary,2024,NOR,36
+Hungary,2024,NOR,37
+Hungary,2024,NOR,38
+Hungary,2024,NOR,39
+Hungary,2024,NOR,40
+Hungary,2024,NOR,41
+Hungary,2024,NOR,42
+Hungary,2024,NOR,43
+Hungary,2024,NOR,44
+Hungary,2024,NOR,47
+Hungary,2024,NOR,48
+Hungary,2024,NOR,49
+Hungary,2024,NOR,50
+Hungary,2024,NOR,51
+Hungary,2024,NOR,52
+Hungary,2024,NOR,53
+Hungary,2024,NOR,54
+Hungary,2024,NOR,55
+Hungary,2024,NOR,56
+Hungary,2024,NOR,57
+Hungary,2024,NOR,58
+Hungary,2024,NOR,59
+Hungary,2024,NOR,60
+Hungary,2024,NOR,61
+Hungary,2024,NOR,62
+Hungary,2024,NOR,64
+Hungary,2024,NOR,65
+Hungary,2024,NOR,66
+Emilia Romagna,2025,LEC,19
+Emilia Romagna,2025,LEC,20
+Emilia Romagna,2025,LEC,21
+Emilia Romagna,2025,LEC,22
+Emilia Romagna,2025,LEC,23
+Emilia Romagna,2025,LEC,24
+Emilia Romagna,2025,LEC,25
+Emilia Romagna,2025,LEC,26
+Emilia Romagna,2025,LEC,27
+Emilia Romagna,2025,LEC,28
+Emilia Romagna,2025,LEC,32
+Emilia Romagna,2025,LEC,33
+Emilia Romagna,2025,LEC,34
+Emilia Romagna,2025,LEC,35
+Emilia Romagna,2025,LEC,36
+Emilia Romagna,2025,LEC,37
+Emilia Romagna,2025,LEC,38
+Emilia Romagna,2025,LEC,39
+Emilia Romagna,2025,LEC,40
+Emilia Romagna,2025,LEC,41
+Emilia Romagna,2025,LEC,42
+Emilia Romagna,2025,LEC,43
+Emilia Romagna,2025,LEC,44
+Emilia Romagna,2025,LEC,54
+Emilia Romagna,2025,LEC,55
+Emilia Romagna,2025,LEC,56
+Emilia Romagna,2025,LEC,57
+Emilia Romagna,2025,LEC,58
+Emilia Romagna,2025,LEC,59
+Great Britain,2024,VER,17
+Great Britain,2024,VER,18
+Great Britain,2024,VER,19
+Great Britain,2024,VER,20
+Great Britain,2024,VER,21
+Great Britain,2024,VER,22
+Great Britain,2024,VER,25
+Great Britain,2024,VER,26
+Great Britain,2024,VER,27
+Great Britain,2024,VER,28
+Great Britain,2024,VER,29
+Great Britain,2024,VER,30
+Great Britain,2024,VER,31
+Great Britain,2024,VER,32
+Great Britain,2024,VER,33
+Great Britain,2024,VER,34
+Great Britain,2024,VER,35
+Great Britain,2024,VER,36
+Great Britain,2024,VER,37
+Great Britain,2024,VER,38
+Great Britain,2024,VER,39
+Great Britain,2024,VER,40
+Great Britain,2024,VER,41
+Great Britain,2024,VER,42
+Great Britain,2024,VER,43
+Great Britain,2024,VER,44
+Great Britain,2024,VER,45
+Great Britain,2024,VER,46
+Great Britain,2024,VER,47
+Great Britain,2024,VER,48
+Great Britain,2024,VER,49
+Great Britain,2024,VER,50
+Great Britain,2024,VER,53
+Great Britain,2024,VER,54
+Great Britain,2024,VER,55
+Great Britain,2024,VER,56
+Great Britain,2024,VER,57
+Great Britain,2024,VER,58
+Great Britain,2024,VER,59
+Great Britain,2024,VER,60
+Great Britain,2024,VER,61
+Great Britain,2024,VER,62
+Great Britain,2024,VER,63
+Great Britain,2024,VER,67
+Miami,2025,HAM,42
+Miami,2025,HAM,43
+Miami,2025,HAM,44
+Miami,2025,HAM,45
+Miami,2025,HAM,46
+Miami,2025,HAM,47
+Miami,2025,HAM,48
+Miami,2025,HAM,49
+Miami,2025,HAM,50
+Miami,2025,HAM,51
+Miami,2025,HAM,52
+Miami,2025,HAM,53
+Las Vegas,2024,PIA,19
+Las Vegas,2024,PIA,20
+Las Vegas,2024,PIA,21
+Las Vegas,2024,PIA,22
+Las Vegas,2024,PIA,23
+Las Vegas,2024,PIA,24
+Las Vegas,2024,PIA,27
+Las Vegas,2024,PIA,28
+Las Vegas,2024,PIA,29
+Las Vegas,2024,PIA,30
+Las Vegas,2024,PIA,31
+Las Vegas,2024,PIA,32
+Las Vegas,2024,PIA,33
+Las Vegas,2024,PIA,34
+Las Vegas,2024,PIA,35
+Las Vegas,2024,PIA,36
+Las Vegas,2024,PIA,37
+Las Vegas,2024,PIA,38
+Las Vegas,2024,PIA,39
+Las Vegas,2024,PIA,40
+Las Vegas,2024,PIA,41
+Las Vegas,2024,PIA,42
+Las Vegas,2024,PIA,43
+Las Vegas,2024,PIA,44
+Las Vegas,2024,PIA,45
+Las Vegas,2024,PIA,46
+United States,2024,HUL,22
+United States,2024,HUL,23
+United States,2024,HUL,24
+United States,2024,HUL,25
+United States,2024,HUL,26
+United States,2024,HUL,29
+United States,2024,HUL,30
+United States,2024,HUL,31
+United States,2024,HUL,32
+United States,2024,HUL,33
+United States,2024,HUL,34
+United States,2024,HUL,35
+United States,2024,HUL,36
+United States,2024,HUL,37
+United States,2024,HUL,38
+United States,2024,HUL,39
+United States,2024,HUL,40
+United States,2024,HUL,42
+United States,2024,HUL,43
+United States,2024,HUL,44
+United States,2024,HUL,45
+United States,2024,HUL,46
+United States,2024,HUL,47
+United States,2024,HUL,48
+United States,2024,HUL,49
+United States,2024,HUL,50
+United States,2024,HUL,51
+United States,2024,HUL,52
+Great Britain,2025,STR,19
+Great Britain,2025,STR,20
+Great Britain,2025,STR,21
+Great Britain,2025,STR,22
+Great Britain,2025,STR,23
+Great Britain,2025,STR,24
+Great Britain,2025,STR,25
+Great Britain,2025,STR,28
+Great Britain,2025,STR,29
+Great Britain,2025,STR,31
+Great Britain,2025,STR,32
+Great Britain,2025,STR,33
+Great Britain,2025,STR,34
+Great Britain,2025,STR,35
+Great Britain,2025,STR,36
+Great Britain,2025,STR,37
+Great Britain,2025,STR,38
+Great Britain,2025,STR,39
+Great Britain,2025,STR,40
+Great Britain,2025,STR,41
+Great Britain,2025,STR,42
+Great Britain,2025,STR,43
+Great Britain,2025,STR,44
+Great Britain,2025,STR,45
+Great Britain,2025,STR,46
+Great Britain,2025,STR,47
+Great Britain,2025,STR,48
+Great Britain,2025,STR,49
+Great Britain,2025,STR,50
+Great Britain,2025,STR,51
+Great Britain,2025,STR,52
+Great Britain,2025,STR,55
+Great Britain,2025,STR,56
+Great Britain,2025,STR,57
+Great Britain,2025,STR,58
+Great Britain,2025,STR,59
+Great Britain,2025,STR,60
+Great Britain,2025,STR,61
+Great Britain,2025,STR,62
+Great Britain,2025,STR,63
+Great Britain,2025,STR,64
+Great Britain,2025,STR,65
+Azerbaijan,2024,GAS,17
+Azerbaijan,2024,GAS,18
+Azerbaijan,2024,GAS,19
+Azerbaijan,2024,GAS,20
+Azerbaijan,2024,GAS,21
+Azerbaijan,2024,GAS,22
+Azerbaijan,2024,GAS,23
+Azerbaijan,2024,GAS,24
+Azerbaijan,2024,GAS,25
+Azerbaijan,2024,GAS,26
+Azerbaijan,2024,GAS,27
+Azerbaijan,2024,GAS,28
+Azerbaijan,2024,GAS,29
+Azerbaijan,2024,GAS,30
+Azerbaijan,2024,GAS,31
+Azerbaijan,2024,GAS,32
+Azerbaijan,2024,GAS,33
+Azerbaijan,2024,GAS,34
+Azerbaijan,2024,GAS,35
+Azerbaijan,2024,GAS,37
+Azerbaijan,2024,GAS,38
+Azerbaijan,2024,GAS,39
+Azerbaijan,2024,GAS,40
+Azerbaijan,2024,GAS,41
+Azerbaijan,2024,GAS,42
+Azerbaijan,2024,GAS,43
+Azerbaijan,2024,GAS,44
+Bahrain,2025,BEA,19
+Bahrain,2025,BEA,20
+Bahrain,2025,BEA,21
+Bahrain,2025,BEA,22
+Bahrain,2025,BEA,23
+Bahrain,2025,BEA,24
+Bahrain,2025,BEA,25
+Bahrain,2025,BEA,26
+Bahrain,2025,BEA,27
+Bahrain,2025,BEA,28
+Bahrain,2025,BEA,29
+Bahrain,2025,BEA,30
+Bahrain,2025,BEA,31
+Bahrain,2025,BEA,36
+Bahrain,2025,BEA,37
+Bahrain,2025,BEA,38
+Bahrain,2025,BEA,39
+Bahrain,2025,BEA,40
+Bahrain,2025,BEA,41
+Bahrain,2025,BEA,42
+Bahrain,2025,BEA,43
+Bahrain,2025,BEA,44
+Bahrain,2025,BEA,45
+Bahrain,2025,BEA,46
+Bahrain,2025,BEA,47
+Bahrain,2025,BEA,48
+Bahrain,2025,BEA,49
+Bahrain,2025,BEA,50
+Bahrain,2025,BEA,51
+Bahrain,2025,BEA,52
+Bahrain,2025,BEA,53
+Azerbaijan,2024,RUS,19
+Azerbaijan,2024,RUS,20
+Azerbaijan,2024,RUS,21
+Azerbaijan,2024,RUS,22
+Azerbaijan,2024,RUS,23
+Azerbaijan,2024,RUS,24
+Azerbaijan,2024,RUS,25
+Azerbaijan,2024,RUS,26
+Azerbaijan,2024,RUS,27
+Azerbaijan,2024,RUS,28
+Azerbaijan,2024,RUS,29
+Azerbaijan,2024,RUS,30
+Azerbaijan,2024,RUS,31
+Azerbaijan,2024,RUS,32
+Azerbaijan,2024,RUS,33
+Azerbaijan,2024,RUS,34
+Azerbaijan,2024,RUS,35
+Azerbaijan,2024,RUS,37
+Azerbaijan,2024,RUS,38
+Azerbaijan,2024,RUS,39
+Azerbaijan,2024,RUS,40
+Azerbaijan,2024,RUS,41
+Azerbaijan,2024,RUS,42
+Azerbaijan,2024,RUS,43
+Azerbaijan,2024,RUS,44
+Azerbaijan,2024,RUS,45
+Emilia Romagna,2024,ALB,20
+Emilia Romagna,2024,ALB,21
+Emilia Romagna,2024,ALB,22
+Emilia Romagna,2024,ALB,25
+Emilia Romagna,2024,ALB,26
+Emilia Romagna,2024,ALB,27
+Emilia Romagna,2024,ALB,30
+Emilia Romagna,2024,ALB,31
+Emilia Romagna,2024,ALB,32
+Emilia Romagna,2024,ALB,33
+Emilia Romagna,2024,ALB,34
+Emilia Romagna,2024,ALB,35
+Emilia Romagna,2024,ALB,36
+Emilia Romagna,2024,ALB,37
+Emilia Romagna,2024,ALB,38
+Emilia Romagna,2024,ALB,39
+Emilia Romagna,2024,ALB,40
+Emilia Romagna,2024,ALB,41
+Emilia Romagna,2024,ALB,42
+Emilia Romagna,2024,ALB,43
+Emilia Romagna,2024,ALB,44
+Emilia Romagna,2024,ALB,45
+Emilia Romagna,2024,ALB,46
+Monaco,2024,VER,18
+Monaco,2024,VER,19
+Monaco,2024,VER,20
+Monaco,2024,VER,21
+Monaco,2024,VER,22
+Monaco,2024,VER,23
+Monaco,2024,VER,24
+Monaco,2024,VER,25
+Monaco,2024,VER,26
+Monaco,2024,VER,27
+Monaco,2024,VER,28
+Monaco,2024,VER,29
+Monaco,2024,VER,30
+Monaco,2024,VER,31
+Monaco,2024,VER,32
+Monaco,2024,VER,33
+Monaco,2024,VER,34
+Monaco,2024,VER,35
+Monaco,2024,VER,36
+Monaco,2024,VER,37
+Monaco,2024,VER,38
+Monaco,2024,VER,39
+Monaco,2024,VER,40
+Monaco,2024,VER,41
+Monaco,2024,VER,42
+Monaco,2024,VER,43
+Monaco,2024,VER,44
+Monaco,2024,VER,45
+Monaco,2024,VER,46
+Monaco,2024,VER,47
+Monaco,2024,VER,48
+Monaco,2024,VER,49
+Monaco,2024,VER,50
+Monaco,2024,VER,51
+Monaco,2024,VER,54
+Monaco,2024,VER,55
+Monaco,2024,VER,56
+Monaco,2024,VER,57
+Monaco,2024,VER,58
+Monaco,2024,VER,59
+Monaco,2024,VER,60
+Monaco,2024,VER,61
+Monaco,2024,VER,62
+Monaco,2024,VER,63
+Monaco,2024,VER,64
+Monaco,2024,VER,65
+Monaco,2024,VER,66
+Monaco,2024,VER,67
+Monaco,2024,VER,68
+Monaco,2024,VER,69
+Monaco,2024,VER,70
+Monaco,2024,VER,71
+Monaco,2024,VER,72
+Monaco,2024,VER,73
+Monaco,2024,VER,74
+Monaco,2024,ALO,18
+Monaco,2024,ALO,19
+Monaco,2024,ALO,20
+Monaco,2024,ALO,21
+Monaco,2024,ALO,22
+Monaco,2024,ALO,23
+Monaco,2024,ALO,24
+Monaco,2024,ALO,25
+Monaco,2024,ALO,26
+Monaco,2024,ALO,27
+Monaco,2024,ALO,28
+Monaco,2024,ALO,29
+Monaco,2024,ALO,30
+Monaco,2024,ALO,31
+Monaco,2024,ALO,32
+Monaco,2024,ALO,33
+Monaco,2024,ALO,34
+Monaco,2024,ALO,35
+Monaco,2024,ALO,36
+Monaco,2024,ALO,37
+Monaco,2024,ALO,38
+Monaco,2024,ALO,39
+Monaco,2024,ALO,40
+Monaco,2024,ALO,41
+Monaco,2024,ALO,42
+Monaco,2024,ALO,43
+Monaco,2024,ALO,44
+Monaco,2024,ALO,45
+Monaco,2024,ALO,46
+Monaco,2024,ALO,47
+Monaco,2024,ALO,48
+Monaco,2024,ALO,49
+Monaco,2024,ALO,50
+Monaco,2024,ALO,51
+Monaco,2024,ALO,53
+Monaco,2024,ALO,54
+Monaco,2024,ALO,55
+Monaco,2024,ALO,56
+Monaco,2024,ALO,57
+Monaco,2024,ALO,58
+Monaco,2024,ALO,59
+Monaco,2024,ALO,60
+Monaco,2024,ALO,61
+Monaco,2024,ALO,62
+Monaco,2024,ALO,63
+Monaco,2024,ALO,64
+Monaco,2024,ALO,65
+Monaco,2024,ALO,66
+Monaco,2024,ALO,67
+Monaco,2024,ALO,68
+Monaco,2024,ALO,69
+Monaco,2024,ALO,70
+Monaco,2024,ALO,71
+Monaco,2024,ALO,72
+Qatar,2025,VER,21
+Qatar,2025,VER,22
+Qatar,2025,VER,23
+Qatar,2025,VER,24
+Qatar,2025,VER,25
+Qatar,2025,VER,26
+Qatar,2025,VER,27
+Qatar,2025,VER,28
+Qatar,2025,VER,29
+Qatar,2025,VER,30
+Qatar,2025,VER,31
+Qatar,2025,VER,34
+Qatar,2025,VER,35
+Qatar,2025,VER,36
+Qatar,2025,VER,37
+Qatar,2025,VER,38
+Qatar,2025,VER,39
+Qatar,2025,VER,40
+Qatar,2025,VER,41
+Qatar,2025,VER,42
+Qatar,2025,VER,43
+Qatar,2025,VER,44
+Qatar,2025,VER,45
+Qatar,2025,VER,46
+Qatar,2025,VER,47
+Qatar,2025,VER,48
+Qatar,2025,VER,49
+Qatar,2025,VER,50
+Qatar,2025,VER,51
+Qatar,2025,VER,52
+Qatar,2025,VER,53
+Singapore,2025,VER,18
+Singapore,2025,VER,21
+Singapore,2025,VER,22
+Singapore,2025,VER,23
+Singapore,2025,VER,24
+Singapore,2025,VER,25
+Singapore,2025,VER,26
+Singapore,2025,VER,27
+Singapore,2025,VER,28
+Singapore,2025,VER,29
+Singapore,2025,VER,30
+Singapore,2025,VER,31
+Singapore,2025,VER,32
+Singapore,2025,VER,33
+Singapore,2025,VER,34
+Singapore,2025,VER,35
+Singapore,2025,VER,36
+Singapore,2025,VER,37
+Singapore,2025,VER,38
+Singapore,2025,VER,39
+Singapore,2025,VER,40
+Singapore,2025,VER,41
+Singapore,2025,VER,42
+Singapore,2025,VER,43
+Singapore,2025,VER,44
+Singapore,2025,VER,46
+Singapore,2025,VER,47
+Singapore,2025,VER,48
+Singapore,2025,VER,49
+Singapore,2025,VER,50
+Singapore,2025,VER,51
+Singapore,2025,VER,52
+Singapore,2025,VER,53
+Singapore,2025,VER,54
+Singapore,2025,VER,55
+Singapore,2025,VER,56
+Singapore,2025,VER,57
+Singapore,2025,VER,58
+Spain,2025,VER,19
+Spain,2025,VER,20
+Spain,2025,VER,21
+Spain,2025,VER,22
+Spain,2025,VER,23
+Spain,2025,VER,24
+Spain,2025,VER,25
+Spain,2025,VER,26
+Spain,2025,VER,27
+Spain,2025,VER,28
+Spain,2025,VER,31
+Spain,2025,VER,32
+Spain,2025,VER,33
+Spain,2025,VER,34
+Spain,2025,VER,35
+Spain,2025,VER,36
+Spain,2025,VER,37
+Spain,2025,VER,38
+Spain,2025,VER,39
+Spain,2025,VER,40
+Spain,2025,VER,41
+Spain,2025,VER,42
+Spain,2025,VER,43
+Spain,2025,VER,44
+Spain,2025,VER,45
+Spain,2025,VER,46
+Spain,2025,VER,49
+Spain,2025,VER,50
+Spain,2025,VER,51
+Spain,2025,VER,52
+Spain,2025,VER,53
+Spain,2025,VER,54
+Spain,2025,VER,61
+Spain,2025,VER,62
+Las Vegas,2024,TSU,19
+Las Vegas,2024,TSU,20
+Las Vegas,2024,TSU,21
+Las Vegas,2024,TSU,22
+Las Vegas,2024,TSU,23
+Las Vegas,2024,TSU,24
+Las Vegas,2024,TSU,25
+Las Vegas,2024,TSU,26
+Las Vegas,2024,TSU,27
+Las Vegas,2024,TSU,28
+Las Vegas,2024,TSU,31
+Las Vegas,2024,TSU,32
+Las Vegas,2024,TSU,33
+Las Vegas,2024,TSU,34
+Las Vegas,2024,TSU,35
+Las Vegas,2024,TSU,36
+Las Vegas,2024,TSU,37
+Las Vegas,2024,TSU,38
+Las Vegas,2024,TSU,39
+Las Vegas,2024,TSU,40
+Las Vegas,2024,TSU,41
+Las Vegas,2024,TSU,42
+Las Vegas,2024,TSU,43
+Las Vegas,2024,TSU,44
+Las Vegas,2024,TSU,45
+Las Vegas,2024,TSU,46
+Saudi Arabia,2024,LEC,20
+Saudi Arabia,2024,LEC,21
+Saudi Arabia,2024,LEC,22
+Saudi Arabia,2024,LEC,23
+Saudi Arabia,2024,LEC,24
+Saudi Arabia,2024,LEC,25
+Saudi Arabia,2024,LEC,26
+Saudi Arabia,2024,LEC,27
+Saudi Arabia,2024,LEC,28
+Saudi Arabia,2024,LEC,29
+Saudi Arabia,2024,LEC,30
+Saudi Arabia,2024,LEC,31
+Saudi Arabia,2024,LEC,32
+Saudi Arabia,2024,LEC,33
+Saudi Arabia,2024,LEC,34
+Saudi Arabia,2024,LEC,35
+Saudi Arabia,2024,LEC,36
+Saudi Arabia,2024,LEC,37
+Saudi Arabia,2024,LEC,38
+Saudi Arabia,2024,LEC,39
+Saudi Arabia,2024,LEC,40
+Saudi Arabia,2024,LEC,41
+Saudi Arabia,2024,LEC,42
+Saudi Arabia,2024,LEC,43
+Saudi Arabia,2024,LEC,44
+Saudi Arabia,2024,LEC,45
+Saudi Arabia,2024,LEC,46
+Miami,2025,TSU,45
+Miami,2025,TSU,46
+Miami,2025,TSU,47
+Miami,2025,TSU,48
+Miami,2025,TSU,49
+Miami,2025,TSU,50
+Miami,2025,TSU,51
+Miami,2025,TSU,52
+Miami,2025,TSU,53
+Belgium,2025,RUS,22
+Belgium,2025,RUS,23
+Belgium,2025,RUS,24
+Belgium,2025,RUS,25
+Belgium,2025,RUS,26
+Belgium,2025,RUS,27
+Belgium,2025,RUS,28
+Belgium,2025,RUS,29
+Belgium,2025,RUS,30
+Belgium,2025,RUS,31
+Belgium,2025,RUS,32
+Belgium,2025,RUS,33
+Belgium,2025,RUS,34
+Belgium,2025,RUS,35
+Belgium,2025,RUS,36
+Belgium,2025,RUS,37
+Belgium,2025,RUS,38
+Belgium,2025,RUS,39
+Belgium,2025,RUS,40
+Netherlands,2024,VER,17
+Netherlands,2024,VER,18
+Netherlands,2024,VER,19
+Netherlands,2024,VER,20
+Netherlands,2024,VER,21
+Netherlands,2024,VER,22
+Netherlands,2024,VER,23
+Netherlands,2024,VER,24
+Netherlands,2024,VER,25
+Netherlands,2024,VER,26
+Netherlands,2024,VER,29
+Netherlands,2024,VER,30
+Netherlands,2024,VER,31
+Netherlands,2024,VER,32
+Netherlands,2024,VER,33
+Netherlands,2024,VER,34
+Netherlands,2024,VER,35
+Netherlands,2024,VER,36
+Netherlands,2024,VER,37
+Netherlands,2024,VER,38
+Netherlands,2024,VER,39
+Netherlands,2024,VER,40
+Netherlands,2024,VER,41
+Netherlands,2024,VER,42
+Netherlands,2024,VER,43
+Netherlands,2024,VER,44
+Netherlands,2024,VER,45
+Netherlands,2024,VER,46
+Netherlands,2024,VER,47
+Netherlands,2024,VER,48
+Netherlands,2024,VER,49
+Netherlands,2024,VER,50
+Netherlands,2024,VER,51
+Netherlands,2024,VER,52
+Netherlands,2024,VER,53
+Netherlands,2024,VER,54
+Netherlands,2024,VER,55
+Netherlands,2024,VER,56
+Netherlands,2024,VER,57
+Netherlands,2024,VER,58
+Netherlands,2024,VER,59
+Netherlands,2024,VER,60
+Netherlands,2024,VER,61
+Netherlands,2024,VER,62
+Netherlands,2024,VER,63
+Netherlands,2024,VER,64
+Netherlands,2024,VER,65
+Netherlands,2024,VER,66
+Netherlands,2024,VER,67
+Netherlands,2024,VER,68
+Azerbaijan,2024,BEA,19
+Azerbaijan,2024,BEA,20
+Azerbaijan,2024,BEA,21
+Azerbaijan,2024,BEA,22
+Azerbaijan,2024,BEA,23
+Azerbaijan,2024,BEA,24
+Azerbaijan,2024,BEA,25
+Azerbaijan,2024,BEA,26
+Azerbaijan,2024,BEA,27
+Azerbaijan,2024,BEA,28
+Azerbaijan,2024,BEA,29
+Azerbaijan,2024,BEA,30
+Azerbaijan,2024,BEA,31
+Azerbaijan,2024,BEA,32
+Azerbaijan,2024,BEA,33
+Azerbaijan,2024,BEA,34
+Azerbaijan,2024,BEA,35
+Azerbaijan,2024,BEA,37
+Azerbaijan,2024,BEA,38
+Azerbaijan,2024,BEA,39
+Azerbaijan,2024,BEA,40
+Azerbaijan,2024,BEA,41
+Azerbaijan,2024,BEA,42
+Azerbaijan,2024,BEA,43
+Azerbaijan,2024,BEA,44
+Japan,2025,BEA,17
+Japan,2025,BEA,18
+Japan,2025,BEA,19
+Japan,2025,BEA,20
+Japan,2025,BEA,21
+Japan,2025,BEA,22
+Japan,2025,BEA,25
+Japan,2025,BEA,26
+Japan,2025,BEA,27
+Japan,2025,BEA,28
+Japan,2025,BEA,29
+Japan,2025,BEA,30
+Japan,2025,BEA,31
+Japan,2025,BEA,32
+Japan,2025,BEA,33
+Japan,2025,BEA,34
+Japan,2025,BEA,35
+Japan,2025,BEA,36
+Japan,2025,BEA,37
+Japan,2025,BEA,38
+Japan,2025,BEA,39
+Japan,2025,BEA,40
+Japan,2025,BEA,41
+Japan,2025,BEA,42
+Japan,2025,BEA,43
+Japan,2025,BEA,44
+Japan,2025,BEA,45
+Japan,2025,BEA,46
+Japan,2025,BEA,47
+Japan,2025,BEA,48
+Japan,2025,BEA,49
+Japan,2025,NOR,17
+Japan,2025,NOR,18
+Japan,2025,NOR,19
+Japan,2025,NOR,20
+Japan,2025,NOR,23
+Japan,2025,NOR,24
+Japan,2025,NOR,25
+Japan,2025,NOR,26
+Japan,2025,NOR,27
+Japan,2025,NOR,28
+Japan,2025,NOR,29
+Japan,2025,NOR,30
+Japan,2025,NOR,31
+Japan,2025,NOR,32
+Japan,2025,NOR,33
+Japan,2025,NOR,34
+Japan,2025,NOR,35
+Japan,2025,NOR,36
+Japan,2025,NOR,37
+Japan,2025,NOR,38
+Japan,2025,NOR,39
+Japan,2025,NOR,40
+Japan,2025,NOR,41
+Japan,2025,NOR,42
+Japan,2025,NOR,43
+Japan,2025,NOR,44
+Japan,2025,NOR,45
+Japan,2025,NOR,46
+Japan,2025,NOR,47
+Japan,2025,NOR,48
+Japan,2025,NOR,49
+Emilia Romagna,2025,HAM,17
+Emilia Romagna,2025,HAM,18
+Emilia Romagna,2025,HAM,19
+Emilia Romagna,2025,HAM,20
+Emilia Romagna,2025,HAM,21
+Emilia Romagna,2025,HAM,22
+Emilia Romagna,2025,HAM,23
+Emilia Romagna,2025,HAM,24
+Emilia Romagna,2025,HAM,25
+Emilia Romagna,2025,HAM,26
+Emilia Romagna,2025,HAM,27
+Emilia Romagna,2025,HAM,28
+Emilia Romagna,2025,HAM,32
+Emilia Romagna,2025,HAM,33
+Emilia Romagna,2025,HAM,34
+Emilia Romagna,2025,HAM,35
+Emilia Romagna,2025,HAM,36
+Emilia Romagna,2025,HAM,37
+Emilia Romagna,2025,HAM,38
+Emilia Romagna,2025,HAM,39
+Emilia Romagna,2025,HAM,40
+Emilia Romagna,2025,HAM,41
+Emilia Romagna,2025,HAM,42
+Emilia Romagna,2025,HAM,43
+Emilia Romagna,2025,HAM,44
+Emilia Romagna,2025,HAM,54
+Emilia Romagna,2025,HAM,55
+Emilia Romagna,2025,HAM,56
+Emilia Romagna,2025,HAM,57
+Emilia Romagna,2025,HAM,58
+Emilia Romagna,2025,HAM,59
+China,2024,STR,19
+China,2024,STR,32
+China,2024,STR,33
+China,2024,STR,34
+China,2024,STR,37
+China,2024,STR,38
+China,2024,STR,39
+China,2024,STR,40
+China,2024,STR,41
+China,2024,STR,42
+China,2024,STR,43
+China,2024,STR,44
+China,2024,STR,45
+China,2024,STR,46
+China,2024,STR,47
+China,2024,STR,48
+China,2024,STR,49
+China,2024,STR,50
+China,2024,STR,51
+China,2024,STR,52
+China,2024,SAI,19
+China,2024,SAI,32
+China,2024,SAI,33
+China,2024,SAI,34
+China,2024,SAI,35
+China,2024,SAI,36
+China,2024,SAI,37
+China,2024,SAI,38
+China,2024,SAI,39
+China,2024,SAI,40
+China,2024,SAI,41
+China,2024,SAI,42
+China,2024,SAI,43
+China,2024,SAI,44
+China,2024,SAI,45
+China,2024,SAI,46
+China,2024,SAI,47
+China,2024,SAI,48
+China,2024,SAI,49
+China,2024,SAI,50
+China,2024,SAI,51
+China,2024,SAI,52
+Great Britain,2024,NOR,17
+Great Britain,2024,NOR,18
+Great Britain,2024,NOR,19
+Great Britain,2024,NOR,20
+Great Britain,2024,NOR,21
+Great Britain,2024,NOR,22
+Great Britain,2024,NOR,25
+Great Britain,2024,NOR,26
+Great Britain,2024,NOR,27
+Great Britain,2024,NOR,28
+Great Britain,2024,NOR,29
+Great Britain,2024,NOR,30
+Great Britain,2024,NOR,31
+Great Britain,2024,NOR,32
+Great Britain,2024,NOR,33
+Great Britain,2024,NOR,34
+Great Britain,2024,NOR,35
+Great Britain,2024,NOR,36
+Great Britain,2024,NOR,37
+Great Britain,2024,NOR,38
+Great Britain,2024,NOR,39
+Great Britain,2024,NOR,40
+Great Britain,2024,NOR,41
+Great Britain,2024,NOR,42
+Great Britain,2024,NOR,43
+Great Britain,2024,NOR,44
+Great Britain,2024,NOR,45
+Great Britain,2024,NOR,46
+Great Britain,2024,NOR,47
+Great Britain,2024,NOR,48
+Great Britain,2024,NOR,49
+Great Britain,2024,NOR,50
+Great Britain,2024,NOR,53
+Great Britain,2024,NOR,54
+Great Britain,2024,NOR,55
+Great Britain,2024,NOR,56
+Great Britain,2024,NOR,57
+Great Britain,2024,NOR,58
+Great Britain,2024,NOR,59
+São Paulo,2025,VER,24
+São Paulo,2025,VER,25
+São Paulo,2025,VER,26
+São Paulo,2025,VER,27
+São Paulo,2025,VER,28
+São Paulo,2025,VER,29
+São Paulo,2025,VER,30
+São Paulo,2025,VER,31
+São Paulo,2025,VER,32
+São Paulo,2025,VER,33
+São Paulo,2025,VER,36
+São Paulo,2025,VER,37
+São Paulo,2025,VER,38
+São Paulo,2025,VER,39
+São Paulo,2025,VER,40
+São Paulo,2025,VER,41
+São Paulo,2025,VER,42
+São Paulo,2025,VER,43
+São Paulo,2025,VER,44
+São Paulo,2025,VER,45
+São Paulo,2025,VER,46
+São Paulo,2025,VER,47
+São Paulo,2025,VER,48
+São Paulo,2025,VER,49
+São Paulo,2025,VER,50
+São Paulo,2025,VER,51
+São Paulo,2025,VER,52
+São Paulo,2025,VER,53
+São Paulo,2025,VER,56
+São Paulo,2025,VER,57
+São Paulo,2025,VER,58
+São Paulo,2025,VER,59
+São Paulo,2025,VER,60
+São Paulo,2025,VER,61
+São Paulo,2025,VER,62
+São Paulo,2025,VER,63
+São Paulo,2025,VER,64
+São Paulo,2025,VER,65
+São Paulo,2025,VER,66
+São Paulo,2025,VER,67
+Belgium,2024,ALB,20
+Belgium,2024,ALB,21
+Belgium,2024,ALB,22
+Belgium,2024,ALB,25
+Belgium,2024,ALB,26
+Belgium,2024,ALB,27
+Belgium,2024,ALB,28
+Belgium,2024,ALB,29
+Belgium,2024,ALB,30
+Belgium,2024,ALB,31
+Belgium,2024,ALB,32
+Belgium,2024,ALB,33
+Belgium,2024,ALB,34
+Belgium,2024,ALB,35
+Belgium,2024,ALB,36
+Belgium,2024,ALB,37
+Belgium,2024,ALB,38
+Belgium,2024,ALB,39
+Belgium,2024,ALB,40
+Australia,2025,LEC,23
+Australia,2025,LEC,24
+Australia,2025,LEC,25
+Australia,2025,LEC,26
+Australia,2025,LEC,27
+Australia,2025,LEC,28
+Australia,2025,LEC,29
+Australia,2025,LEC,30
+Australia,2025,LEC,31
+Australia,2025,LEC,32
+Australia,2025,LEC,42
+Australia,2025,LEC,43
+Australia,2025,LEC,46
+Australia,2025,LEC,52
+Australia,2025,LEC,53
+United States,2024,STR,22
+United States,2024,STR,23
+United States,2024,STR,24
+United States,2024,STR,25
+United States,2024,STR,26
+United States,2024,STR,29
+United States,2024,STR,30
+United States,2024,STR,31
+United States,2024,STR,32
+United States,2024,STR,33
+United States,2024,STR,34
+United States,2024,STR,35
+United States,2024,STR,36
+United States,2024,STR,37
+United States,2024,STR,38
+United States,2024,STR,39
+United States,2024,STR,42
+United States,2024,STR,43
+United States,2024,STR,44
+United States,2024,STR,45
+United States,2024,STR,46
+United States,2024,STR,47
+United States,2024,STR,48
+United States,2024,STR,49
+United States,2024,STR,50
+United States,2024,STR,51
+Monaco,2024,SAI,18
+Monaco,2024,SAI,19
+Monaco,2024,SAI,20
+Monaco,2024,SAI,21
+Monaco,2024,SAI,22
+Monaco,2024,SAI,23
+Monaco,2024,SAI,24
+Monaco,2024,SAI,25
+Monaco,2024,SAI,26
+Monaco,2024,SAI,27
+Monaco,2024,SAI,28
+Monaco,2024,SAI,29
+Monaco,2024,SAI,30
+Monaco,2024,SAI,31
+Monaco,2024,SAI,32
+Monaco,2024,SAI,33
+Monaco,2024,SAI,34
+Monaco,2024,SAI,35
+Monaco,2024,SAI,36
+Monaco,2024,SAI,37
+Monaco,2024,SAI,38
+Monaco,2024,SAI,39
+Monaco,2024,SAI,40
+Monaco,2024,SAI,41
+Monaco,2024,SAI,42
+Monaco,2024,SAI,43
+Monaco,2024,SAI,44
+Monaco,2024,SAI,45
+Monaco,2024,SAI,46
+Monaco,2024,SAI,47
+Monaco,2024,SAI,48
+Monaco,2024,SAI,49
+Monaco,2024,SAI,50
+Monaco,2024,SAI,51
+Monaco,2024,SAI,52
+Monaco,2024,SAI,54
+Monaco,2024,SAI,55
+Monaco,2024,SAI,56
+Monaco,2024,SAI,57
+Monaco,2024,SAI,58
+Monaco,2024,SAI,59
+Monaco,2024,SAI,60
+Monaco,2024,SAI,61
+Monaco,2024,SAI,62
+Monaco,2024,SAI,63
+Monaco,2024,SAI,64
+Monaco,2024,SAI,65
+Monaco,2024,SAI,66
+Monaco,2024,SAI,67
+Monaco,2024,SAI,68
+Monaco,2024,SAI,69
+Monaco,2024,SAI,70
+Monaco,2024,SAI,71
+Monaco,2024,SAI,72
+Monaco,2024,SAI,73
+Monaco,2024,SAI,74
+Miami,2024,VER,17
+Miami,2024,VER,18
+Miami,2024,VER,19
+Miami,2024,VER,20
+Miami,2024,VER,21
+Miami,2024,VER,22
+Miami,2024,VER,25
+Miami,2024,VER,26
+Miami,2024,VER,27
+Miami,2024,VER,33
+Miami,2024,VER,34
+Miami,2024,VER,35
+Miami,2024,VER,36
+Miami,2024,VER,37
+Miami,2024,VER,38
+Miami,2024,VER,39
+Miami,2024,VER,40
+Miami,2024,VER,41
+Miami,2024,VER,42
+Miami,2024,VER,43
+Miami,2024,VER,44
+Miami,2024,VER,45
+Miami,2024,VER,46
+Miami,2024,VER,47
+Miami,2024,VER,48
+Miami,2024,VER,49
+Miami,2024,VER,50
+Miami,2024,VER,51
+Miami,2024,VER,52
+Miami,2024,VER,53
+São Paulo,2025,NOR,24
+São Paulo,2025,NOR,25
+São Paulo,2025,NOR,26
+São Paulo,2025,NOR,27
+São Paulo,2025,NOR,28
+São Paulo,2025,NOR,29
+São Paulo,2025,NOR,32
+São Paulo,2025,NOR,33
+São Paulo,2025,NOR,34
+São Paulo,2025,NOR,35
+São Paulo,2025,NOR,36
+São Paulo,2025,NOR,37
+São Paulo,2025,NOR,38
+São Paulo,2025,NOR,39
+São Paulo,2025,NOR,40
+São Paulo,2025,NOR,41
+São Paulo,2025,NOR,42
+São Paulo,2025,NOR,43
+São Paulo,2025,NOR,44
+São Paulo,2025,NOR,45
+São Paulo,2025,NOR,46
+São Paulo,2025,NOR,47
+São Paulo,2025,NOR,48
+São Paulo,2025,NOR,49
+São Paulo,2025,NOR,52
+São Paulo,2025,NOR,53
+São Paulo,2025,NOR,54
+São Paulo,2025,NOR,55
+São Paulo,2025,NOR,56
+São Paulo,2025,NOR,57
+São Paulo,2025,NOR,58
+São Paulo,2025,NOR,59
+São Paulo,2025,NOR,60
+São Paulo,2025,NOR,61
+São Paulo,2025,NOR,62
+São Paulo,2025,NOR,63
+São Paulo,2025,NOR,64
+São Paulo,2025,NOR,65
+São Paulo,2025,NOR,66
+São Paulo,2025,NOR,67
+Australia,2025,RUS,23
+Australia,2025,RUS,24
+Australia,2025,RUS,25
+Australia,2025,RUS,26
+Australia,2025,RUS,27
+Australia,2025,RUS,28
+Australia,2025,RUS,29
+Australia,2025,RUS,30
+Australia,2025,RUS,31
+Australia,2025,RUS,32
+Australia,2025,RUS,42
+Australia,2025,RUS,43
+Australia,2025,RUS,46
+Australia,2025,RUS,52
+Australia,2025,RUS,53
+Hungary,2025,OCO,19
+Hungary,2025,OCO,20
+Hungary,2025,OCO,21
+Hungary,2025,OCO,22
+Hungary,2025,OCO,23
+Hungary,2025,OCO,24
+Hungary,2025,OCO,25
+Hungary,2025,OCO,26
+Hungary,2025,OCO,27
+Hungary,2025,OCO,28
+Hungary,2025,OCO,29
+Hungary,2025,OCO,30
+Hungary,2025,OCO,31
+Hungary,2025,OCO,32
+Hungary,2025,OCO,33
+Hungary,2025,OCO,34
+Hungary,2025,OCO,35
+Hungary,2025,OCO,36
+Hungary,2025,OCO,37
+Hungary,2025,OCO,38
+Hungary,2025,OCO,39
+Hungary,2025,OCO,40
+Hungary,2025,OCO,41
+Hungary,2025,OCO,42
+Hungary,2025,OCO,43
+Hungary,2025,OCO,44
+Hungary,2025,OCO,45
+Hungary,2025,OCO,46
+Hungary,2025,OCO,47
+Hungary,2025,OCO,48
+Hungary,2025,OCO,49
+Hungary,2025,OCO,50
+Hungary,2025,OCO,51
+Hungary,2025,OCO,52
+Hungary,2025,OCO,53
+Hungary,2025,OCO,54
+Hungary,2025,OCO,55
+Hungary,2025,OCO,56
+Hungary,2025,OCO,57
+Hungary,2025,OCO,58
+Hungary,2025,OCO,59
+Hungary,2025,OCO,60
+Hungary,2025,OCO,61
+Hungary,2025,OCO,62
+Hungary,2025,OCO,63
+Hungary,2025,OCO,64
+Hungary,2025,OCO,65
+Qatar,2024,SAI,21
+Qatar,2024,SAI,22
+Qatar,2024,SAI,23
+Qatar,2024,SAI,24
+Qatar,2024,SAI,25
+Qatar,2024,SAI,26
+Qatar,2024,SAI,27
+Qatar,2024,SAI,28
+Qatar,2024,SAI,31
+Qatar,2024,SAI,32
+Qatar,2024,SAI,33
+Qatar,2024,SAI,43
+Qatar,2024,SAI,44
+Qatar,2024,SAI,45
+Qatar,2024,SAI,46
+Qatar,2024,SAI,47
+Qatar,2024,SAI,48
+Qatar,2024,SAI,49
+Qatar,2024,SAI,50
+Qatar,2024,SAI,51
+Qatar,2024,SAI,52
+Qatar,2024,SAI,53
+Netherlands,2024,ALO,17
+Netherlands,2024,ALO,18
+Netherlands,2024,ALO,19
+Netherlands,2024,ALO,20
+Netherlands,2024,ALO,21
+Netherlands,2024,ALO,22
+Netherlands,2024,ALO,23
+Netherlands,2024,ALO,24
+Netherlands,2024,ALO,25
+Netherlands,2024,ALO,26
+Netherlands,2024,ALO,27
+Netherlands,2024,ALO,28
+Netherlands,2024,ALO,29
+Netherlands,2024,ALO,30
+Netherlands,2024,ALO,33
+Netherlands,2024,ALO,34
+Netherlands,2024,ALO,35
+Netherlands,2024,ALO,36
+Netherlands,2024,ALO,37
+Netherlands,2024,ALO,38
+Netherlands,2024,ALO,39
+Netherlands,2024,ALO,40
+Netherlands,2024,ALO,41
+Netherlands,2024,ALO,42
+Netherlands,2024,ALO,43
+Netherlands,2024,ALO,44
+Netherlands,2024,ALO,45
+Netherlands,2024,ALO,46
+Netherlands,2024,ALO,47
+Netherlands,2024,ALO,48
+Netherlands,2024,ALO,49
+Netherlands,2024,ALO,50
+Netherlands,2024,ALO,51
+Netherlands,2024,ALO,52
+Netherlands,2024,ALO,53
+Netherlands,2024,ALO,54
+Netherlands,2024,ALO,55
+Netherlands,2024,ALO,56
+Netherlands,2024,ALO,57
+Netherlands,2024,ALO,58
+Netherlands,2024,ALO,59
+Netherlands,2024,ALO,60
+Netherlands,2024,ALO,61
+Netherlands,2024,ALO,62
+Netherlands,2024,ALO,63
+Netherlands,2024,ALO,64
+Netherlands,2024,ALO,65
+Netherlands,2024,ALO,66
+Netherlands,2024,ALO,67
+Bahrain,2025,LAW,19
+Bahrain,2025,LAW,20
+Bahrain,2025,LAW,21
+Bahrain,2025,LAW,22
+Bahrain,2025,LAW,23
+Bahrain,2025,LAW,24
+Bahrain,2025,LAW,25
+Bahrain,2025,LAW,26
+Bahrain,2025,LAW,27
+Bahrain,2025,LAW,28
+Bahrain,2025,LAW,29
+Bahrain,2025,LAW,30
+Bahrain,2025,LAW,31
+Bahrain,2025,LAW,36
+Bahrain,2025,LAW,37
+Bahrain,2025,LAW,38
+Bahrain,2025,LAW,39
+Bahrain,2025,LAW,40
+Bahrain,2025,LAW,41
+Bahrain,2025,LAW,42
+Bahrain,2025,LAW,43
+Bahrain,2025,LAW,44
+Bahrain,2025,LAW,45
+Bahrain,2025,LAW,46
+Bahrain,2025,LAW,47
+Bahrain,2025,LAW,48
+Bahrain,2025,LAW,49
+Bahrain,2025,LAW,50
+Bahrain,2025,LAW,51
+Bahrain,2025,LAW,52
+Bahrain,2025,LAW,53
+Saudi Arabia,2025,HAD,19
+Saudi Arabia,2025,HAD,20
+Saudi Arabia,2025,HAD,21
+Saudi Arabia,2025,HAD,22
+Saudi Arabia,2025,HAD,23
+Saudi Arabia,2025,HAD,24
+Saudi Arabia,2025,HAD,25
+Saudi Arabia,2025,HAD,26
+Saudi Arabia,2025,HAD,27
+Saudi Arabia,2025,HAD,28
+Saudi Arabia,2025,HAD,29
+Saudi Arabia,2025,HAD,30
+Saudi Arabia,2025,HAD,31
+Saudi Arabia,2025,HAD,32
+Saudi Arabia,2025,HAD,33
+Saudi Arabia,2025,HAD,36
+Saudi Arabia,2025,HAD,37
+Saudi Arabia,2025,HAD,38
+Saudi Arabia,2025,HAD,39
+Saudi Arabia,2025,HAD,40
+Saudi Arabia,2025,HAD,41
+Saudi Arabia,2025,HAD,42
+Saudi Arabia,2025,HAD,43
+Saudi Arabia,2025,HAD,44
+Saudi Arabia,2025,HAD,45
+Saudi Arabia,2025,HAD,46
+United States,2025,BOR,22
+United States,2025,BOR,23
+United States,2025,BOR,24
+United States,2025,BOR,25
+United States,2025,BOR,26
+United States,2025,BOR,27
+United States,2025,BOR,28
+United States,2025,BOR,29
+United States,2025,BOR,30
+United States,2025,BOR,31
+United States,2025,BOR,32
+United States,2025,BOR,33
+United States,2025,BOR,35
+United States,2025,BOR,38
+United States,2025,BOR,39
+United States,2025,BOR,40
+United States,2025,BOR,41
+United States,2025,BOR,42
+United States,2025,BOR,43
+United States,2025,BOR,44
+United States,2025,BOR,45
+United States,2025,BOR,46
+United States,2025,BOR,47
+United States,2025,BOR,48
+United States,2025,BOR,49
+United States,2025,BOR,50
+United States,2025,BOR,51
+Azerbaijan,2024,LEC,19
+Azerbaijan,2024,LEC,20
+Azerbaijan,2024,LEC,21
+Azerbaijan,2024,LEC,22
+Azerbaijan,2024,LEC,23
+Azerbaijan,2024,LEC,24
+Azerbaijan,2024,LEC,25
+Azerbaijan,2024,LEC,26
+Azerbaijan,2024,LEC,27
+Azerbaijan,2024,LEC,28
+Azerbaijan,2024,LEC,29
+Azerbaijan,2024,LEC,30
+Azerbaijan,2024,LEC,31
+Azerbaijan,2024,LEC,32
+Azerbaijan,2024,LEC,33
+Azerbaijan,2024,LEC,34
+Azerbaijan,2024,LEC,35
+Azerbaijan,2024,LEC,37
+Azerbaijan,2024,LEC,38
+Azerbaijan,2024,LEC,39
+Azerbaijan,2024,LEC,40
+Azerbaijan,2024,LEC,41
+Azerbaijan,2024,LEC,42
+Azerbaijan,2024,LEC,43
+Azerbaijan,2024,LEC,44
+Azerbaijan,2024,LEC,45
+Miami,2025,ALO,43
+Miami,2025,ALO,44
+Miami,2025,ALO,45
+Miami,2025,ALO,46
+Miami,2025,ALO,47
+Miami,2025,ALO,48
+Miami,2025,ALO,49
+Miami,2025,ALO,50
+Miami,2025,ALO,51
+Miami,2025,ALO,52
+Great Britain,2025,OCO,21
+Great Britain,2025,OCO,22
+Great Britain,2025,OCO,23
+Great Britain,2025,OCO,24
+Great Britain,2025,OCO,25
+Great Britain,2025,OCO,26
+Great Britain,2025,OCO,27
+Great Britain,2025,OCO,28
+Great Britain,2025,OCO,29
+Great Britain,2025,OCO,31
+Great Britain,2025,OCO,32
+Great Britain,2025,OCO,33
+Great Britain,2025,OCO,34
+Great Britain,2025,OCO,35
+Great Britain,2025,OCO,36
+Great Britain,2025,OCO,37
+Great Britain,2025,OCO,38
+Great Britain,2025,OCO,39
+Great Britain,2025,OCO,40
+Great Britain,2025,OCO,41
+Great Britain,2025,OCO,42
+Great Britain,2025,OCO,43
+Great Britain,2025,OCO,44
+Great Britain,2025,OCO,45
+Great Britain,2025,OCO,46
+Great Britain,2025,OCO,47
+Great Britain,2025,OCO,48
+Great Britain,2025,OCO,49
+Great Britain,2025,OCO,52
+Great Britain,2025,OCO,53
+Great Britain,2025,OCO,54
+Great Britain,2025,OCO,55
+Great Britain,2025,OCO,56
+Great Britain,2025,OCO,57
+Great Britain,2025,OCO,58
+Great Britain,2025,OCO,59
+Great Britain,2025,OCO,60
+Great Britain,2025,OCO,61
+Great Britain,2025,OCO,62
+Great Britain,2025,OCO,63
+Great Britain,2025,OCO,64
+Great Britain,2025,OCO,65
+Abu Dhabi,2024,MAG,21
+Abu Dhabi,2024,MAG,22
+Abu Dhabi,2024,MAG,23
+Abu Dhabi,2024,MAG,24
+Abu Dhabi,2024,MAG,25
+Abu Dhabi,2024,MAG,26
+Abu Dhabi,2024,MAG,27
+Abu Dhabi,2024,MAG,28
+Abu Dhabi,2024,MAG,32
+Abu Dhabi,2024,MAG,33
+Abu Dhabi,2024,MAG,34
+Abu Dhabi,2024,MAG,35
+Abu Dhabi,2024,MAG,36
+Abu Dhabi,2024,MAG,37
+Abu Dhabi,2024,MAG,38
+Abu Dhabi,2024,MAG,39
+Abu Dhabi,2024,MAG,40
+Abu Dhabi,2024,MAG,41
+Abu Dhabi,2024,MAG,42
+Abu Dhabi,2024,MAG,43
+Abu Dhabi,2024,MAG,44
+Abu Dhabi,2024,MAG,45
+Abu Dhabi,2024,MAG,46
+Abu Dhabi,2024,MAG,47
+Abu Dhabi,2024,MAG,48
+Abu Dhabi,2024,MAG,49
+Abu Dhabi,2024,MAG,50
+Abu Dhabi,2024,MAG,51
+Monaco,2025,NOR,26
+Monaco,2025,NOR,27
+Monaco,2025,NOR,28
+Monaco,2025,NOR,29
+Monaco,2025,NOR,30
+Monaco,2025,NOR,31
+Monaco,2025,NOR,32
+Monaco,2025,NOR,33
+Monaco,2025,NOR,34
+Monaco,2025,NOR,35
+Monaco,2025,NOR,36
+Monaco,2025,NOR,37
+Monaco,2025,NOR,39
+Monaco,2025,NOR,40
+Monaco,2025,NOR,41
+Monaco,2025,NOR,42
+Monaco,2025,NOR,43
+Monaco,2025,NOR,44
+Monaco,2025,NOR,45
+Monaco,2025,NOR,46
+Monaco,2025,NOR,47
+Monaco,2025,NOR,48
+Monaco,2025,NOR,49
+Monaco,2025,NOR,52
+Monaco,2025,NOR,53
+Monaco,2025,NOR,54
+Monaco,2025,NOR,55
+Monaco,2025,NOR,56
+Monaco,2025,NOR,57
+Monaco,2025,NOR,58
+Monaco,2025,NOR,59
+Monaco,2025,NOR,60
+Monaco,2025,NOR,61
+Monaco,2025,NOR,62
+Monaco,2025,NOR,63
+Monaco,2025,NOR,64
+Monaco,2025,NOR,65
+Monaco,2025,NOR,66
+Monaco,2025,NOR,67
+Monaco,2025,NOR,68
+Monaco,2025,NOR,69
+Monaco,2025,NOR,70
+Monaco,2025,NOR,71
+Monaco,2025,NOR,72
+Monaco,2025,NOR,73
+Monaco,2025,NOR,74
+São Paulo,2024,LEC,20
+São Paulo,2024,LEC,21
+São Paulo,2024,LEC,22
+São Paulo,2024,LEC,23
+São Paulo,2024,LEC,26
+São Paulo,2024,LEC,29
+São Paulo,2024,LEC,34
+São Paulo,2024,LEC,35
+São Paulo,2024,LEC,37
+São Paulo,2024,LEC,45
+São Paulo,2024,LEC,46
+São Paulo,2024,LEC,47
+São Paulo,2024,LEC,48
+São Paulo,2024,LEC,49
+São Paulo,2024,LEC,50
+São Paulo,2024,LEC,52
+São Paulo,2024,LEC,53
+São Paulo,2024,LEC,54
+São Paulo,2024,LEC,55
+São Paulo,2024,LEC,56
+São Paulo,2024,LEC,57
+São Paulo,2024,LEC,58
+São Paulo,2024,LEC,59
+São Paulo,2024,LEC,60
+São Paulo,2024,LEC,61
+São Paulo,2024,LEC,62
+São Paulo,2024,LEC,63
+São Paulo,2024,LEC,64
+São Paulo,2024,LEC,65
+Netherlands,2025,OCO,17
+Netherlands,2025,OCO,18
+Netherlands,2025,OCO,19
+Netherlands,2025,OCO,20
+Netherlands,2025,OCO,21
+Netherlands,2025,OCO,27
+Netherlands,2025,OCO,28
+Netherlands,2025,OCO,29
+Netherlands,2025,OCO,30
+Netherlands,2025,OCO,33
+Netherlands,2025,OCO,34
+Netherlands,2025,OCO,36
+Netherlands,2025,OCO,37
+Netherlands,2025,OCO,38
+Netherlands,2025,OCO,39
+Netherlands,2025,OCO,40
+Netherlands,2025,OCO,41
+Netherlands,2025,OCO,42
+Netherlands,2025,OCO,43
+Netherlands,2025,OCO,44
+Netherlands,2025,OCO,45
+Netherlands,2025,OCO,46
+Netherlands,2025,OCO,47
+Netherlands,2025,OCO,48
+Netherlands,2025,OCO,49
+Netherlands,2025,OCO,50
+Netherlands,2025,OCO,51
+Netherlands,2025,OCO,58
+Netherlands,2025,OCO,59
+Netherlands,2025,OCO,60
+Netherlands,2025,OCO,61
+Netherlands,2025,OCO,62
+Netherlands,2025,OCO,63
+Netherlands,2025,OCO,64
+Australia,2025,HUL,23
+Australia,2025,HUL,24
+Australia,2025,HUL,25
+Australia,2025,HUL,26
+Australia,2025,HUL,27
+Australia,2025,HUL,28
+Australia,2025,HUL,29
+Australia,2025,HUL,30
+Australia,2025,HUL,31
+Australia,2025,HUL,32
+Australia,2025,HUL,42
+Australia,2025,HUL,43
+Australia,2025,HUL,46
+Australia,2025,HUL,52
+Australia,2025,HUL,53
+Saudi Arabia,2025,DOO,19
+Saudi Arabia,2025,DOO,20
+Saudi Arabia,2025,DOO,21
+Saudi Arabia,2025,DOO,22
+Saudi Arabia,2025,DOO,23
+Saudi Arabia,2025,DOO,24
+Saudi Arabia,2025,DOO,25
+Saudi Arabia,2025,DOO,26
+Saudi Arabia,2025,DOO,27
+Saudi Arabia,2025,DOO,28
+Saudi Arabia,2025,DOO,29
+Saudi Arabia,2025,DOO,30
+Saudi Arabia,2025,DOO,31
+Saudi Arabia,2025,DOO,34
+Saudi Arabia,2025,DOO,35
+Saudi Arabia,2025,DOO,36
+Saudi Arabia,2025,DOO,37
+Saudi Arabia,2025,DOO,38
+Saudi Arabia,2025,DOO,39
+Saudi Arabia,2025,DOO,40
+Saudi Arabia,2025,DOO,41
+Saudi Arabia,2025,DOO,42
+Saudi Arabia,2025,DOO,43
+Saudi Arabia,2025,DOO,44
+Saudi Arabia,2025,DOO,45
+Las Vegas,2024,MAG,19
+Las Vegas,2024,MAG,20
+Las Vegas,2024,MAG,21
+Las Vegas,2024,MAG,22
+Las Vegas,2024,MAG,23
+Las Vegas,2024,MAG,24
+Las Vegas,2024,MAG,25
+Las Vegas,2024,MAG,26
+Las Vegas,2024,MAG,27
+Las Vegas,2024,MAG,28
+Las Vegas,2024,MAG,29
+Las Vegas,2024,MAG,30
+Las Vegas,2024,MAG,31
+Las Vegas,2024,MAG,32
+Las Vegas,2024,MAG,33
+Las Vegas,2024,MAG,34
+Las Vegas,2024,MAG,35
+Las Vegas,2024,MAG,36
+Las Vegas,2024,MAG,37
+Las Vegas,2024,MAG,38
+Las Vegas,2024,MAG,39
+Las Vegas,2024,MAG,40
+Las Vegas,2024,MAG,41
+Las Vegas,2024,MAG,42
+Las Vegas,2024,MAG,43
+Las Vegas,2024,MAG,44
+Las Vegas,2024,MAG,45
+Las Vegas,2024,MAG,46
+Abu Dhabi,2024,ALO,21
+Abu Dhabi,2024,ALO,22
+Abu Dhabi,2024,ALO,23
+Abu Dhabi,2024,ALO,24
+Abu Dhabi,2024,ALO,25
+Abu Dhabi,2024,ALO,26
+Abu Dhabi,2024,ALO,27
+Abu Dhabi,2024,ALO,28
+Abu Dhabi,2024,ALO,29
+Abu Dhabi,2024,ALO,31
+Abu Dhabi,2024,ALO,32
+Abu Dhabi,2024,ALO,33
+Abu Dhabi,2024,ALO,34
+Abu Dhabi,2024,ALO,35
+Abu Dhabi,2024,ALO,36
+Abu Dhabi,2024,ALO,39
+Abu Dhabi,2024,ALO,40
+Abu Dhabi,2024,ALO,41
+Abu Dhabi,2024,ALO,42
+Abu Dhabi,2024,ALO,43
+Abu Dhabi,2024,ALO,44
+Abu Dhabi,2024,ALO,45
+Abu Dhabi,2024,ALO,46
+Abu Dhabi,2024,ALO,47
+Abu Dhabi,2024,ALO,48
+Abu Dhabi,2024,ALO,49
+Abu Dhabi,2024,ALO,50
+Abu Dhabi,2024,ALO,51
+Abu Dhabi,2024,ALO,52
+Abu Dhabi,2024,ALO,53
+Australia,2024,GAS,19
+Australia,2024,GAS,20
+Australia,2024,GAS,21
+Australia,2024,GAS,22
+Australia,2024,GAS,23
+Australia,2024,GAS,24
+Australia,2024,GAS,25
+Australia,2024,GAS,26
+Australia,2024,GAS,27
+Australia,2024,GAS,28
+Australia,2024,GAS,29
+Australia,2024,GAS,30
+Australia,2024,GAS,31
+Australia,2024,GAS,32
+Australia,2024,GAS,33
+Australia,2024,GAS,34
+Australia,2024,GAS,35
+Australia,2024,GAS,36
+Australia,2024,GAS,37
+Australia,2024,GAS,38
+Australia,2024,GAS,39
+Australia,2024,GAS,40
+Australia,2024,GAS,43
+Australia,2024,GAS,44
+Australia,2024,GAS,45
+Australia,2024,GAS,46
+Australia,2024,GAS,47
+Australia,2024,GAS,48
+Australia,2024,GAS,49
+Australia,2024,GAS,50
+Australia,2024,GAS,51
+Monaco,2025,TSU,24
+Monaco,2025,TSU,25
+Monaco,2025,TSU,26
+Monaco,2025,TSU,27
+Monaco,2025,TSU,28
+Monaco,2025,TSU,29
+Monaco,2025,TSU,30
+Monaco,2025,TSU,31
+Monaco,2025,TSU,32
+Monaco,2025,TSU,33
+Monaco,2025,TSU,34
+Monaco,2025,TSU,35
+Monaco,2025,TSU,36
+Monaco,2025,TSU,38
+Monaco,2025,TSU,39
+Monaco,2025,TSU,40
+Monaco,2025,TSU,41
+Monaco,2025,TSU,42
+Monaco,2025,TSU,43
+Monaco,2025,TSU,44
+Monaco,2025,TSU,45
+Monaco,2025,TSU,46
+Monaco,2025,TSU,47
+Monaco,2025,TSU,48
+Monaco,2025,TSU,49
+Monaco,2025,TSU,50
+Monaco,2025,TSU,51
+Monaco,2025,TSU,52
+Monaco,2025,TSU,53
+Monaco,2025,TSU,54
+Monaco,2025,TSU,55
+Monaco,2025,TSU,56
+Monaco,2025,TSU,57
+Monaco,2025,TSU,58
+Monaco,2025,TSU,59
+Monaco,2025,TSU,60
+Monaco,2025,TSU,61
+Monaco,2025,TSU,62
+Monaco,2025,TSU,63
+Monaco,2025,TSU,64
+Monaco,2025,TSU,65
+Monaco,2025,TSU,66
+Monaco,2025,TSU,67
+Monaco,2025,TSU,68
+Monaco,2025,TSU,69
+Monaco,2025,TSU,70
+Mexico City,2024,BOT,22
+Mexico City,2024,BOT,23
+Mexico City,2024,BOT,24
+Mexico City,2024,BOT,25
+Mexico City,2024,BOT,26
+Mexico City,2024,BOT,27
+Mexico City,2024,BOT,28
+Mexico City,2024,BOT,29
+Mexico City,2024,BOT,30
+Mexico City,2024,BOT,31
+Mexico City,2024,BOT,32
+Mexico City,2024,BOT,33
+Mexico City,2024,BOT,34
+Mexico City,2024,BOT,35
+Mexico City,2024,BOT,36
+Mexico City,2024,BOT,37
+Mexico City,2024,BOT,38
+Mexico City,2024,BOT,39
+Mexico City,2024,BOT,40
+Mexico City,2024,BOT,41
+Mexico City,2024,BOT,42
+Mexico City,2024,BOT,43
+Mexico City,2024,BOT,44
+Mexico City,2024,BOT,45
+Mexico City,2024,BOT,46
+Mexico City,2024,BOT,47
+Mexico City,2024,BOT,48
+Mexico City,2024,BOT,51
+Mexico City,2024,BOT,52
+Mexico City,2024,BOT,53
+Mexico City,2024,BOT,54
+Mexico City,2024,BOT,55
+Mexico City,2024,BOT,56
+Mexico City,2024,BOT,57
+Mexico City,2024,BOT,58
+Mexico City,2024,BOT,59
+Mexico City,2024,BOT,60
+Mexico City,2024,BOT,61
+Mexico City,2024,BOT,62
+Mexico City,2024,BOT,63
+Mexico City,2024,BOT,64
+Mexico City,2024,BOT,65
+Mexico City,2024,BOT,66
+Bahrain,2025,ALB,19
+Bahrain,2025,ALB,20
+Bahrain,2025,ALB,21
+Bahrain,2025,ALB,22
+Bahrain,2025,ALB,23
+Bahrain,2025,ALB,24
+Bahrain,2025,ALB,25
+Bahrain,2025,ALB,26
+Bahrain,2025,ALB,27
+Bahrain,2025,ALB,28
+Bahrain,2025,ALB,29
+Bahrain,2025,ALB,30
+Bahrain,2025,ALB,31
+Bahrain,2025,ALB,36
+Bahrain,2025,ALB,37
+Bahrain,2025,ALB,38
+Bahrain,2025,ALB,39
+Bahrain,2025,ALB,40
+Bahrain,2025,ALB,41
+Bahrain,2025,ALB,42
+Bahrain,2025,ALB,43
+Bahrain,2025,ALB,44
+Bahrain,2025,ALB,45
+Bahrain,2025,ALB,46
+Bahrain,2025,ALB,47
+Bahrain,2025,ALB,48
+Bahrain,2025,ALB,49
+Bahrain,2025,ALB,50
+Bahrain,2025,ALB,51
+Bahrain,2025,ALB,52
+Bahrain,2025,ALB,53
+Spain,2025,ANT,17
+Spain,2025,ANT,18
+Spain,2025,ANT,19
+Spain,2025,ANT,20
+Spain,2025,ANT,23
+Spain,2025,ANT,24
+Spain,2025,ANT,25
+Spain,2025,ANT,26
+Spain,2025,ANT,27
+Spain,2025,ANT,28
+Spain,2025,ANT,29
+Spain,2025,ANT,30
+Spain,2025,ANT,31
+Spain,2025,ANT,32
+Spain,2025,ANT,33
+Spain,2025,ANT,34
+Spain,2025,ANT,35
+Spain,2025,ANT,36
+Spain,2025,ANT,37
+Spain,2025,ANT,38
+Spain,2025,ANT,39
+Spain,2025,ANT,40
+Spain,2025,ANT,41
+Spain,2025,ANT,42
+Spain,2025,ANT,43
+Spain,2025,ANT,44
+Spain,2025,ANT,45
+Spain,2025,ANT,46
+Spain,2025,ANT,47
+Spain,2025,PIA,17
+Spain,2025,PIA,18
+Spain,2025,PIA,19
+Spain,2025,PIA,20
+Spain,2025,PIA,21
+Spain,2025,PIA,24
+Spain,2025,PIA,25
+Spain,2025,PIA,26
+Spain,2025,PIA,27
+Spain,2025,PIA,28
+Spain,2025,PIA,29
+Spain,2025,PIA,30
+Spain,2025,PIA,31
+Spain,2025,PIA,32
+Spain,2025,PIA,33
+Spain,2025,PIA,34
+Spain,2025,PIA,35
+Spain,2025,PIA,36
+Spain,2025,PIA,37
+Spain,2025,PIA,38
+Spain,2025,PIA,39
+Spain,2025,PIA,40
+Spain,2025,PIA,41
+Spain,2025,PIA,42
+Spain,2025,PIA,43
+Spain,2025,PIA,44
+Spain,2025,PIA,45
+Spain,2025,PIA,46
+Spain,2025,PIA,47
+Spain,2025,PIA,48
+Spain,2025,PIA,51
+Spain,2025,PIA,52
+Spain,2025,PIA,53
+Spain,2025,PIA,54
+Spain,2025,PIA,61
+Spain,2025,PIA,62
+Austria,2024,GAS,17
+Austria,2024,GAS,18
+Austria,2024,GAS,19
+Austria,2024,GAS,22
+Austria,2024,GAS,23
+Austria,2024,GAS,24
+Austria,2024,GAS,25
+Austria,2024,GAS,26
+Austria,2024,GAS,27
+Austria,2024,GAS,28
+Austria,2024,GAS,29
+Austria,2024,GAS,30
+Austria,2024,GAS,31
+Austria,2024,GAS,32
+Austria,2024,GAS,33
+Austria,2024,GAS,34
+Austria,2024,GAS,35
+Austria,2024,GAS,36
+Austria,2024,GAS,37
+Austria,2024,GAS,38
+Austria,2024,GAS,39
+Austria,2024,GAS,40
+Austria,2024,GAS,41
+Austria,2024,GAS,44
+Austria,2024,GAS,45
+Austria,2024,GAS,46
+Austria,2024,GAS,47
+Austria,2024,GAS,48
+Austria,2024,GAS,49
+Austria,2024,GAS,50
+Austria,2024,GAS,51
+Austria,2024,GAS,52
+Austria,2024,GAS,53
+Austria,2024,GAS,54
+Austria,2024,GAS,55
+Austria,2024,GAS,56
+Austria,2024,GAS,57
+Austria,2024,GAS,58
+Austria,2024,GAS,59
+Austria,2024,GAS,60
+Austria,2024,GAS,61
+Austria,2024,GAS,62
+Austria,2024,GAS,64
+Austria,2024,GAS,67
+Emilia Romagna,2024,RIC,19
+Emilia Romagna,2024,RIC,20
+Emilia Romagna,2024,RIC,21
+Emilia Romagna,2024,RIC,22
+Emilia Romagna,2024,RIC,23
+Emilia Romagna,2024,RIC,24
+Emilia Romagna,2024,RIC,25
+Emilia Romagna,2024,RIC,26
+Emilia Romagna,2024,RIC,27
+Emilia Romagna,2024,RIC,28
+Emilia Romagna,2024,RIC,29
+Emilia Romagna,2024,RIC,30
+Emilia Romagna,2024,RIC,31
+Emilia Romagna,2024,RIC,32
+Emilia Romagna,2024,RIC,33
+Emilia Romagna,2024,RIC,34
+Emilia Romagna,2024,RIC,35
+Emilia Romagna,2024,RIC,36
+Emilia Romagna,2024,RIC,37
+Emilia Romagna,2024,RIC,38
+Emilia Romagna,2024,RIC,39
+Emilia Romagna,2024,RIC,40
+Emilia Romagna,2024,RIC,41
+Emilia Romagna,2024,RIC,42
+Emilia Romagna,2024,RIC,43
+Emilia Romagna,2024,RIC,44
+Emilia Romagna,2024,RIC,45
+Emilia Romagna,2024,RIC,46
+Emilia Romagna,2024,RIC,47
+Emilia Romagna,2024,RIC,48
+Emilia Romagna,2024,RIC,49
+Emilia Romagna,2024,RIC,50
+Emilia Romagna,2024,RIC,51
+Emilia Romagna,2024,RIC,52
+Emilia Romagna,2024,RIC,53
+Emilia Romagna,2024,RIC,54
+Emilia Romagna,2024,RIC,55
+Emilia Romagna,2024,RIC,56
+Emilia Romagna,2024,RIC,57
+Emilia Romagna,2024,RIC,58
+China,2025,RUS,21
+China,2025,RUS,22
+China,2025,RUS,23
+China,2025,RUS,24
+China,2025,RUS,25
+China,2025,RUS,26
+China,2025,RUS,27
+China,2025,RUS,28
+China,2025,RUS,29
+China,2025,RUS,30
+China,2025,RUS,31
+China,2025,RUS,32
+China,2025,RUS,33
+China,2025,RUS,34
+China,2025,RUS,35
+China,2025,RUS,36
+China,2025,RUS,37
+China,2025,RUS,38
+China,2025,RUS,39
+China,2025,RUS,40
+China,2025,RUS,41
+China,2025,RUS,42
+China,2025,RUS,43
+China,2025,RUS,44
+China,2025,RUS,45
+China,2025,RUS,46
+China,2025,RUS,47
+China,2025,RUS,48
+China,2025,RUS,49
+China,2025,RUS,50
+China,2025,RUS,51
+China,2025,RUS,52
+Las Vegas,2024,OCO,20
+Las Vegas,2024,OCO,21
+Las Vegas,2024,OCO,22
+Las Vegas,2024,OCO,23
+Las Vegas,2024,OCO,24
+Las Vegas,2024,OCO,25
+Las Vegas,2024,OCO,26
+Las Vegas,2024,OCO,27
+Las Vegas,2024,OCO,28
+Las Vegas,2024,OCO,29
+Las Vegas,2024,OCO,30
+Las Vegas,2024,OCO,31
+Las Vegas,2024,OCO,32
+Las Vegas,2024,OCO,33
+Las Vegas,2024,OCO,34
+Las Vegas,2024,OCO,35
+Las Vegas,2024,OCO,36
+Las Vegas,2024,OCO,37
+Las Vegas,2024,OCO,38
+Las Vegas,2024,OCO,39
+Las Vegas,2024,OCO,40
+Las Vegas,2024,OCO,41
+Las Vegas,2024,OCO,42
+Las Vegas,2024,OCO,43
+Japan,2025,TSU,17
+Japan,2025,TSU,18
+Japan,2025,TSU,19
+Japan,2025,TSU,20
+Japan,2025,TSU,21
+Japan,2025,TSU,22
+Japan,2025,TSU,25
+Japan,2025,TSU,26
+Japan,2025,TSU,27
+Japan,2025,TSU,28
+Japan,2025,TSU,29
+Japan,2025,TSU,30
+Japan,2025,TSU,31
+Japan,2025,TSU,32
+Japan,2025,TSU,33
+Japan,2025,TSU,34
+Japan,2025,TSU,35
+Japan,2025,TSU,36
+Japan,2025,TSU,37
+Japan,2025,TSU,38
+Japan,2025,TSU,39
+Japan,2025,TSU,40
+Japan,2025,TSU,41
+Japan,2025,TSU,42
+Japan,2025,TSU,43
+Japan,2025,TSU,44
+Japan,2025,TSU,45
+Japan,2025,TSU,46
+Japan,2025,TSU,47
+Japan,2025,TSU,48
+Japan,2025,TSU,49
+Saudi Arabia,2024,NOR,21
+Saudi Arabia,2024,NOR,22
+Saudi Arabia,2024,NOR,23
+Saudi Arabia,2024,NOR,24
+Saudi Arabia,2024,NOR,25
+Saudi Arabia,2024,NOR,26
+Saudi Arabia,2024,NOR,27
+Saudi Arabia,2024,NOR,28
+Saudi Arabia,2024,NOR,29
+Saudi Arabia,2024,NOR,30
+Saudi Arabia,2024,NOR,31
+Saudi Arabia,2024,NOR,32
+Saudi Arabia,2024,NOR,33
+Saudi Arabia,2024,NOR,34
+Saudi Arabia,2024,NOR,35
+Saudi Arabia,2024,NOR,36
+Saudi Arabia,2024,NOR,39
+Saudi Arabia,2024,NOR,40
+Saudi Arabia,2024,NOR,41
+Saudi Arabia,2024,NOR,42
+Saudi Arabia,2024,NOR,43
+Saudi Arabia,2024,NOR,44
+Saudi Arabia,2024,NOR,45
+Saudi Arabia,2024,NOR,46
+São Paulo,2024,PER,19
+São Paulo,2024,PER,20
+São Paulo,2024,PER,21
+São Paulo,2024,PER,22
+São Paulo,2024,PER,23
+São Paulo,2024,PER,24
+São Paulo,2024,PER,26
+São Paulo,2024,PER,29
+São Paulo,2024,PER,34
+São Paulo,2024,PER,35
+São Paulo,2024,PER,37
+São Paulo,2024,PER,45
+São Paulo,2024,PER,46
+São Paulo,2024,PER,47
+São Paulo,2024,PER,48
+São Paulo,2024,PER,49
+São Paulo,2024,PER,50
+São Paulo,2024,PER,52
+São Paulo,2024,PER,53
+São Paulo,2024,PER,54
+São Paulo,2024,PER,55
+São Paulo,2024,PER,56
+São Paulo,2024,PER,57
+São Paulo,2024,PER,58
+São Paulo,2024,PER,59
+São Paulo,2024,PER,60
+São Paulo,2024,PER,61
+São Paulo,2024,PER,62
+São Paulo,2024,PER,63
+São Paulo,2024,PER,64
+São Paulo,2024,PER,65
+Mexico City,2024,STR,22
+Mexico City,2024,STR,23
+Mexico City,2024,STR,24
+Mexico City,2024,STR,25
+Mexico City,2024,STR,28
+Mexico City,2024,STR,29
+Mexico City,2024,STR,30
+Mexico City,2024,STR,31
+Mexico City,2024,STR,32
+Mexico City,2024,STR,33
+Mexico City,2024,STR,34
+Mexico City,2024,STR,35
+Mexico City,2024,STR,36
+Mexico City,2024,STR,37
+Mexico City,2024,STR,38
+Mexico City,2024,STR,39
+Mexico City,2024,STR,40
+Mexico City,2024,STR,41
+Mexico City,2024,STR,42
+Mexico City,2024,STR,43
+Mexico City,2024,STR,44
+Mexico City,2024,STR,45
+Mexico City,2024,STR,46
+Mexico City,2024,STR,47
+Mexico City,2024,STR,48
+Mexico City,2024,STR,49
+Mexico City,2024,STR,50
+Mexico City,2024,STR,51
+Mexico City,2024,STR,52
+Mexico City,2024,STR,53
+Mexico City,2024,STR,54
+Mexico City,2024,STR,55
+Mexico City,2024,STR,56
+Mexico City,2024,STR,57
+Mexico City,2024,STR,58
+Mexico City,2024,STR,59
+Mexico City,2024,STR,60
+Mexico City,2024,STR,61
+Mexico City,2024,STR,62
+Mexico City,2024,STR,63
+Mexico City,2024,STR,64
+Mexico City,2024,STR,65
+Mexico City,2024,STR,66
+Netherlands,2024,HUL,19
+Netherlands,2024,HUL,20
+Netherlands,2024,HUL,21
+Netherlands,2024,HUL,22
+Netherlands,2024,HUL,23
+Netherlands,2024,HUL,24
+Netherlands,2024,HUL,25
+Netherlands,2024,HUL,26
+Netherlands,2024,HUL,27
+Netherlands,2024,HUL,28
+Netherlands,2024,HUL,29
+Netherlands,2024,HUL,30
+Netherlands,2024,HUL,31
+Netherlands,2024,HUL,32
+Netherlands,2024,HUL,33
+Netherlands,2024,HUL,34
+Netherlands,2024,HUL,35
+Netherlands,2024,HUL,36
+Netherlands,2024,HUL,37
+Netherlands,2024,HUL,38
+Netherlands,2024,HUL,39
+Netherlands,2024,HUL,40
+Netherlands,2024,HUL,41
+Netherlands,2024,HUL,42
+Netherlands,2024,HUL,43
+Netherlands,2024,HUL,44
+Netherlands,2024,HUL,45
+Netherlands,2024,HUL,46
+Netherlands,2024,HUL,47
+Netherlands,2024,HUL,48
+Netherlands,2024,HUL,49
+Netherlands,2024,HUL,50
+Netherlands,2024,HUL,51
+Netherlands,2024,HUL,52
+Netherlands,2024,HUL,53
+Netherlands,2024,HUL,54
+Netherlands,2024,HUL,55
+Netherlands,2024,HUL,56
+Netherlands,2024,HUL,57
+Netherlands,2024,HUL,58
+Netherlands,2024,HUL,59
+Netherlands,2024,HUL,60
+Netherlands,2024,HUL,61
+Netherlands,2024,HUL,62
+Netherlands,2024,HUL,63
+Netherlands,2024,HUL,64
+Netherlands,2024,HUL,65
+Netherlands,2024,HUL,66
+Netherlands,2024,HUL,67
+São Paulo,2025,ANT,26
+São Paulo,2025,ANT,27
+São Paulo,2025,ANT,28
+São Paulo,2025,ANT,29
+São Paulo,2025,ANT,30
+São Paulo,2025,ANT,31
+São Paulo,2025,ANT,32
+São Paulo,2025,ANT,33
+São Paulo,2025,ANT,34
+São Paulo,2025,ANT,35
+São Paulo,2025,ANT,36
+São Paulo,2025,ANT,37
+São Paulo,2025,ANT,38
+São Paulo,2025,ANT,39
+São Paulo,2025,ANT,40
+São Paulo,2025,ANT,41
+São Paulo,2025,ANT,42
+São Paulo,2025,ANT,43
+São Paulo,2025,ANT,44
+São Paulo,2025,ANT,45
+São Paulo,2025,ANT,46
+São Paulo,2025,ANT,49
+São Paulo,2025,ANT,50
+São Paulo,2025,ANT,51
+São Paulo,2025,ANT,52
+São Paulo,2025,ANT,53
+São Paulo,2025,ANT,54
+São Paulo,2025,ANT,55
+São Paulo,2025,ANT,56
+São Paulo,2025,ANT,57
+São Paulo,2025,ANT,58
+São Paulo,2025,ANT,59
+São Paulo,2025,ANT,60
+São Paulo,2025,ANT,61
+São Paulo,2025,ANT,62
+São Paulo,2025,ANT,63
+São Paulo,2025,ANT,64
+São Paulo,2025,ANT,65
+São Paulo,2025,ANT,66
+São Paulo,2025,ANT,67
+Monaco,2025,ALB,24
+Monaco,2025,ALB,25
+Monaco,2025,ALB,26
+Monaco,2025,ALB,27
+Monaco,2025,ALB,28
+Monaco,2025,ALB,29
+Monaco,2025,ALB,30
+Monaco,2025,ALB,31
+Monaco,2025,ALB,34
+Monaco,2025,ALB,35
+Monaco,2025,ALB,36
+Monaco,2025,ALB,38
+Monaco,2025,ALB,39
+Monaco,2025,ALB,42
+Monaco,2025,ALB,43
+Monaco,2025,ALB,44
+Monaco,2025,ALB,45
+Monaco,2025,ALB,46
+Monaco,2025,ALB,47
+Monaco,2025,ALB,48
+Monaco,2025,ALB,49
+Monaco,2025,ALB,50
+Monaco,2025,ALB,51
+Monaco,2025,ALB,52
+Monaco,2025,ALB,53
+Monaco,2025,ALB,54
+Monaco,2025,ALB,55
+Monaco,2025,ALB,56
+Monaco,2025,ALB,57
+Monaco,2025,ALB,58
+Monaco,2025,ALB,59
+Monaco,2025,ALB,60
+Monaco,2025,ALB,61
+Monaco,2025,ALB,62
+Monaco,2025,ALB,63
+Monaco,2025,ALB,64
+Monaco,2025,ALB,65
+Monaco,2025,ALB,66
+Monaco,2025,ALB,67
+Monaco,2025,ALB,68
+Monaco,2025,ALB,69
+Monaco,2025,ALB,70
+Monaco,2025,ALB,71
+Monaco,2025,ALB,72
+China,2025,HUL,22
+China,2025,HUL,23
+China,2025,HUL,24
+China,2025,HUL,25
+China,2025,HUL,26
+China,2025,HUL,27
+China,2025,HUL,28
+China,2025,HUL,29
+China,2025,HUL,30
+China,2025,HUL,31
+China,2025,HUL,32
+China,2025,HUL,33
+China,2025,HUL,34
+China,2025,HUL,35
+China,2025,HUL,36
+China,2025,HUL,37
+China,2025,HUL,38
+China,2025,HUL,39
+China,2025,HUL,40
+China,2025,HUL,41
+China,2025,HUL,42
+China,2025,HUL,43
+China,2025,HUL,44
+China,2025,HUL,45
+China,2025,HUL,46
+China,2025,HUL,47
+China,2025,HUL,48
+China,2025,HUL,49
+China,2025,HUL,50
+China,2025,HUL,51
+Singapore,2025,NOR,18
+Singapore,2025,NOR,19
+Singapore,2025,NOR,20
+Singapore,2025,NOR,21
+Singapore,2025,NOR,22
+Singapore,2025,NOR,23
+Singapore,2025,NOR,24
+Singapore,2025,NOR,25
+Singapore,2025,NOR,28
+Singapore,2025,NOR,29
+Singapore,2025,NOR,30
+Singapore,2025,NOR,31
+Singapore,2025,NOR,32
+Singapore,2025,NOR,33
+Singapore,2025,NOR,34
+Singapore,2025,NOR,35
+Singapore,2025,NOR,36
+Singapore,2025,NOR,37
+Singapore,2025,NOR,38
+Singapore,2025,NOR,39
+Singapore,2025,NOR,40
+Singapore,2025,NOR,41
+Singapore,2025,NOR,42
+Singapore,2025,NOR,43
+Singapore,2025,NOR,44
+Singapore,2025,NOR,46
+Singapore,2025,NOR,47
+Singapore,2025,NOR,48
+Singapore,2025,NOR,49
+Singapore,2025,NOR,50
+Singapore,2025,NOR,51
+Singapore,2025,NOR,52
+Singapore,2025,NOR,53
+Singapore,2025,NOR,54
+Singapore,2025,NOR,55
+Singapore,2025,NOR,56
+Singapore,2025,NOR,57
+Singapore,2025,NOR,58
+Belgium,2025,GAS,22
+Belgium,2025,GAS,23
+Belgium,2025,GAS,24
+Belgium,2025,GAS,25
+Belgium,2025,GAS,26
+Belgium,2025,GAS,27
+Belgium,2025,GAS,28
+Belgium,2025,GAS,29
+Belgium,2025,GAS,30
+Belgium,2025,GAS,31
+Belgium,2025,GAS,32
+Belgium,2025,GAS,33
+Belgium,2025,GAS,34
+Belgium,2025,GAS,35
+Belgium,2025,GAS,36
+Belgium,2025,GAS,37
+Belgium,2025,GAS,38
+Belgium,2025,GAS,39
+Belgium,2025,GAS,40
+Mexico City,2025,HUL,19
+Mexico City,2025,HUL,20
+United States,2024,NOR,21
+United States,2024,NOR,22
+United States,2024,NOR,23
+United States,2024,NOR,24
+United States,2024,NOR,25
+United States,2024,NOR,26
+United States,2024,NOR,27
+United States,2024,NOR,28
+United States,2024,NOR,29
+United States,2024,NOR,30
+United States,2024,NOR,33
+United States,2024,NOR,34
+United States,2024,NOR,35
+United States,2024,NOR,36
+United States,2024,NOR,37
+United States,2024,NOR,38
+United States,2024,NOR,39
+United States,2024,NOR,40
+United States,2024,NOR,42
+United States,2024,NOR,43
+United States,2024,NOR,44
+United States,2024,NOR,45
+United States,2024,NOR,46
+United States,2024,NOR,47
+United States,2024,NOR,48
+United States,2024,NOR,49
+United States,2024,NOR,50
+United States,2024,NOR,51
+United States,2024,NOR,52
+Netherlands,2025,SAI,17
+Netherlands,2025,SAI,18
+Netherlands,2025,SAI,19
+Netherlands,2025,SAI,20
+Netherlands,2025,SAI,21
+Netherlands,2025,SAI,22
+Netherlands,2025,SAI,29
+Netherlands,2025,SAI,32
+Netherlands,2025,SAI,33
+Netherlands,2025,SAI,35
+Netherlands,2025,SAI,36
+Netherlands,2025,SAI,37
+Netherlands,2025,SAI,38
+Netherlands,2025,SAI,39
+Netherlands,2025,SAI,40
+Netherlands,2025,SAI,41
+Netherlands,2025,SAI,42
+Netherlands,2025,SAI,43
+Netherlands,2025,SAI,44
+Netherlands,2025,SAI,45
+Netherlands,2025,SAI,46
+Netherlands,2025,SAI,47
+Netherlands,2025,SAI,48
+Netherlands,2025,SAI,49
+Netherlands,2025,SAI,50
+Netherlands,2025,SAI,58
+Netherlands,2025,SAI,59
+Netherlands,2025,SAI,60
+Netherlands,2025,SAI,61
+Netherlands,2025,SAI,62
+Netherlands,2025,SAI,63
+Netherlands,2025,SAI,64
+Emilia Romagna,2024,STR,17
+Emilia Romagna,2024,STR,18
+Emilia Romagna,2024,STR,19
+Emilia Romagna,2024,STR,20
+Emilia Romagna,2024,STR,21
+Emilia Romagna,2024,STR,22
+Emilia Romagna,2024,STR,23
+Emilia Romagna,2024,STR,24
+Emilia Romagna,2024,STR,25
+Emilia Romagna,2024,STR,26
+Emilia Romagna,2024,STR,27
+Emilia Romagna,2024,STR,28
+Emilia Romagna,2024,STR,29
+Emilia Romagna,2024,STR,30
+Emilia Romagna,2024,STR,31
+Emilia Romagna,2024,STR,32
+Emilia Romagna,2024,STR,33
+Emilia Romagna,2024,STR,34
+Emilia Romagna,2024,STR,35
+Emilia Romagna,2024,STR,36
+Emilia Romagna,2024,STR,39
+Emilia Romagna,2024,STR,40
+Emilia Romagna,2024,STR,41
+Emilia Romagna,2024,STR,42
+Emilia Romagna,2024,STR,43
+Emilia Romagna,2024,STR,44
+Emilia Romagna,2024,STR,45
+Emilia Romagna,2024,STR,46
+Emilia Romagna,2024,STR,47
+Emilia Romagna,2024,STR,48
+Emilia Romagna,2024,STR,49
+Emilia Romagna,2024,STR,50
+Emilia Romagna,2024,STR,51
+Emilia Romagna,2024,STR,52
+Emilia Romagna,2024,STR,53
+Emilia Romagna,2024,STR,54
+Emilia Romagna,2024,STR,55
+Emilia Romagna,2024,STR,56
+Emilia Romagna,2024,STR,57
+Emilia Romagna,2024,STR,58
+Emilia Romagna,2024,STR,59
+Australia,2025,ALO,23
+Australia,2025,ALO,24
+Australia,2025,ALO,25
+Australia,2025,ALO,26
+Australia,2025,ALO,27
+Australia,2025,ALO,28
+Spain,2024,HAM,19
+Spain,2024,HAM,20
+Spain,2024,HAM,21
+Spain,2024,HAM,22
+Spain,2024,HAM,23
+Spain,2024,HAM,24
+Spain,2024,HAM,25
+Spain,2024,HAM,26
+Spain,2024,HAM,27
+Spain,2024,HAM,28
+Spain,2024,HAM,29
+Spain,2024,HAM,30
+Spain,2024,HAM,31
+Spain,2024,HAM,32
+Spain,2024,HAM,33
+Spain,2024,HAM,34
+Spain,2024,HAM,35
+Spain,2024,HAM,36
+Spain,2024,HAM,37
+Spain,2024,HAM,38
+Spain,2024,HAM,39
+Spain,2024,HAM,40
+Spain,2024,HAM,41
+Spain,2024,HAM,42
+Spain,2024,HAM,45
+Spain,2024,HAM,46
+Spain,2024,HAM,47
+Spain,2024,HAM,48
+Spain,2024,HAM,49
+Spain,2024,HAM,50
+Spain,2024,HAM,51
+Spain,2024,HAM,52
+Spain,2024,HAM,53
+Spain,2024,HAM,54
+Spain,2024,HAM,55
+Spain,2024,HAM,56
+Spain,2024,HAM,57
+Spain,2024,HAM,58
+Spain,2024,HAM,59
+Spain,2024,HAM,60
+Spain,2024,HAM,61
+Spain,2024,HAM,62
+Mexico City,2024,LEC,22
+Mexico City,2024,LEC,23
+Mexico City,2024,LEC,24
+Mexico City,2024,LEC,25
+Mexico City,2024,LEC,26
+Mexico City,2024,LEC,27
+Mexico City,2024,LEC,28
+Mexico City,2024,LEC,29
+Mexico City,2024,LEC,30
+Mexico City,2024,LEC,33
+Mexico City,2024,LEC,34
+Mexico City,2024,LEC,35
+Mexico City,2024,LEC,36
+Mexico City,2024,LEC,37
+Mexico City,2024,LEC,38
+Mexico City,2024,LEC,39
+Mexico City,2024,LEC,40
+Mexico City,2024,LEC,41
+Mexico City,2024,LEC,42
+Mexico City,2024,LEC,43
+Mexico City,2024,LEC,44
+Mexico City,2024,LEC,45
+Mexico City,2024,LEC,46
+Mexico City,2024,LEC,47
+Mexico City,2024,LEC,48
+Mexico City,2024,LEC,49
+Mexico City,2024,LEC,50
+Mexico City,2024,LEC,51
+Mexico City,2024,LEC,52
+Mexico City,2024,LEC,53
+Mexico City,2024,LEC,54
+Mexico City,2024,LEC,55
+Mexico City,2024,LEC,56
+Mexico City,2024,LEC,57
+Mexico City,2024,LEC,58
+Mexico City,2024,LEC,59
+Mexico City,2024,LEC,60
+Mexico City,2024,LEC,61
+Mexico City,2024,LEC,62
+Mexico City,2024,LEC,63
+Mexico City,2024,LEC,64
+Mexico City,2024,LEC,65
+China,2024,NOR,17
+China,2024,NOR,18
+China,2024,NOR,19
+China,2024,NOR,20
+China,2024,NOR,32
+China,2024,NOR,33
+China,2024,NOR,34
+China,2024,NOR,35
+China,2024,NOR,36
+China,2024,NOR,37
+China,2024,NOR,38
+China,2024,NOR,39
+China,2024,NOR,40
+China,2024,NOR,41
+China,2024,NOR,42
+China,2024,NOR,43
+China,2024,NOR,44
+China,2024,NOR,45
+China,2024,NOR,46
+China,2024,NOR,47
+China,2024,NOR,48
+China,2024,NOR,49
+China,2024,NOR,50
+China,2024,NOR,51
+China,2024,NOR,52
+Abu Dhabi,2024,STR,21
+Abu Dhabi,2024,STR,22
+Abu Dhabi,2024,STR,23
+Abu Dhabi,2024,STR,24
+Abu Dhabi,2024,STR,25
+Abu Dhabi,2024,STR,26
+Abu Dhabi,2024,STR,27
+Abu Dhabi,2024,STR,28
+Abu Dhabi,2024,STR,29
+Abu Dhabi,2024,STR,31
+Abu Dhabi,2024,STR,34
+Abu Dhabi,2024,STR,35
+Abu Dhabi,2024,STR,36
+Abu Dhabi,2024,STR,37
+Abu Dhabi,2024,STR,38
+Abu Dhabi,2024,STR,39
+Abu Dhabi,2024,STR,40
+Abu Dhabi,2024,STR,41
+Abu Dhabi,2024,STR,42
+Abu Dhabi,2024,STR,43
+Abu Dhabi,2024,STR,44
+Abu Dhabi,2024,STR,45
+Abu Dhabi,2024,STR,46
+Abu Dhabi,2024,STR,47
+Abu Dhabi,2024,STR,48
+Abu Dhabi,2024,STR,49
+Abu Dhabi,2024,STR,50
+Abu Dhabi,2024,STR,51
+Abu Dhabi,2024,STR,52
+Italy,2024,SAI,17
+Italy,2024,SAI,18
+Italy,2024,SAI,21
+Italy,2024,SAI,22
+Italy,2024,SAI,23
+Italy,2024,SAI,24
+Italy,2024,SAI,25
+Italy,2024,SAI,26
+Italy,2024,SAI,27
+Italy,2024,SAI,28
+Italy,2024,SAI,29
+Italy,2024,SAI,30
+Italy,2024,SAI,31
+Italy,2024,SAI,32
+Italy,2024,SAI,33
+Italy,2024,SAI,34
+Italy,2024,SAI,35
+Italy,2024,SAI,36
+Italy,2024,SAI,37
+Italy,2024,SAI,38
+Italy,2024,SAI,39
+Italy,2024,SAI,40
+Italy,2024,SAI,41
+Italy,2024,SAI,42
+Italy,2024,SAI,43
+Italy,2024,SAI,44
+Italy,2024,SAI,45
+Italy,2024,SAI,46
+Italy,2024,SAI,47
+Italy,2024,SAI,48
+Italy,2024,SAI,49
+Las Vegas,2024,PER,19
+Las Vegas,2024,PER,20
+Las Vegas,2024,PER,21
+Las Vegas,2024,PER,22
+Las Vegas,2024,PER,23
+Las Vegas,2024,PER,24
+Las Vegas,2024,PER,25
+Las Vegas,2024,PER,26
+Las Vegas,2024,PER,27
+Las Vegas,2024,PER,28
+Las Vegas,2024,PER,29
+Las Vegas,2024,PER,30
+Las Vegas,2024,PER,31
+Las Vegas,2024,PER,34
+Las Vegas,2024,PER,35
+Las Vegas,2024,PER,36
+Las Vegas,2024,PER,37
+Las Vegas,2024,PER,38
+Las Vegas,2024,PER,39
+Las Vegas,2024,PER,40
+Las Vegas,2024,PER,41
+Las Vegas,2024,PER,42
+Las Vegas,2024,PER,43
+Las Vegas,2024,PER,44
+Las Vegas,2024,PER,45
+Las Vegas,2024,PER,46
+São Paulo,2024,BOT,19
+São Paulo,2024,BOT,20
+São Paulo,2024,BOT,21
+São Paulo,2024,BOT,22
+São Paulo,2024,BOT,23
+São Paulo,2024,BOT,24
+São Paulo,2024,BOT,26
+São Paulo,2024,BOT,29
+São Paulo,2024,BOT,34
+São Paulo,2024,BOT,35
+São Paulo,2024,BOT,45
+São Paulo,2024,BOT,46
+São Paulo,2024,BOT,47
+São Paulo,2024,BOT,48
+São Paulo,2024,BOT,49
+São Paulo,2024,BOT,50
+São Paulo,2024,BOT,52
+São Paulo,2024,BOT,53
+São Paulo,2024,BOT,54
+São Paulo,2024,BOT,55
+São Paulo,2024,BOT,56
+São Paulo,2024,BOT,57
+São Paulo,2024,BOT,58
+São Paulo,2024,BOT,59
+São Paulo,2024,BOT,60
+São Paulo,2024,BOT,61
+São Paulo,2024,BOT,62
+São Paulo,2024,BOT,63
+São Paulo,2024,BOT,64
+São Paulo,2024,BOT,65
+Monaco,2025,BOR,24
+Monaco,2025,BOR,25
+Monaco,2025,BOR,28
+Monaco,2025,BOR,29
+Monaco,2025,BOR,30
+Monaco,2025,BOR,31
+Monaco,2025,BOR,32
+Monaco,2025,BOR,33
+Monaco,2025,BOR,34
+Monaco,2025,BOR,38
+Monaco,2025,BOR,39
+Monaco,2025,BOR,40
+Monaco,2025,BOR,41
+Monaco,2025,BOR,42
+Monaco,2025,BOR,43
+Monaco,2025,BOR,44
+Monaco,2025,BOR,45
+Monaco,2025,BOR,46
+Monaco,2025,BOR,47
+Monaco,2025,BOR,48
+Monaco,2025,BOR,49
+Monaco,2025,BOR,50
+Monaco,2025,BOR,51
+Monaco,2025,BOR,52
+Monaco,2025,BOR,53
+Monaco,2025,BOR,54
+Monaco,2025,BOR,55
+Monaco,2025,BOR,56
+Monaco,2025,BOR,57
+Monaco,2025,BOR,58
+Monaco,2025,BOR,59
+Monaco,2025,BOR,60
+Monaco,2025,BOR,61
+Monaco,2025,BOR,62
+Monaco,2025,BOR,63
+Monaco,2025,BOR,64
+Monaco,2025,BOR,65
+Monaco,2025,BOR,66
+Monaco,2025,BOR,67
+Monaco,2025,BOR,68
+Monaco,2025,BOR,69
+Monaco,2025,BOR,70
+Monaco,2025,BOR,71
+Monaco,2025,BOR,72
+Azerbaijan,2025,HUL,23
+Azerbaijan,2025,HUL,24
+Azerbaijan,2025,HUL,25
+Azerbaijan,2025,HUL,26
+Azerbaijan,2025,HUL,27
+Azerbaijan,2025,HUL,28
+Azerbaijan,2025,HUL,29
+Azerbaijan,2025,HUL,30
+Azerbaijan,2025,HUL,31
+Azerbaijan,2025,HUL,32
+Azerbaijan,2025,HUL,33
+Azerbaijan,2025,HUL,34
+Azerbaijan,2025,HUL,35
+Azerbaijan,2025,HUL,38
+Azerbaijan,2025,HUL,39
+Azerbaijan,2025,HUL,40
+Azerbaijan,2025,HUL,41
+Azerbaijan,2025,HUL,42
+Azerbaijan,2025,HUL,43
+Azerbaijan,2025,HUL,44
+Azerbaijan,2025,HUL,45
+Azerbaijan,2025,HUL,46
+Azerbaijan,2025,HUL,47
+Qatar,2025,LAW,21
+Qatar,2025,LAW,22
+Qatar,2025,LAW,23
+Qatar,2025,LAW,24
+Qatar,2025,LAW,25
+Qatar,2025,LAW,26
+Qatar,2025,LAW,27
+Qatar,2025,LAW,28
+Qatar,2025,LAW,29
+Qatar,2025,LAW,30
+Qatar,2025,LAW,31
+Qatar,2025,LAW,34
+Qatar,2025,LAW,35
+Qatar,2025,LAW,36
+Qatar,2025,LAW,37
+Qatar,2025,LAW,38
+Qatar,2025,LAW,39
+Qatar,2025,LAW,40
+Qatar,2025,LAW,41
+Qatar,2025,LAW,42
+Qatar,2025,LAW,43
+Qatar,2025,LAW,44
+Qatar,2025,LAW,45
+Qatar,2025,LAW,46
+Qatar,2025,LAW,47
+Qatar,2025,LAW,48
+Qatar,2025,LAW,49
+Qatar,2025,LAW,50
+Qatar,2025,LAW,51
+Qatar,2025,LAW,52
+Qatar,2025,LAW,53
+China,2025,GAS,22
+China,2025,GAS,23
+China,2025,GAS,24
+China,2025,GAS,25
+China,2025,GAS,26
+China,2025,GAS,27
+China,2025,GAS,28
+China,2025,GAS,29
+China,2025,GAS,30
+China,2025,GAS,31
+China,2025,GAS,32
+China,2025,GAS,33
+China,2025,GAS,34
+China,2025,GAS,35
+China,2025,GAS,36
+China,2025,GAS,37
+China,2025,GAS,38
+China,2025,GAS,39
+China,2025,GAS,40
+China,2025,GAS,41
+China,2025,GAS,42
+China,2025,GAS,43
+China,2025,GAS,44
+China,2025,GAS,45
+China,2025,GAS,46
+China,2025,GAS,47
+China,2025,GAS,48
+China,2025,GAS,49
+China,2025,GAS,50
+China,2025,GAS,51
+China,2025,GAS,52
+Italy,2025,SAI,17
+Italy,2025,SAI,18
+Italy,2025,SAI,19
+Italy,2025,SAI,20
+Italy,2025,SAI,21
+Italy,2025,SAI,22
+Italy,2025,SAI,23
+Italy,2025,SAI,24
+Italy,2025,SAI,25
+Italy,2025,SAI,26
+Italy,2025,SAI,27
+Italy,2025,SAI,28
+Italy,2025,SAI,29
+Italy,2025,SAI,32
+Italy,2025,SAI,33
+Italy,2025,SAI,34
+Italy,2025,SAI,35
+Italy,2025,SAI,36
+Italy,2025,SAI,37
+Italy,2025,SAI,38
+Italy,2025,SAI,39
+Italy,2025,SAI,41
+Italy,2025,SAI,42
+Italy,2025,SAI,43
+Italy,2025,SAI,44
+Italy,2025,SAI,45
+Italy,2025,SAI,46
+Italy,2025,SAI,47
+Italy,2025,SAI,48
+Italy,2025,SAI,49
+Las Vegas,2025,VER,21
+Las Vegas,2025,VER,22
+Las Vegas,2025,VER,23
+Las Vegas,2025,VER,24
+Las Vegas,2025,VER,27
+Las Vegas,2025,VER,28
+Las Vegas,2025,VER,29
+Las Vegas,2025,VER,30
+Las Vegas,2025,VER,31
+Las Vegas,2025,VER,32
+Las Vegas,2025,VER,33
+Las Vegas,2025,VER,34
+Las Vegas,2025,VER,35
+Las Vegas,2025,VER,36
+Las Vegas,2025,VER,37
+Las Vegas,2025,VER,38
+Las Vegas,2025,VER,39
+Las Vegas,2025,VER,40
+Las Vegas,2025,VER,41
+Las Vegas,2025,VER,42
+Las Vegas,2025,VER,43
+Las Vegas,2025,VER,44
+Las Vegas,2025,VER,45
+Las Vegas,2025,VER,46
+China,2025,VER,21
+China,2025,VER,22
+China,2025,VER,23
+China,2025,VER,24
+China,2025,VER,25
+China,2025,VER,26
+China,2025,VER,27
+China,2025,VER,28
+China,2025,VER,29
+China,2025,VER,30
+China,2025,VER,31
+China,2025,VER,32
+China,2025,VER,33
+China,2025,VER,34
+China,2025,VER,35
+China,2025,VER,36
+China,2025,VER,37
+China,2025,VER,38
+China,2025,VER,39
+China,2025,VER,40
+China,2025,VER,41
+China,2025,VER,42
+China,2025,VER,43
+China,2025,VER,44
+China,2025,VER,45
+China,2025,VER,46
+China,2025,VER,47
+China,2025,VER,48
+China,2025,VER,49
+China,2025,VER,50
+China,2025,VER,51
+China,2025,VER,52
+Singapore,2024,HAM,19
+Singapore,2024,HAM,20
+Singapore,2024,HAM,21
+Singapore,2024,HAM,22
+Singapore,2024,HAM,23
+Singapore,2024,HAM,24
+Singapore,2024,HAM,25
+Singapore,2024,HAM,26
+Singapore,2024,HAM,27
+Singapore,2024,HAM,28
+Singapore,2024,HAM,29
+Singapore,2024,HAM,30
+Singapore,2024,HAM,31
+Singapore,2024,HAM,32
+Singapore,2024,HAM,33
+Singapore,2024,HAM,34
+Singapore,2024,HAM,35
+Singapore,2024,HAM,36
+Singapore,2024,HAM,37
+Singapore,2024,HAM,38
+Singapore,2024,HAM,39
+Singapore,2024,HAM,40
+Singapore,2024,HAM,41
+Singapore,2024,HAM,42
+Singapore,2024,HAM,43
+Singapore,2024,HAM,44
+Singapore,2024,HAM,45
+Singapore,2024,HAM,46
+Singapore,2024,HAM,47
+Singapore,2024,HAM,48
+Singapore,2024,HAM,49
+Singapore,2024,HAM,50
+Singapore,2024,HAM,51
+Singapore,2024,HAM,52
+Singapore,2024,HAM,53
+Singapore,2024,HAM,54
+Singapore,2024,HAM,55
+Singapore,2024,HAM,56
+Singapore,2024,HAM,57
+Singapore,2024,HAM,58
+Monaco,2025,COL,28
+Monaco,2025,COL,29
+Monaco,2025,COL,30
+Monaco,2025,COL,31
+Monaco,2025,COL,32
+Monaco,2025,COL,33
+Monaco,2025,COL,34
+Monaco,2025,COL,35
+Monaco,2025,COL,36
+Monaco,2025,COL,38
+Monaco,2025,COL,39
+Monaco,2025,COL,40
+Monaco,2025,COL,41
+Monaco,2025,COL,42
+Monaco,2025,COL,43
+Monaco,2025,COL,44
+Monaco,2025,COL,45
+Monaco,2025,COL,46
+Monaco,2025,COL,47
+Monaco,2025,COL,48
+Monaco,2025,COL,49
+Monaco,2025,COL,50
+Monaco,2025,COL,51
+Monaco,2025,COL,52
+Monaco,2025,COL,53
+Monaco,2025,COL,54
+Monaco,2025,COL,55
+Monaco,2025,COL,56
+Monaco,2025,COL,57
+Monaco,2025,COL,58
+Monaco,2025,COL,59
+Monaco,2025,COL,60
+Monaco,2025,COL,61
+Monaco,2025,COL,62
+Monaco,2025,COL,63
+Monaco,2025,COL,64
+Monaco,2025,COL,65
+Monaco,2025,COL,66
+Monaco,2025,COL,67
+Monaco,2025,COL,68
+Monaco,2025,COL,69
+Monaco,2025,COL,70
+Monaco,2025,COL,71
+Monaco,2025,COL,72
+Belgium,2024,NOR,19
+Belgium,2024,NOR,20
+Belgium,2024,NOR,21
+Belgium,2024,NOR,22
+Belgium,2024,NOR,23
+Belgium,2024,NOR,24
+Belgium,2024,NOR,25
+Belgium,2024,NOR,26
+Belgium,2024,NOR,27
+Belgium,2024,NOR,28
+Belgium,2024,NOR,31
+Belgium,2024,NOR,32
+Belgium,2024,NOR,33
+Belgium,2024,NOR,34
+Belgium,2024,NOR,35
+Belgium,2024,NOR,36
+Belgium,2024,NOR,37
+Belgium,2024,NOR,38
+Belgium,2024,NOR,39
+Belgium,2024,NOR,40
+Abu Dhabi,2025,RUS,19
+Abu Dhabi,2025,RUS,20
+Abu Dhabi,2025,RUS,21
+Abu Dhabi,2025,RUS,22
+Abu Dhabi,2025,RUS,23
+Abu Dhabi,2025,RUS,24
+Abu Dhabi,2025,RUS,25
+Abu Dhabi,2025,RUS,26
+Abu Dhabi,2025,RUS,27
+Abu Dhabi,2025,RUS,28
+Abu Dhabi,2025,RUS,29
+Abu Dhabi,2025,RUS,30
+Abu Dhabi,2025,RUS,31
+Abu Dhabi,2025,RUS,32
+Abu Dhabi,2025,RUS,33
+Abu Dhabi,2025,RUS,34
+Abu Dhabi,2025,RUS,35
+Abu Dhabi,2025,RUS,36
+Abu Dhabi,2025,RUS,37
+Abu Dhabi,2025,RUS,38
+Abu Dhabi,2025,RUS,39
+Abu Dhabi,2025,RUS,40
+Abu Dhabi,2025,RUS,41
+Abu Dhabi,2025,RUS,42
+Abu Dhabi,2025,RUS,43
+Abu Dhabi,2025,RUS,44
+Abu Dhabi,2025,RUS,45
+Abu Dhabi,2025,RUS,46
+Abu Dhabi,2025,RUS,47
+Abu Dhabi,2025,RUS,48
+Abu Dhabi,2025,RUS,49
+Abu Dhabi,2025,RUS,50
+Abu Dhabi,2025,RUS,51
+Abu Dhabi,2025,RUS,52
+Abu Dhabi,2025,RUS,53
+Abu Dhabi,2025,RUS,54
+China,2025,DOO,22
+China,2025,DOO,23
+China,2025,DOO,24
+China,2025,DOO,25
+China,2025,DOO,26
+China,2025,DOO,27
+China,2025,DOO,28
+China,2025,DOO,29
+China,2025,DOO,30
+China,2025,DOO,31
+China,2025,DOO,32
+China,2025,DOO,33
+China,2025,DOO,34
+China,2025,DOO,35
+China,2025,DOO,36
+China,2025,DOO,37
+China,2025,DOO,38
+China,2025,DOO,39
+China,2025,DOO,40
+China,2025,DOO,41
+China,2025,DOO,42
+China,2025,DOO,43
+China,2025,DOO,44
+China,2025,DOO,45
+China,2025,DOO,46
+China,2025,DOO,47
+China,2025,DOO,48
+China,2025,DOO,49
+China,2025,DOO,50
+China,2025,DOO,51
+China,2025,DOO,52
+Emilia Romagna,2024,RUS,17
+Emilia Romagna,2024,RUS,18
+Emilia Romagna,2024,RUS,19
+Emilia Romagna,2024,RUS,20
+Emilia Romagna,2024,RUS,23
+Emilia Romagna,2024,RUS,24
+Emilia Romagna,2024,RUS,25
+Emilia Romagna,2024,RUS,26
+Emilia Romagna,2024,RUS,27
+Emilia Romagna,2024,RUS,28
+Emilia Romagna,2024,RUS,29
+Emilia Romagna,2024,RUS,30
+Emilia Romagna,2024,RUS,31
+Emilia Romagna,2024,RUS,32
+Emilia Romagna,2024,RUS,33
+Emilia Romagna,2024,RUS,34
+Emilia Romagna,2024,RUS,35
+Emilia Romagna,2024,RUS,36
+Emilia Romagna,2024,RUS,37
+Emilia Romagna,2024,RUS,38
+Emilia Romagna,2024,RUS,39
+Emilia Romagna,2024,RUS,40
+Emilia Romagna,2024,RUS,41
+Emilia Romagna,2024,RUS,42
+Emilia Romagna,2024,RUS,43
+Emilia Romagna,2024,RUS,44
+Emilia Romagna,2024,RUS,45
+Emilia Romagna,2024,RUS,46
+Emilia Romagna,2024,RUS,47
+Emilia Romagna,2024,RUS,48
+Emilia Romagna,2024,RUS,49
+Emilia Romagna,2024,RUS,50
+Emilia Romagna,2024,RUS,51
+Emilia Romagna,2024,RUS,54
+Emilia Romagna,2024,RUS,55
+Emilia Romagna,2024,RUS,56
+Emilia Romagna,2024,RUS,57
+Emilia Romagna,2024,RUS,58
+Emilia Romagna,2024,RUS,59
+Mexico City,2025,ALO,19
+Mexico City,2025,ALO,22
+Mexico City,2025,ALO,23
+Mexico City,2025,ALO,24
+Mexico City,2025,ALO,25
+Mexico City,2025,ALO,26
+Mexico City,2025,ALO,27
+Mexico City,2025,ALO,28
+Mexico City,2025,ALO,29
+Emilia Romagna,2025,NOR,17
+Emilia Romagna,2025,NOR,18
+Emilia Romagna,2025,NOR,19
+Emilia Romagna,2025,NOR,20
+Emilia Romagna,2025,NOR,21
+Emilia Romagna,2025,NOR,22
+Emilia Romagna,2025,NOR,23
+Emilia Romagna,2025,NOR,24
+Emilia Romagna,2025,NOR,25
+Emilia Romagna,2025,NOR,26
+Emilia Romagna,2025,NOR,27
+Emilia Romagna,2025,NOR,32
+Emilia Romagna,2025,NOR,33
+Emilia Romagna,2025,NOR,34
+Emilia Romagna,2025,NOR,35
+Emilia Romagna,2025,NOR,36
+Emilia Romagna,2025,NOR,37
+Emilia Romagna,2025,NOR,38
+Emilia Romagna,2025,NOR,39
+Emilia Romagna,2025,NOR,40
+Emilia Romagna,2025,NOR,41
+Emilia Romagna,2025,NOR,42
+Emilia Romagna,2025,NOR,43
+Emilia Romagna,2025,NOR,44
+Emilia Romagna,2025,NOR,45
+Emilia Romagna,2025,NOR,54
+Emilia Romagna,2025,NOR,55
+Emilia Romagna,2025,NOR,56
+Emilia Romagna,2025,NOR,57
+Emilia Romagna,2025,NOR,58
+Emilia Romagna,2025,NOR,59
+Bahrain,2025,RUS,19
+Bahrain,2025,RUS,20
+Bahrain,2025,RUS,21
+Bahrain,2025,RUS,22
+Bahrain,2025,RUS,23
+Bahrain,2025,RUS,24
+Bahrain,2025,RUS,25
+Bahrain,2025,RUS,26
+Bahrain,2025,RUS,27
+Bahrain,2025,RUS,28
+Bahrain,2025,RUS,29
+Australia,2024,PIA,21
+Australia,2024,PIA,22
+Australia,2024,PIA,23
+Australia,2024,PIA,24
+Australia,2024,PIA,25
+Australia,2024,PIA,26
+Australia,2024,PIA,27
+Australia,2024,PIA,28
+Australia,2024,PIA,29
+Australia,2024,PIA,30
+Australia,2024,PIA,31
+Australia,2024,PIA,32
+Australia,2024,PIA,33
+Australia,2024,PIA,34
+Australia,2024,PIA,35
+Australia,2024,PIA,36
+Australia,2024,PIA,37
+Australia,2024,PIA,38
+Australia,2024,PIA,41
+Australia,2024,PIA,42
+Australia,2024,PIA,43
+Australia,2024,PIA,44
+Australia,2024,PIA,45
+Australia,2024,PIA,46
+Australia,2024,PIA,47
+Australia,2024,PIA,48
+Australia,2024,PIA,49
+Australia,2024,PIA,50
+Australia,2024,PIA,51
+Australia,2024,PIA,52
+Las Vegas,2025,HAM,21
+Las Vegas,2025,HAM,22
+Las Vegas,2025,HAM,23
+Las Vegas,2025,HAM,24
+Las Vegas,2025,HAM,25
+Las Vegas,2025,HAM,26
+Las Vegas,2025,HAM,27
+Las Vegas,2025,HAM,28
+Las Vegas,2025,HAM,31
+Las Vegas,2025,HAM,32
+Las Vegas,2025,HAM,33
+Las Vegas,2025,HAM,34
+Las Vegas,2025,HAM,35
+Las Vegas,2025,HAM,36
+Las Vegas,2025,HAM,37
+Las Vegas,2025,HAM,38
+Las Vegas,2025,HAM,39
+Las Vegas,2025,HAM,40
+Las Vegas,2025,HAM,41
+Las Vegas,2025,HAM,42
+Las Vegas,2025,HAM,43
+Las Vegas,2025,HAM,44
+Las Vegas,2025,HAM,45
+Las Vegas,2025,HAM,46
+Austria,2025,LEC,19
+Austria,2025,LEC,20
+Austria,2025,LEC,21
+Austria,2025,LEC,22
+Austria,2025,LEC,23
+Austria,2025,LEC,24
+Austria,2025,LEC,27
+Austria,2025,LEC,28
+Austria,2025,LEC,29
+Austria,2025,LEC,31
+Austria,2025,LEC,32
+Austria,2025,LEC,33
+Austria,2025,LEC,34
+Austria,2025,LEC,35
+Austria,2025,LEC,36
+Austria,2025,LEC,37
+Austria,2025,LEC,38
+Austria,2025,LEC,39
+Austria,2025,LEC,40
+Austria,2025,LEC,41
+Austria,2025,LEC,42
+Austria,2025,LEC,43
+Austria,2025,LEC,44
+Austria,2025,LEC,45
+Austria,2025,LEC,46
+Austria,2025,LEC,47
+Austria,2025,LEC,48
+Austria,2025,LEC,51
+Austria,2025,LEC,52
+Austria,2025,LEC,53
+Austria,2025,LEC,54
+Austria,2025,LEC,55
+Austria,2025,LEC,56
+Austria,2025,LEC,57
+Austria,2025,LEC,58
+Austria,2025,LEC,59
+Austria,2025,LEC,60
+Austria,2025,LEC,61
+Austria,2025,LEC,62
+Austria,2025,LEC,63
+Austria,2025,LEC,64
+Austria,2025,LEC,65
+Austria,2025,LEC,66
+Qatar,2024,PIA,21
+Qatar,2024,PIA,22
+Qatar,2024,PIA,23
+Qatar,2024,PIA,24
+Qatar,2024,PIA,25
+Qatar,2024,PIA,26
+Qatar,2024,PIA,27
+Qatar,2024,PIA,28
+Qatar,2024,PIA,31
+Qatar,2024,PIA,32
+Qatar,2024,PIA,33
+Qatar,2024,PIA,43
+Qatar,2024,PIA,44
+Qatar,2024,PIA,45
+Qatar,2024,PIA,46
+Qatar,2024,PIA,47
+Qatar,2024,PIA,48
+Qatar,2024,PIA,49
+Qatar,2024,PIA,50
+Qatar,2024,PIA,51
+Qatar,2024,PIA,52
+Qatar,2024,PIA,53
+Netherlands,2024,SAR,17
+Netherlands,2024,SAR,18
+Netherlands,2024,SAR,19
+Netherlands,2024,SAR,20
+Netherlands,2024,SAR,21
+Netherlands,2024,SAR,24
+Netherlands,2024,SAR,25
+Netherlands,2024,SAR,26
+Netherlands,2024,SAR,27
+Netherlands,2024,SAR,28
+Netherlands,2024,SAR,29
+Netherlands,2024,SAR,30
+Netherlands,2024,SAR,31
+Netherlands,2024,SAR,32
+Netherlands,2024,SAR,33
+Netherlands,2024,SAR,34
+Netherlands,2024,SAR,35
+Netherlands,2024,SAR,36
+Netherlands,2024,SAR,37
+Netherlands,2024,SAR,38
+Netherlands,2024,SAR,39
+Netherlands,2024,SAR,40
+Netherlands,2024,SAR,41
+Netherlands,2024,SAR,42
+Netherlands,2024,SAR,43
+Netherlands,2024,SAR,44
+Netherlands,2024,SAR,45
+Netherlands,2024,SAR,46
+Netherlands,2024,SAR,47
+Netherlands,2024,SAR,48
+Netherlands,2024,SAR,49
+Netherlands,2024,SAR,50
+Netherlands,2024,SAR,51
+Netherlands,2024,SAR,52
+Netherlands,2024,SAR,53
+Netherlands,2024,SAR,54
+Netherlands,2024,SAR,55
+Netherlands,2024,SAR,56
+Netherlands,2024,SAR,57
+Netherlands,2024,SAR,58
+Netherlands,2024,SAR,59
+Netherlands,2024,SAR,60
+Netherlands,2024,SAR,61
+Netherlands,2024,SAR,62
+Netherlands,2024,SAR,63
+Netherlands,2024,SAR,64
+Netherlands,2024,SAR,65
+Netherlands,2024,SAR,66
+Netherlands,2024,SAR,67
+Australia,2024,BOT,21
+Australia,2024,BOT,22
+Australia,2024,BOT,23
+Australia,2024,BOT,24
+Australia,2024,BOT,25
+Australia,2024,BOT,26
+Australia,2024,BOT,27
+Australia,2024,BOT,28
+Australia,2024,BOT,29
+Australia,2024,BOT,30
+Australia,2024,BOT,31
+Australia,2024,BOT,32
+Australia,2024,BOT,33
+Australia,2024,BOT,34
+Australia,2024,BOT,35
+Australia,2024,BOT,38
+Australia,2024,BOT,39
+Australia,2024,BOT,40
+Australia,2024,BOT,41
+Australia,2024,BOT,42
+Australia,2024,BOT,43
+Australia,2024,BOT,44
+Australia,2024,BOT,45
+Australia,2024,BOT,46
+Australia,2024,BOT,47
+Australia,2024,BOT,48
+Australia,2024,BOT,49
+Australia,2024,BOT,50
+Australia,2024,BOT,51
+Mexico City,2025,HAD,19
+Mexico City,2025,HAD,20
+Mexico City,2025,HAD,21
+Mexico City,2025,HAD,22
+Mexico City,2025,HAD,23
+Mexico City,2025,HAD,24
+Mexico City,2025,HAD,25
+Mexico City,2025,HAD,26
+Mexico City,2025,HAD,27
+Mexico City,2025,HAD,28
+Mexico City,2025,HAD,29
+Mexico City,2025,HAD,30
+Mexico City,2025,HAD,31
+Mexico City,2025,HAD,32
+Mexico City,2025,HAD,33
+Mexico City,2025,HAD,36
+Mexico City,2025,HAD,37
+Mexico City,2025,HAD,38
+Mexico City,2025,HAD,39
+Mexico City,2025,HAD,40
+Mexico City,2025,HAD,41
+Mexico City,2025,HAD,42
+Mexico City,2025,HAD,43
+Mexico City,2025,HAD,44
+Mexico City,2025,HAD,45
+Mexico City,2025,HAD,46
+Mexico City,2025,HAD,47
+Mexico City,2025,HAD,48
+Mexico City,2025,HAD,49
+Mexico City,2025,HAD,50
+Mexico City,2025,HAD,51
+Mexico City,2025,HAD,52
+Mexico City,2025,HAD,53
+Mexico City,2025,HAD,54
+Mexico City,2025,HAD,55
+Mexico City,2025,HAD,56
+Mexico City,2025,HAD,57
+Mexico City,2025,HAD,58
+Mexico City,2025,HAD,59
+Mexico City,2025,HAD,60
+Mexico City,2025,HAD,61
+Mexico City,2025,HAD,62
+Mexico City,2025,HAD,63
+Mexico City,2025,HAD,64
+Great Britain,2025,HAD,19
+Great Britain,2025,HAD,20
+Great Britain,2025,HAD,21
+Great Britain,2025,HAD,22
+Great Britain,2025,HAD,23
+Great Britain,2025,HAD,24
+Great Britain,2025,HAD,25
+Great Britain,2025,HAD,26
+Great Britain,2025,HAD,27
+Great Britain,2025,HAD,31
+Great Britain,2025,HAD,32
+Great Britain,2025,HAD,33
+Great Britain,2025,HAD,34
+Great Britain,2025,HAD,35
+Great Britain,2025,HAD,36
+Great Britain,2025,HAD,37
+Great Britain,2025,HAD,38
+Great Britain,2025,HAD,39
+Great Britain,2025,HAD,40
+Great Britain,2025,HAD,41
+Great Britain,2025,HAD,42
+Great Britain,2025,HAD,43
+Great Britain,2025,HAD,44
+Great Britain,2025,HAD,45
+Great Britain,2025,HAD,46
+Great Britain,2025,HAD,47
+Great Britain,2025,HAD,48
+Great Britain,2025,HAD,49
+Great Britain,2025,HAD,50
+Great Britain,2025,HAD,51
+Great Britain,2025,HAD,52
+Great Britain,2025,HAD,53
+Great Britain,2025,HAD,54
+Great Britain,2025,HAD,55
+Great Britain,2025,HAD,56
+Great Britain,2025,HAD,57
+Great Britain,2025,HAD,58
+Great Britain,2025,HAD,59
+Great Britain,2025,HAD,60
+Great Britain,2025,HAD,61
+Great Britain,2025,HAD,62
+Great Britain,2025,HAD,63
+Great Britain,2025,HAD,64
+Great Britain,2025,HAD,65
+Mexico City,2024,LAW,22
+Mexico City,2024,LAW,23
+Mexico City,2024,LAW,24
+Mexico City,2024,LAW,25
+Mexico City,2024,LAW,26
+Mexico City,2024,LAW,27
+Mexico City,2024,LAW,28
+Mexico City,2024,LAW,29
+Mexico City,2024,LAW,30
+Mexico City,2024,LAW,31
+Mexico City,2024,LAW,32
+Mexico City,2024,LAW,33
+Mexico City,2024,LAW,34
+Mexico City,2024,LAW,35
+Mexico City,2024,LAW,36
+Mexico City,2024,LAW,37
+Mexico City,2024,LAW,38
+Mexico City,2024,LAW,41
+Mexico City,2024,LAW,42
+Mexico City,2024,LAW,43
+Mexico City,2024,LAW,44
+Mexico City,2024,LAW,45
+Mexico City,2024,LAW,46
+Mexico City,2024,LAW,47
+Mexico City,2024,LAW,48
+Mexico City,2024,LAW,49
+Mexico City,2024,LAW,50
+Mexico City,2024,LAW,51
+Mexico City,2024,LAW,52
+Mexico City,2024,LAW,53
+Mexico City,2024,LAW,54
+Mexico City,2024,LAW,55
+Mexico City,2024,LAW,56
+Mexico City,2024,LAW,57
+Mexico City,2024,LAW,58
+Mexico City,2024,LAW,59
+Mexico City,2024,LAW,60
+Mexico City,2024,LAW,61
+Mexico City,2024,LAW,62
+Mexico City,2024,LAW,63
+Mexico City,2024,LAW,64
+China,2024,PIA,19
+China,2024,PIA,32
+China,2024,PIA,33
+China,2024,PIA,34
+China,2024,PIA,35
+China,2024,PIA,36
+China,2024,PIA,37
+China,2024,PIA,38
+China,2024,PIA,39
+China,2024,PIA,40
+China,2024,PIA,41
+China,2024,PIA,42
+China,2024,PIA,43
+China,2024,PIA,44
+China,2024,PIA,45
+China,2024,PIA,46
+China,2024,PIA,47
+China,2024,PIA,48
+China,2024,PIA,49
+China,2024,PIA,50
+China,2024,PIA,51
+China,2024,PIA,52
+Netherlands,2025,VER,17
+Netherlands,2025,VER,18
+Netherlands,2025,VER,19
+Netherlands,2025,VER,20
+Netherlands,2025,VER,21
+Netherlands,2025,VER,22
+Netherlands,2025,VER,27
+Netherlands,2025,VER,28
+Netherlands,2025,VER,29
+Netherlands,2025,VER,30
+Netherlands,2025,VER,33
+Netherlands,2025,VER,34
+Netherlands,2025,VER,36
+Netherlands,2025,VER,37
+Netherlands,2025,VER,38
+Netherlands,2025,VER,39
+Netherlands,2025,VER,40
+Netherlands,2025,VER,41
+Netherlands,2025,VER,42
+Netherlands,2025,VER,43
+Netherlands,2025,VER,44
+Netherlands,2025,VER,45
+Netherlands,2025,VER,46
+Netherlands,2025,VER,47
+Netherlands,2025,VER,48
+Netherlands,2025,VER,49
+Netherlands,2025,VER,50
+Netherlands,2025,VER,51
+Netherlands,2025,VER,52
+Netherlands,2025,VER,58
+Netherlands,2025,VER,59
+Netherlands,2025,VER,60
+Netherlands,2025,VER,61
+Netherlands,2025,VER,62
+Netherlands,2025,VER,63
+Netherlands,2025,VER,64
+São Paulo,2024,HUL,19
+São Paulo,2024,HUL,20
+Emilia Romagna,2024,BOT,19
+Emilia Romagna,2024,BOT,20
+Emilia Romagna,2024,BOT,21
+Emilia Romagna,2024,BOT,22
+Emilia Romagna,2024,BOT,23
+Emilia Romagna,2024,BOT,24
+Emilia Romagna,2024,BOT,25
+Emilia Romagna,2024,BOT,26
+Emilia Romagna,2024,BOT,27
+Emilia Romagna,2024,BOT,28
+Emilia Romagna,2024,BOT,29
+Emilia Romagna,2024,BOT,30
+Emilia Romagna,2024,BOT,31
+Emilia Romagna,2024,BOT,32
+Emilia Romagna,2024,BOT,33
+Emilia Romagna,2024,BOT,34
+Emilia Romagna,2024,BOT,35
+Emilia Romagna,2024,BOT,36
+Emilia Romagna,2024,BOT,37
+Emilia Romagna,2024,BOT,38
+Emilia Romagna,2024,BOT,39
+Emilia Romagna,2024,BOT,40
+Emilia Romagna,2024,BOT,41
+Emilia Romagna,2024,BOT,42
+Emilia Romagna,2024,BOT,43
+Emilia Romagna,2024,BOT,44
+Emilia Romagna,2024,BOT,45
+Emilia Romagna,2024,BOT,46
+Emilia Romagna,2024,BOT,47
+Emilia Romagna,2024,BOT,48
+Emilia Romagna,2024,BOT,49
+Emilia Romagna,2024,BOT,50
+Emilia Romagna,2024,BOT,51
+Emilia Romagna,2024,BOT,52
+Emilia Romagna,2024,BOT,53
+Emilia Romagna,2024,BOT,54
+Emilia Romagna,2024,BOT,55
+Emilia Romagna,2024,BOT,56
+Emilia Romagna,2024,BOT,57
+Emilia Romagna,2024,BOT,58
+Azerbaijan,2024,COL,19
+Azerbaijan,2024,COL,20
+Azerbaijan,2024,COL,21
+Azerbaijan,2024,COL,22
+Azerbaijan,2024,COL,23
+Azerbaijan,2024,COL,24
+Azerbaijan,2024,COL,25
+Azerbaijan,2024,COL,26
+Azerbaijan,2024,COL,27
+Azerbaijan,2024,COL,28
+Azerbaijan,2024,COL,29
+Azerbaijan,2024,COL,30
+Azerbaijan,2024,COL,31
+Azerbaijan,2024,COL,32
+Azerbaijan,2024,COL,33
+Azerbaijan,2024,COL,34
+Azerbaijan,2024,COL,35
+Azerbaijan,2024,COL,37
+Azerbaijan,2024,COL,38
+Azerbaijan,2024,COL,39
+Azerbaijan,2024,COL,40
+Azerbaijan,2024,COL,41
+Azerbaijan,2024,COL,42
+Azerbaijan,2024,COL,43
+Azerbaijan,2024,COL,44
+Singapore,2024,BOT,17
+Singapore,2024,BOT,18
+Singapore,2024,BOT,19
+Singapore,2024,BOT,20
+Singapore,2024,BOT,21
+Singapore,2024,BOT,22
+Singapore,2024,BOT,23
+Singapore,2024,BOT,24
+Singapore,2024,BOT,25
+Singapore,2024,BOT,26
+Singapore,2024,BOT,27
+Singapore,2024,BOT,28
+Singapore,2024,BOT,29
+Singapore,2024,BOT,30
+Singapore,2024,BOT,31
+Singapore,2024,BOT,32
+Singapore,2024,BOT,35
+Singapore,2024,BOT,36
+Singapore,2024,BOT,37
+Singapore,2024,BOT,38
+Singapore,2024,BOT,39
+Singapore,2024,BOT,40
+Singapore,2024,BOT,41
+Singapore,2024,BOT,42
+Singapore,2024,BOT,43
+Singapore,2024,BOT,44
+Singapore,2024,BOT,45
+Singapore,2024,BOT,46
+Singapore,2024,BOT,47
+Singapore,2024,BOT,48
+Singapore,2024,BOT,49
+Singapore,2024,BOT,50
+Singapore,2024,BOT,51
+Singapore,2024,BOT,52
+Singapore,2024,BOT,53
+Singapore,2024,BOT,54
+Singapore,2024,BOT,55
+Singapore,2024,BOT,56
+Singapore,2024,BOT,57
+Italy,2025,ALO,17
+Japan,2025,VER,17
+Japan,2025,VER,18
+Japan,2025,VER,19
+Japan,2025,VER,20
+Japan,2025,VER,23
+Japan,2025,VER,24
+Japan,2025,VER,25
+Japan,2025,VER,26
+Japan,2025,VER,27
+Japan,2025,VER,28
+Japan,2025,VER,29
+Japan,2025,VER,30
+Japan,2025,VER,31
+Japan,2025,VER,32
+Japan,2025,VER,33
+Japan,2025,VER,34
+Japan,2025,VER,35
+Japan,2025,VER,36
+Japan,2025,VER,37
+Japan,2025,VER,38
+Japan,2025,VER,39
+Japan,2025,VER,40
+Japan,2025,VER,41
+Japan,2025,VER,42
+Japan,2025,VER,43
+Japan,2025,VER,44
+Japan,2025,VER,45
+Japan,2025,VER,46
+Japan,2025,VER,47
+Japan,2025,VER,48
+Japan,2025,VER,49
+Las Vegas,2025,SAI,21
+Las Vegas,2025,SAI,24
+Las Vegas,2025,SAI,25
+Las Vegas,2025,SAI,26
+Las Vegas,2025,SAI,27
+Las Vegas,2025,SAI,28
+Las Vegas,2025,SAI,29
+Las Vegas,2025,SAI,30
+Las Vegas,2025,SAI,31
+Las Vegas,2025,SAI,32
+Las Vegas,2025,SAI,33
+Las Vegas,2025,SAI,34
+Las Vegas,2025,SAI,35
+Las Vegas,2025,SAI,36
+Las Vegas,2025,SAI,37
+Las Vegas,2025,SAI,38
+Las Vegas,2025,SAI,39
+Las Vegas,2025,SAI,40
+Las Vegas,2025,SAI,41
+Las Vegas,2025,SAI,42
+Las Vegas,2025,SAI,43
+Las Vegas,2025,SAI,44
+Las Vegas,2025,SAI,45
+Las Vegas,2025,SAI,46
+Azerbaijan,2025,OCO,23
+Azerbaijan,2025,OCO,24
+Azerbaijan,2025,OCO,25
+Azerbaijan,2025,OCO,26
+Azerbaijan,2025,OCO,27
+Azerbaijan,2025,OCO,28
+Azerbaijan,2025,OCO,29
+Azerbaijan,2025,OCO,30
+Azerbaijan,2025,OCO,31
+Azerbaijan,2025,OCO,32
+Azerbaijan,2025,OCO,33
+Azerbaijan,2025,OCO,34
+Azerbaijan,2025,OCO,35
+Azerbaijan,2025,OCO,36
+Azerbaijan,2025,OCO,37
+Azerbaijan,2025,OCO,38
+Azerbaijan,2025,OCO,39
+Azerbaijan,2025,OCO,40
+Azerbaijan,2025,OCO,41
+Azerbaijan,2025,OCO,42
+Azerbaijan,2025,OCO,43
+Azerbaijan,2025,OCO,44
+Azerbaijan,2025,OCO,45
+Azerbaijan,2025,OCO,46
+Azerbaijan,2025,OCO,47
+Qatar,2025,PIA,21
+Qatar,2025,PIA,22
+Qatar,2025,PIA,23
+Qatar,2025,PIA,26
+Qatar,2025,PIA,27
+Qatar,2025,PIA,28
+Qatar,2025,PIA,29
+Qatar,2025,PIA,30
+Qatar,2025,PIA,31
+Qatar,2025,PIA,32
+Qatar,2025,PIA,33
+Qatar,2025,PIA,34
+Qatar,2025,PIA,35
+Qatar,2025,PIA,36
+Qatar,2025,PIA,37
+Qatar,2025,PIA,38
+Qatar,2025,PIA,39
+Qatar,2025,PIA,40
+Qatar,2025,PIA,41
+Qatar,2025,PIA,44
+Qatar,2025,PIA,45
+Qatar,2025,PIA,46
+Qatar,2025,PIA,47
+Qatar,2025,PIA,48
+Qatar,2025,PIA,49
+Qatar,2025,PIA,50
+Qatar,2025,PIA,51
+Qatar,2025,PIA,52
+Qatar,2025,PIA,53
+Mexico City,2025,ANT,19
+Mexico City,2025,ANT,20
+Mexico City,2025,ANT,21
+Mexico City,2025,ANT,24
+Mexico City,2025,ANT,25
+Mexico City,2025,ANT,26
+Mexico City,2025,ANT,27
+Mexico City,2025,ANT,28
+Mexico City,2025,ANT,29
+Mexico City,2025,ANT,30
+Mexico City,2025,ANT,31
+Mexico City,2025,ANT,32
+Mexico City,2025,ANT,33
+Mexico City,2025,ANT,34
+Mexico City,2025,ANT,35
+Mexico City,2025,ANT,36
+Mexico City,2025,ANT,37
+Mexico City,2025,ANT,38
+Mexico City,2025,ANT,39
+Mexico City,2025,ANT,40
+Mexico City,2025,ANT,41
+Mexico City,2025,ANT,42
+Mexico City,2025,ANT,43
+Mexico City,2025,ANT,44
+Mexico City,2025,ANT,45
+Mexico City,2025,ANT,46
+Mexico City,2025,ANT,49
+Mexico City,2025,ANT,50
+Mexico City,2025,ANT,51
+Mexico City,2025,ANT,52
+Mexico City,2025,ANT,53
+Mexico City,2025,ANT,54
+Mexico City,2025,ANT,55
+Mexico City,2025,ANT,56
+Mexico City,2025,ANT,57
+Mexico City,2025,ANT,58
+Mexico City,2025,ANT,59
+Mexico City,2025,ANT,60
+Mexico City,2025,ANT,61
+Mexico City,2025,ANT,62
+Mexico City,2025,ANT,63
+Mexico City,2025,ANT,64
+Monaco,2024,RIC,18
+Monaco,2024,RIC,19
+Monaco,2024,RIC,20
+Monaco,2024,RIC,21
+Monaco,2024,RIC,22
+Monaco,2024,RIC,23
+Monaco,2024,RIC,24
+Monaco,2024,RIC,25
+Monaco,2024,RIC,26
+Monaco,2024,RIC,27
+Monaco,2024,RIC,28
+Monaco,2024,RIC,29
+Monaco,2024,RIC,30
+Monaco,2024,RIC,31
+Monaco,2024,RIC,32
+Monaco,2024,RIC,33
+Monaco,2024,RIC,34
+Monaco,2024,RIC,35
+Monaco,2024,RIC,36
+Monaco,2024,RIC,37
+Monaco,2024,RIC,38
+Monaco,2024,RIC,39
+Monaco,2024,RIC,40
+Monaco,2024,RIC,41
+Monaco,2024,RIC,42
+Monaco,2024,RIC,43
+Monaco,2024,RIC,44
+Monaco,2024,RIC,45
+Monaco,2024,RIC,46
+Monaco,2024,RIC,47
+Monaco,2024,RIC,48
+Monaco,2024,RIC,49
+Monaco,2024,RIC,50
+Monaco,2024,RIC,53
+Monaco,2024,RIC,54
+Monaco,2024,RIC,55
+Monaco,2024,RIC,56
+Monaco,2024,RIC,57
+Monaco,2024,RIC,58
+Monaco,2024,RIC,59
+Monaco,2024,RIC,60
+Monaco,2024,RIC,61
+Monaco,2024,RIC,62
+Monaco,2024,RIC,63
+Monaco,2024,RIC,64
+Monaco,2024,RIC,65
+Monaco,2024,RIC,66
+Monaco,2024,RIC,67
+Monaco,2024,RIC,68
+Monaco,2024,RIC,69
+Monaco,2024,RIC,70
+Monaco,2024,RIC,71
+Monaco,2024,RIC,72
+Netherlands,2024,RIC,17
+Netherlands,2024,RIC,18
+Netherlands,2024,RIC,19
+Netherlands,2024,RIC,20
+Netherlands,2024,RIC,21
+Netherlands,2024,RIC,22
+Netherlands,2024,RIC,23
+Netherlands,2024,RIC,24
+Netherlands,2024,RIC,25
+Netherlands,2024,RIC,26
+Netherlands,2024,RIC,27
+Netherlands,2024,RIC,28
+Netherlands,2024,RIC,31
+Netherlands,2024,RIC,32
+Netherlands,2024,RIC,33
+Netherlands,2024,RIC,34
+Netherlands,2024,RIC,35
+Netherlands,2024,RIC,36
+Netherlands,2024,RIC,37
+Netherlands,2024,RIC,38
+Netherlands,2024,RIC,39
+Netherlands,2024,RIC,40
+Netherlands,2024,RIC,41
+Netherlands,2024,RIC,42
+Netherlands,2024,RIC,43
+Netherlands,2024,RIC,44
+Netherlands,2024,RIC,45
+Netherlands,2024,RIC,46
+Netherlands,2024,RIC,47
+Netherlands,2024,RIC,48
+Netherlands,2024,RIC,49
+Netherlands,2024,RIC,50
+Netherlands,2024,RIC,51
+Netherlands,2024,RIC,52
+Netherlands,2024,RIC,53
+Netherlands,2024,RIC,54
+Netherlands,2024,RIC,55
+Netherlands,2024,RIC,56
+Netherlands,2024,RIC,57
+Netherlands,2024,RIC,58
+Netherlands,2024,RIC,59
+Netherlands,2024,RIC,60
+Netherlands,2024,RIC,61
+Netherlands,2024,RIC,62
+Netherlands,2024,RIC,63
+Netherlands,2024,RIC,64
+Netherlands,2024,RIC,65
+Netherlands,2024,RIC,66
+Netherlands,2024,RIC,67

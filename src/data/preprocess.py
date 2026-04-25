@@ -31,11 +31,12 @@ def clean_laps(laps : pd.DataFrame):
 
 def _windows_from_laps(group, features, target, lookback, horizon):
     """Create sliding windows from a contiguous block of laps."""
-    windows_data, windows_labels = [], []
+    windows_data, windows_labels, start_laps = [], [], []
     for i in range(len(group) - lookback - horizon + 1):
         windows_data.append(group[features].iloc[i:i + lookback].values)
         windows_labels.append(group[target].iloc[i + lookback:i + lookback + horizon].values)
-    return windows_data, windows_labels
+        start_laps.append(int(group["LapNumber"].iloc[i + lookback]))
+    return windows_data, windows_labels, start_laps
 
 
 def build_transformer_sequences(laps, lookback=15, horizon=5,
@@ -81,10 +82,10 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
             race   = group["Race"].iloc[0]
             year   = group["Year"].iloc[0]
             driver = group["Driver"].iloc[0]
-            w_data, w_labels = _windows_from_laps(group, features, target, lookback, horizon)
+            w_data, w_labels, w_start_laps = _windows_from_laps(group, features, target, lookback, horizon)
             splits[split_name][0].extend(w_data)
             splits[split_name][1].extend(w_labels)
-            splits[split_name][2].extend([{"race": race, "year": year, "driver": driver}] * len(w_data))
+            splits[split_name][2].extend([{"race": race, "year": year, "driver": driver, "start_lap": sl} for sl in w_start_laps])
 
     result = {}
     for split_name in ("train", "val", "test"):
