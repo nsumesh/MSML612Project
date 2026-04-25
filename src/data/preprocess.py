@@ -17,8 +17,8 @@ COMPOUND_MAP = {
     "INTERMEDIATE": 4
 }
 
-def clean_laps(laps : pd.DataFrame):
-    laps = laps.dropna(subset=["LapTime", "Sector1Time", "Sector2Time", "Sector3Time", "SpeedST", "TyreLife", "Compound"])
+def clean_laps(laps: pd.DataFrame):
+    laps = laps.dropna(subset=["LapTime", "Sector1Time", "Sector2Time", "Sector3Time", "SpeedST", "TyreLife", "Compound", "AirTemp", "TrackTemp", "Rainfall"])
     laps = laps[(laps["LapTime"] >= LAP_TIME_MIN) & (laps["LapTime"] <= LAP_TIME_MAX)]
     laps = laps[laps["LapNumber"] > 1]
     laps = laps[laps["PitInTime"].isna() & laps["PitOutTime"].isna()]
@@ -26,6 +26,9 @@ def clean_laps(laps : pd.DataFrame):
     drivers = laps["Driver"].unique()
     driver_to_id = {d: i for i, d in enumerate(sorted(drivers))}
     laps["DriverID"] = laps["Driver"].map(driver_to_id)
+    tracks = sorted(laps["Race"].unique())
+    track_to_id = {t: i for i, t in enumerate(tracks)}
+    laps["TrackID"] = laps["Race"].map(track_to_id)
     return laps.reset_index(drop=True)
 
 
@@ -53,6 +56,10 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
         "SpeedST",
         "TyreLife",
         "CompoundEncoded",
+        "AirTemp",
+        "TrackTemp",
+        "Rainfall",
+        "TrackID",
     ]
     target = "LapTime"
 

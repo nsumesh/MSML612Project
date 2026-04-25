@@ -5,7 +5,7 @@ import datetime
 Path("data/raw").mkdir(parents=True, exist_ok=True)
 fastf1.Cache.enable_cache("data/raw")
 
-FEATURE_COLS = ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time","SpeedST","TyreLife","Compound","Driver","LapNumber","PitInTime","PitOutTime","TrackStatus",]
+FEATURE_COLS = ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time", "SpeedST", "TyreLife", "Compound", "Driver", "LapNumber", "PitInTime", "PitOutTime", "TrackStatus", "Time"]
 
 RACES = [
     # 2024 Season
@@ -61,12 +61,21 @@ RACES = [
 ]
 
 
-def fetch_race(year: int, race_name : str):
+def fetch_race(year: int, race_name: str):
     session = fastf1.get_session(year, race_name, "R")
-    session.load(telemetry = False, weather = False, messages = False)
+    session.load(telemetry=False, weather=True, messages=False)
     laps = session.laps[FEATURE_COLS].copy()
     for col in ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time"]:
         laps[col] = laps[col].dt.total_seconds()
+
+    weather = session.weather_data[["Time", "AirTemp", "TrackTemp", "Rainfall"]].copy()
+    laps = pd.merge_asof(
+        laps.sort_values("Time"),
+        weather.sort_values("Time"),
+        on="Time",
+    )
+    laps = laps.drop(columns=["Time"])
+
     laps = laps[laps["TrackStatus"] == "1"]
     laps["Year"] = year
     laps["Race"] = race_name
