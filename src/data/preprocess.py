@@ -32,14 +32,25 @@ def clean_laps(laps: pd.DataFrame):
     return laps.reset_index(drop=True)
 
 
-def _windows_from_laps(group, features, target, lookback, horizon):
-    """Create sliding windows from a contiguous block of laps."""
-    windows_data, windows_labels, start_laps = [], [], []
+def _windows_from_laps(group, features, target, lookback, horizon, residual=True):
+    """Create sliding windows from a contiguous block of laps.
+
+    If residual=True, labels are stored as (future_lap_time - last_input_lap_time).
+    The model then predicts deviations from the last observed lap, which is a
+    smaller, more stationary signal than absolute lap times.
+    """
+    windows_data, windows_labels, start_laps, last_lap_times = [], [], [], []
     for i in range(len(group) - lookback - horizon + 1):
-        windows_data.append(group[features].iloc[i:i + lookback].values)
-        windows_labels.append(group[target].iloc[i + lookback:i + lookback + horizon].values)
+        x = group[features].iloc[i:i + lookback].values
+        y = group[target].iloc[i + lookback:i + lookback + horizon].values
+        last_lap = float(group[target].iloc[i + lookback - 1])
+        if residual:
+            y = y - last_lap
+        windows_data.append(x)
+        windows_labels.append(y)
         start_laps.append(int(group["LapNumber"].iloc[i + lookback]))
-    return windows_data, windows_labels, start_laps
+        last_lap_times.append(last_lap)
+    return windows_data, windows_labels, start_laps, last_lap_times
 
 
 def build_transformer_sequences(laps, lookback=15, horizon=5,
@@ -60,6 +71,7 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
         "TrackTemp",
         "Rainfall",
         "TrackID",
+        "DriverID",
     ]
     target = "LapTime"
 
@@ -89,10 +101,13 @@ def build_transformer_sequences(laps, lookback=15, horizon=5,
             race   = group["Race"].iloc[0]
             year   = group["Year"].iloc[0]
             driver = group["Driver"].iloc[0]
-            w_data, w_labels, w_start_laps = _windows_from_laps(group, features, target, lookback, horizon)
+            w_data, w_labels, w_start_laps, w_last_laps = _windows_from_laps(group, features, target, lookback, horizon)
             splits[split_name][0].extend(w_data)
             splits[split_name][1].extend(w_labels)
-            splits[split_name][2].extend([{"race": race, "year": year, "driver": driver, "start_lap": sl} for sl in w_start_laps])
+            splits[split_name][2].extend([
+                {"race": race, "year": year, "driver": driver, "start_lap": sl, "last_lap_time": llt}
+                for sl, llt in zip(w_start_laps, w_last_laps)
+            ])
 
     result = {}
     for split_name in ("train", "val", "test"):

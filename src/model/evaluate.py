@@ -6,13 +6,13 @@ from src.data.dataset_file import get_dataloaders
 
 
 def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_test.csv",
-             batch_size=64, horizon=5):
+             batch_size=64, horizon=5, model_kwargs=None):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     _, _, test_loader = get_dataloaders(batch_size=batch_size)
     meta = pd.read_csv(meta_path)
 
-    model = LapTimeTransformer().to(device)
+    model = LapTimeTransformer(**(model_kwargs or {})).to(device)
     model.load_state_dict(torch.load(model_path, map_location=device))
     model.eval()
 

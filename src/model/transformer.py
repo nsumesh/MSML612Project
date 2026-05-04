@@ -29,7 +29,7 @@ class DecoderBlock(nn.Module):
 
 class LapTimeTransformer(nn.Module):
 
-    def __init__(self, input_size=11, d_model=64, n_heads=4, n_layers=2,
+    def __init__(self, input_size=12, d_model=64, n_heads=4, n_layers=2,
                  d_ff=128, dropout=0.1, max_seq_len=20): # 15 input and 5 prediction
         super().__init__()
         self.d_model = d_model
