@@ -1,5 +1,8 @@
-
 __pycache__/
 *.pyc
 .DS_Store
 *.pkl
+*.ff1pkl
+*.npy
+.venv/
+data/raw/

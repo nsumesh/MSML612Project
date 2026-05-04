@@ -1,7 +1,10 @@
 import csv
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
 import torch
 import torch.nn as nn
-from pathlib import Path
 from src.model.transformer import LapTimeTransformer
 from src.data.dataset_file import get_dataloaders
 
@@ -11,6 +14,7 @@ LOSS_FUNCTIONS = {
     "mae": nn.L1Loss,
     "l1": nn.L1Loss,
     "smoothl1": nn.SmoothL1Loss,
+    "huber": nn.HuberLoss,
 }
 
 
@@ -60,6 +64,7 @@ def train_transformer(
             loss = loss_function(prediction, label)
             optimizer.zero_grad()
             loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
             train_loss_sum += loss.item()
             train_mae_sum += (prediction - label).abs().mean().item()

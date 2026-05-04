@@ -1,8 +1,11 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[0]))
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
-from pathlib import Path
 import torch
 from src.model.transformer import LapTimeTransformer
 from src.data.dataset_file import get_dataloaders
@@ -30,6 +33,12 @@ def load_predictions(model_path="models/best_model.pth",
     preds  = np.concatenate(all_preds,  axis=0)
     labels = np.concatenate(all_labels, axis=0)
     meta   = pd.read_csv(meta_path).iloc[:len(preds)].copy()
+
+    # Labels are residuals — add last_lap_time back to report in absolute seconds
+    last_lap = meta["last_lap_time"].values[:, None]
+    preds  = preds  + last_lap
+    labels = labels + last_lap
+
     meta["mae"] = np.abs(preds - labels).mean(axis=1)
     return preds, labels, meta
 

@@ -30,7 +30,7 @@ class DecoderBlock(nn.Module):
 class LapTimeTransformer(nn.Module):
 
     def __init__(self, input_size=12, d_model=64, n_heads=4, n_layers=2,
-                 d_ff=128, dropout=0.1, max_seq_len=20): # 15 input and 5 prediction
+                 d_ff=256, dropout=0.1, max_seq_len=20): # 15 input and 5 prediction
         super().__init__()
         self.d_model = d_model
 
@@ -71,9 +71,9 @@ class LapTimeTransformer(nn.Module):
                 out = self.forward(current)
                 next_lap_time = out[:, -1:]
 
-                # Build next input: shift window by 1, append prediction
-                # New timestep has predicted lap time + zeros for other features
-                new_step = torch.zeros(current.shape[0], 1, current.shape[2], device=current.device)
+                # Carry forward last step's features (compound, weather, track, driver)
+                # and only overwrite lap time with the prediction
+                new_step = current[:, -1:, :].clone()
                 new_step[:, 0, 0] = next_lap_time.squeeze(-1)
                 current = torch.cat([current[:, 1:, :], new_step], dim=1)
                 preds.append(next_lap_time.squeeze(-1))

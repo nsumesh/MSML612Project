@@ -1,3 +1,7 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
 import torch
 import numpy as np
 import pandas as pd
@@ -28,6 +32,13 @@ def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_tes
     all_preds  = np.concatenate(all_preds,  axis=0)
     all_labels = np.concatenate(all_labels, axis=0)
 
+    # Labels are residuals (future - last_lap_time). Add back last_lap_time
+    # from metadata to report MAE in absolute seconds.
+    meta = meta.iloc[:len(all_preds)].copy()
+    last_lap = meta["last_lap_time"].values[:, None]  # (N, 1) broadcasts over horizon
+    all_preds  = all_preds  + last_lap
+    all_labels = all_labels + last_lap
+
     mae  = np.abs(all_preds - all_labels).mean()
     rmse = np.sqrt(((all_preds - all_labels) ** 2).mean())
 
@@ -39,8 +50,6 @@ def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_tes
     for i in range(horizon):
         print(f"  Lap +{i+1}: {np.abs(all_preds[:, i] - all_labels[:, i]).mean():.3f}s")
 
-    # Per-race breakdown
-    meta = meta.iloc[:len(all_preds)].copy()
     meta["mae"] = np.abs(all_preds - all_labels).mean(axis=1)
 
     print("\n" + "=" * 50)
@@ -53,7 +62,6 @@ def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_tes
     )
     print(race_summary.to_string())
 
-    # Per-driver breakdown
     print("\n" + "=" * 50)
     print("MAE by Driver (top 10 best):")
     driver_summary = (
