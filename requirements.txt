@@ -1,8 +1,10 @@
-fastf1 
-pandas 
-numpy 
-torch 
-scikit-learn 
-pyyaml 
-tqdm 
+fastf1
+pandas
+numpy<2
+torch==2.2.0
+scikit-learn
+pyyaml
+tqdm
 matplotlib
+streamlit
+plotly
