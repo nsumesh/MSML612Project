@@ -1,4 +1,5 @@
 import csv
+import json
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
@@ -9,43 +10,17 @@ from src.model.transformer import LapTimeTransformer
 from src.data.dataset_file import get_dataloaders
 
 
-LOSS_FUNCTIONS = {
-    "mse": nn.MSELoss,
-    "mae": nn.L1Loss,
-    "l1": nn.L1Loss,
-    "smoothl1": nn.SmoothL1Loss,
-    "huber": nn.HuberLoss,
-}
-
-
-def train_transformer(
-    epochs=150,
-    lr=1e-3,
-    batch_size=64,
-    weight_decay=1e-4,
-    loss_name="mse",
-    scheduler_patience=3,
-    scheduler_factor=0.5,
-    early_stop_patience=8,
-    horizon=5,
-    run_name="best_model",
-    model_kwargs=None,
-    verbose=True,
-):
+def train_transformer(epochs=150, lr=1e-3, batch_size=64, weight_decay=1e-4, loss_name="mse", scheduler_patience=3, scheduler_factor=0.5, early_stop_patience=8, horizon=5, run_name="best_model", model_kwargs=None, verbose=True):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    training_loader, validation_loader, _ = get_dataloaders(batch_size=batch_size)
-
+    training_loader, validation_loader, test_loader = get_dataloaders(batch_size=batch_size)
     Path("models").mkdir(exist_ok=True)
     Path("results").mkdir(exist_ok=True)
-
-    model_kwargs = model_kwargs or {}
+    info = json.loads(Path("data/splits/info.json").read_text())
+    model_kwargs = {**info, **(model_kwargs or {})}
     model = LapTimeTransformer(**model_kwargs).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=weight_decay)
-    loss_function = LOSS_FUNCTIONS[loss_name.lower()]()
-    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode="min", factor=scheduler_factor, patience=scheduler_patience
-    )
-
+    loss_function = nn.MSELoss()
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode="min", factor=scheduler_factor, patience=scheduler_patience)
     ckpt_path = Path("models") / f"{run_name}.pth"
     history_path = Path("results") / f"{run_name}_history.csv"
 
@@ -99,10 +74,7 @@ def train_transformer(
 
         if verbose:
             flag = " *" if improved else ""
-            print(
-                f"Epoch {epoch:3d} | train {train_loss:.4f} (mae {train_mae:.3f}) "
-                f"| val {val_loss:.4f} (mae {val_mae:.3f}) | lr {current_lr:.2e}{flag}"
-            )
+            print(f"Epoch {epoch:3d} | Training Loss : {train_loss:.4f} (Mean Absolute Error: {train_mae:.3f}) "f"| Validation Loss : {val_loss:.4f} (Mean Absolute Error: {val_mae:.3f}) | Learning Rate : {current_lr:.2e}{flag}")
 
         if epochs_without_improve >= early_stop_patience:
             if verbose:
@@ -114,15 +86,7 @@ def train_transformer(
         writer.writerow(["epoch", "train_loss", "val_loss", "train_mae", "val_mae", "lr"])
         writer.writerows(history)
 
-    return {
-        "run_name": run_name,
-        "best_val_loss": best_val,
-        "best_val_mae": min(h[4] for h in history),
-        "epochs_run": len(history),
-        "ckpt_path": str(ckpt_path),
-        "history_path": str(history_path),
-    }
-
+    return {"run_name": run_name,"best_val_loss": best_val,"best_val_mae": min(h[4] for h in history),"epochs_run": len(history),"ckpt_path": str(ckpt_path),"history_path": str(history_path)}
 
 if __name__ == "__main__":
     train_transformer(epochs=50, lr=1e-3, run_name="best_model")
