@@ -50,7 +50,6 @@ def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_tes
     print("MAE by Driver (top 10 best):")
     driver_summary = (meta.groupby("driver")["mae"].agg(["mean", "count"]).rename(columns={"mean": "MAE (s)", "count": "windows"}).sort_values("MAE (s)").head(10))
     print(driver_summary.to_string())
-
     print("\n" + "-" * 50)
     print("MAE by Driver (top 10 worst):")
     print(meta.groupby("driver")["mae"].mean().sort_values(ascending=False).head(10).to_string())
