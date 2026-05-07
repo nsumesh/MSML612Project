@@ -21,9 +21,9 @@ def get_dataloaders(data_dir: str = "data/splits/", batch_size: int = 64):
     validation_dataset = F1LapDataset("val",   data_dir)
     test_dataset       = F1LapDataset("test",  data_dir)
 
-    training_dataloader = DataLoader(training_dataset,batch_size=batch_size, shuffle=True,  num_workers=2)
-    validation_dataloader = DataLoader(validation_dataset, batch_size=batch_size, shuffle=False, num_workers=2)
-    testing_dataloader = DataLoader(test_dataset,batch_size=batch_size, shuffle=False, num_workers=2)
+    training_dataloader = DataLoader(training_dataset,batch_size=batch_size, shuffle=True,  num_workers=0)
+    validation_dataloader = DataLoader(validation_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
+    testing_dataloader = DataLoader(test_dataset,batch_size=batch_size, shuffle=False, num_workers=0)
     return training_dataloader, validation_dataloader, testing_dataloader
 
 if __name__ == "__main__":
