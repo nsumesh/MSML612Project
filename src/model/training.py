@@ -1,3 +1,16 @@
+"""
+Training loop for the LapTimeTransformer.
+
+Uses Adam with a small weight decay and MSE loss on the last 5 output positions (the
+prediction horizon). Gradients are clipped to 1.0 to keep training stable. A
+ReduceLROnPlateau scheduler halves the learning rate when validation loss plateaus for
+3 epochs, and early stopping kicks in after 8 epochs without improvement. The best
+checkpoint (lowest validation loss) gets saved to models/{run_name}.pth, and the full
+per-epoch loss and MAE history is written to results/{run_name}_history.csv.
+
+Returns a summary dict so you can easily log results across multiple runs.
+"""
+
 import csv
 import json
 import sys
