@@ -1,3 +1,20 @@
+"""
+The transformer model architecture for predicting F1 lap times.
+
+DecoderBlock is a standard causal self-attention block — masked multi-head attention
+so each position can only see previous laps, followed by a two-layer feedforward network,
+with residual connections and LayerNorm on both.
+
+LapTimeTransformer stacks those blocks and adds some F1-specific context on top. The 12
+numerical features (lap time, sector times, speed, tyre life, etc.) get projected into
+the model dimension, and then we add learned embeddings for position, driver, and circuit —
+all summed together so the model always knows who it's watching and where. A causal mask
+ensures predictions at each step only depend on past laps. The output head collapses the
+model dimension to a single scalar per timestep, representing the predicted lap time
+residual. There's also a predict() method for autoregressive rollout, where each predicted
+lap gets fed back in as the next input.
+"""
+
 import torch
 import torch.nn as nn
 
