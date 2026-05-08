@@ -97,14 +97,23 @@ MSML612Project/
 
 Run the following commands in order, the virtual environment command will differ based on operating system
 ```bash
-Windows : python -m venv .venv
+# Windows : 
+python -m venv .venv
+```
+
+```bash
 MacOS/Linux : python3 -m venv .venv
 ```
 
-Activate the virtual environment 
+Activate the virtual environment based on the operating system
 ```bash
-Windows : .venv\Scripts\activate
-Mac : source .venv/bin/activate
+# Windows :
+.venv\Scripts\activate
+```
+
+```bash
+# Mac : 
+source .venv/bin/activate
 ```
 
 Finally, run the following command to install all packages.
