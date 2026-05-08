@@ -1,3 +1,13 @@
+"""
+Data Pipeline script that kicks off the full data pipeline from scratch.
+
+Run this once before training. It first downloads every race from the 2024 and 2025
+seasons via FastF1 and saves everything to a single CSV at data/raw/all_laps.csv.
+Then it hands that CSV off to the preprocessing pipeline, which cleans the laps,
+builds sliding windows, fits the scaler, and saves the train/val/test splits under
+data/splits/ — ready for the model to pick up.
+"""
+
 from src.data.fetch import fetch_all_races, RACES
 from src.data.preprocess import run_preprocessing
 import numpy as np

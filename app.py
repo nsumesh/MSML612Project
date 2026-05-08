@@ -1,3 +1,18 @@
+"""
+This is the main Streamlit app. It has two tabs — Live Prediction and Model Performance.
+
+In the Live Prediction tab, you pick a season, circuit, and driver, and it pulls the race
+data through FastF1. From there you can drag a slider to any point in the race, and the
+model will use the previous 15 laps as context to predict the next 5. You get a chart
+showing the context laps, the model's predictions, and the actual lap times side by side
+(when they're available), and a breakdown table showing predicted vs actual for each lap.
+
+The Model Performance tab loads all three data splits, runs them through the model, and
+shows you the overall MAE and RMSE, a leaderboard of how accurately the model predicted
+each driver's laps (filterable by season and race), and a bar chart comparing prediction
+error circuit by circuit.
+"""
+
 import json
 import pickle
 import sys
