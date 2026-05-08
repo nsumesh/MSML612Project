@@ -1,3 +1,14 @@
+"""
+Handles pulling raw race data from FastF1 for the full 2024 and 2025 F1 calendars.
+
+For each race it loads the Race session with weather data, grabs the lap-level feature
+columns we care about, converts the timedelta columns (LapTime, sector times) into plain
+seconds, merges in the weather readings (air temp, track temp, rainfall) by nearest
+timestamp, and removes any lap that wasn't run under green-flag conditions. The full
+dataset across all 48 races gets concatenated and saved as a single CSV to data/raw/all_laps.csv.
+Any race that fails to load is skipped with a warning rather than crashing the whole run.
+"""
+
 import fastf1
 import pandas as pd
 from pathlib import Path

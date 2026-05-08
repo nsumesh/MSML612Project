@@ -1,3 +1,22 @@
+"""
+Takes the raw lap CSV and turns it into model-ready train/val/test splits.
+
+There are three main steps. First, clean_laps drops rows with missing values, filters
+out anything with a lap time outside 60–200 seconds, removes lap 1 (always an outlier),
+encodes tyre compound as an integer, figures out each driver's stint number and previous
+compound through the race, and removes any lap where a pit stop was happening.
+
+Second, build_transformer_sequences groups the clean laps by driver-race pair, shuffles
+those groups (seeded for reproducibility), and splits them 70/15/15 into train/val/test
+at the group level — so no single driver's race straddles two splits. It then slides a
+window of 15 context laps followed by 5 label laps across each group. Labels are stored
+as residuals (difference from the last context lap time) to make the learning problem easier.
+
+Finally, normalize_and_save fits a StandardScaler on the 12 numerical features of the
+training data only, applies it to all splits, and saves the .npy arrays, metadata CSVs,
+the scaler, and a small info.json with driver and track counts.
+"""
+
 import json
 import pandas as pd
 import numpy as np

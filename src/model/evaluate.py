@@ -1,3 +1,13 @@
+"""
+Evaluation script in terminal for the trained model.
+
+Loads the saved checkpoint, runs batched inference over the full test split, and
+converts the residual predictions and labels back to absolute lap times by adding
+the last_lap_time from the metadata. Then prints a breakdown of how the model
+actually performed: overall MAE and RMSE, per-horizon-offset MAE so you can see if accuracy degrades, mean MAE grouped by year and circuit, 
+and the top-10 best and worst drivers by average prediction error. 
+"""
+
 import json
 import sys
 from pathlib import Path
@@ -35,22 +45,22 @@ def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_tes
     all_labels = all_labels + last_lap
     mae  = np.abs(all_preds - all_labels).mean()
     rmse = np.sqrt(((all_preds - all_labels) ** 2).mean())
-    print("-" * 50)
+    print("\n")
     print(f"Overall Test MAE  : {mae:.3f}s")
     print(f"Overall Test RMSE : {rmse:.3f}s")
     print("\nMAE per predicted lap:")
     for i in range(horizon):
         print(f"Lap +{i+1}: {np.abs(all_preds[:, i] - all_labels[:, i]).mean():.3f}s")
     meta["mae"] = np.abs(all_preds - all_labels).mean(axis=1)
-    print("\n" + "-" * 50)
+    print("\n")
     print("MAE by Race:")
     race_summary = (meta.groupby(["year", "race"])["mae"].agg(["mean", "count"]).rename(columns={"mean": "MAE (s)", "count": "windows"}).sort_values("MAE (s)"))
     print(race_summary.to_string())
-    print("\n" + "-" * 50)
+    print("\n")
     print("MAE by Driver (top 10 best):")
     driver_summary = (meta.groupby("driver")["mae"].agg(["mean", "count"]).rename(columns={"mean": "MAE (s)", "count": "windows"}).sort_values("MAE (s)").head(10))
     print(driver_summary.to_string())
-    print("\n" + "-" * 50)
+    print("\n")
     print("MAE by Driver (top 10 worst):")
     print(meta.groupby("driver")["mae"].mean().sort_values(ascending=False).head(10).to_string())
     return all_preds, all_labels, meta

@@ -1,4 +1,18 @@
-"""On-demand inference pipeline for any F1 session via FastF1."""
+"""
+Online inference pipeline used by the Streamlit app at runtime.
+
+prepare_windows fetches a live race session through FastF1 and applies the exact same
+cleaning and feature engineering that was used during training — NaN filtering, lap time
+bounds, compound encoding, stint tracking, pit lap removal. 
+
+It then maps the driver and circuit to the integer IDs they were assigned during training, isolates the one driver
+you asked for, and slides every possible 15-lap window across their race.
+
+Each window gets scaled with the saved StandardScaler (numerical columns only; TrackID and DriverID
+pass through as-is). Returns the tensor of windows ready for the model, a metadata list
+(start lap, last lap time, compound, stint number for each window), and the full filtered
+driver lap DataFrame so the app can plot context laps and actuals on the chart.
+"""
 import numpy as np
 import torch
 

@@ -1,3 +1,12 @@
+"""
+PyTorch Dataset and DataLoader setup for the preprocessed split files.
+
+F1LapDataset just loads data_{split}.npy and labels_{split}.npy from disk and wraps
+them as float32 tensors. get_dataloaders builds all three splits at once and returns
+their DataLoaders — training data is shuffled, val and test are not. That's really
+all there is here; the heavy lifting all happens in preprocess.py.
+"""
+
 import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
@@ -17,9 +26,9 @@ class F1LapDataset(Dataset):
         return self.data[index], self.labels[index]
 
 def get_dataloaders(data_dir: str = "data/splits/", batch_size: int = 64):
-    training_dataset   = F1LapDataset("train", data_dir)
+    training_dataset = F1LapDataset("train", data_dir)
     validation_dataset = F1LapDataset("val",   data_dir)
-    test_dataset       = F1LapDataset("test",  data_dir)
+    test_dataset = F1LapDataset("test",  data_dir)
 
     training_dataloader = DataLoader(training_dataset,batch_size=batch_size, shuffle=True,  num_workers=0)
     validation_dataloader = DataLoader(validation_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
