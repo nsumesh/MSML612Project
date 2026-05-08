@@ -287,9 +287,10 @@ with tab2:
     with st.spinner("Loading performance data"):
         perf_meta, perf_preds, perf_labs = load_performance_data(model, device)
 
-    overall_mae  = float(np.abs(perf_preds - perf_labs).mean())
-    overall_rmse = float(np.sqrt(((perf_preds - perf_labs) ** 2).mean()))
-    test_meta    = perf_meta[perf_meta["split"] == "test"]
+    test_mask    = perf_meta["split"].values == "test"
+    test_meta    = perf_meta[test_mask]
+    overall_mae  = float(np.abs(perf_preds[test_mask] - perf_labs[test_mask]).mean())
+    overall_rmse = float(np.sqrt(((perf_preds[test_mask] - perf_labs[test_mask]) ** 2).mean()))
 
     st.markdown("### Model accuracy on held-out test set")
     mc1, mc2, mc3, mc4 = st.columns(4)

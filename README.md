@@ -102,7 +102,8 @@ python -m venv .venv
 ```
 
 ```bash
-MacOS/Linux : python3 -m venv .venv
+# MacOS/Linux 
+python3 -m venv .venv
 ```
 
 Activate the virtual environment based on the operating system
