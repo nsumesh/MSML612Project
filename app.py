@@ -63,19 +63,19 @@ def get_completed_tracks(year, trained_tracks):
         return list(trained_tracks)
 
 @st.cache_data(show_spinner=False)
-def fetch_race_cached(year, race_name, driver, info, scaler):
-    return prepare_windows(year, race_name, driver, info, scaler)
+def fetch_race_cached(year, race_name, driver, info, _scaler):
+    return prepare_windows(year, race_name, driver, info, _scaler)
 
 
 @st.cache_data(show_spinner=False)
-def run_inference_cached(model, device, tensor):
+def run_inference_cached(_model, _device, _tensor):
     with torch.no_grad():
-        out = model(tensor.to(device))
+        out = _model(_tensor.to(_device))
     return out[:, -prediction_horizon:].cpu().numpy()
 
 
 @st.cache_data(show_spinner=False)
-def load_performance_data(model, device):
+def load_performance_data(_model, _device):
     parts = []
     for split in ("train", "val", "test"):
         m = pd.read_csv(f"data/splits/meta_{split}.csv")
@@ -87,8 +87,8 @@ def load_performance_data(model, device):
     preds = []
     with torch.no_grad():
         for i in range(0, len(data), 256):
-            x = torch.tensor(data[i:i+256], dtype=torch.float32).to(device)
-            preds.append(model(x)[:, -prediction_horizon:].cpu().numpy())
+            x = torch.tensor(data[i:i+256], dtype=torch.float32).to(_device)
+            preds.append(_model(x)[:, -prediction_horizon:].cpu().numpy())
     preds = np.concatenate(preds)
     last = meta["last_lap_time"].values[:, None]
     preds_abs = preds + last

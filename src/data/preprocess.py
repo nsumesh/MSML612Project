@@ -65,7 +65,7 @@ def clean_laps(laps: pd.DataFrame):
     tracks = sorted(laps["Race"].unique())
     track_to_id = {t: i for i, t in enumerate(tracks)}
     laps["TrackID"] = laps["Race"].map(track_to_id)
-    return laps.reset_index(drop=True)
+    return laps.reset_index(drop=True), driver_to_id, track_to_id
 
 
 def windows_from_laps(group, features, target, lookback, horizon, residual=True):
@@ -121,14 +121,14 @@ def build_transformer_sequences(laps, lookback=15, horizon=5):
 
 def run_preprocessing(csv_path="data/raw/all_laps.csv", save_dir="data/splits/"):
     laps = pd.read_csv(csv_path)
-    laps = clean_laps(laps)
+    laps, driver_to_id, track_to_id = clean_laps(laps)
     n_drivers = int(laps["DriverID"].max()) + 1
     n_tracks  = int(laps["TrackID"].max())  + 1
     splits = build_transformer_sequences(laps)
-    return normalize_and_save(splits, save_dir, n_drivers=n_drivers, n_tracks=n_tracks)
+    return normalize_and_save(splits, save_dir, n_drivers=n_drivers, n_tracks=n_tracks, driver_to_id=driver_to_id, track_to_id=track_to_id)
 
 
-def normalize_and_save(splits, save_dir="data/splits/", n_drivers=30, n_tracks=30):
+def normalize_and_save(splits, save_dir="data/splits/", n_drivers=30, n_tracks=30, driver_to_id=None, track_to_id=None):
     Path(save_dir).mkdir(parents=True, exist_ok=True)
     train_data, _, _ = splits["train"]
     feat = train_data.shape[2]
@@ -153,7 +153,7 @@ def normalize_and_save(splits, save_dir="data/splits/", n_drivers=30, n_tracks=3
     with open(f"{save_dir}/scaler.pkl", "wb") as f:
         pickle.dump(scaler, f)
 
-    info = {"n_drivers": n_drivers, "n_tracks": n_tracks}
+    info = {"n_drivers": n_drivers, "n_tracks": n_tracks, "driver_to_id": driver_to_id, "track_to_id": track_to_id}
     with open(f"{save_dir}/info.json", "w") as f:
         json.dump(info, f)
     print(f" info: {info}")

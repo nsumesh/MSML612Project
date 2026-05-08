@@ -29,7 +29,7 @@ def train_transformer(epochs=150, lr=1e-3, batch_size=64, weight_decay=1e-4, los
     Path("models").mkdir(exist_ok=True)
     Path("results").mkdir(exist_ok=True)
     info = json.loads(Path("data/splits/info.json").read_text())
-    model_kwargs = {**info, **(model_kwargs or {})}
+    model_kwargs = {"n_drivers": info["n_drivers"], "n_tracks": info["n_tracks"], **(model_kwargs or {})}
     model = LapTimeTransformer(**model_kwargs).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=weight_decay)
     loss_function = nn.MSELoss()

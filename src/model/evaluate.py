@@ -25,7 +25,7 @@ def evaluate(model_path="models/best_model.pth", meta_path="data/splits/meta_tes
     meta = pd.read_csv(meta_path)
 
     info = json.loads(Path("data/splits/info.json").read_text())
-    model = LapTimeTransformer(**{**info, **(model_kwargs or {})}).to(device)
+    model = LapTimeTransformer(n_drivers=info["n_drivers"], n_tracks=info["n_tracks"], **(model_kwargs or {})).to(device)
     model.load_state_dict(torch.load(model_path, map_location=device))
     model.eval()
 

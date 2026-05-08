@@ -8,7 +8,7 @@ builds sliding windows, fits the scaler, and saves the train/val/test splits und
 data/splits/ — ready for the model to pick up.
 """
 
-from src.data.fetch import fetch_all_races, RACES
+from src.data.fetch import fetch_all_races, races
 from src.data.preprocess import run_preprocessing
 import numpy as np
 from pathlib import Path
@@ -29,7 +29,7 @@ def split(data_path="data/processed/data.npy", labels_path="data/processed/label
 
 if __name__ == "__main__":
     print("Races being fetched")
-    fetch_all_races(RACES)
+    fetch_all_races(races)
     print("Data being preprocessed")
     run_preprocessing()
     print("Complete.")
